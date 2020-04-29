@@ -1,1 +1,1 @@
-# This workflow will run tests using node and then
+# This workflow will run tests using node and then publish a package to GitHub Packages when a release is
