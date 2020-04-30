@@ -8,4 +8,7 @@ on:
     branches: [ master ]
 
 jobs:
-  pub
+  publish-npm:
+    runs-on: ubuntu-latest
+    steps:
+      
