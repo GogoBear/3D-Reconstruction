@@ -17,4 +17,5 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org
       - run: yarn install
-      - name: Semant
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@
