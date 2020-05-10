@@ -1,3 +1,5 @@
 /* eslint-disable */
 //prettier-ignore
-module.expo
+module.exports = {
+name: "@yarnpkg/plugin-typescript",
+factory: fun
