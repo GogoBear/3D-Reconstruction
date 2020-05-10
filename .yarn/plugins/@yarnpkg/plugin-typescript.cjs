@@ -1,1 +1,3 @@
-/* e
+/* eslint-disable */
+//prettier-ignore
+module.expo
