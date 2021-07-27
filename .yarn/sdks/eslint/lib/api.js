@@ -18,3 +18,4 @@ if (existsSync(absPnpApiPath)) {
 }
 
 // Defer to the real eslint your application uses
+module.exports = absRequire(`eslint`);
