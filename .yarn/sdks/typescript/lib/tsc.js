@@ -1,3 +1,4 @@
 #!/usr/bin/env node
 
-const {existsSync} = require(`
+const {existsSync} = require(`fs`);
+const {createRequire, createRequireFromPath} 
