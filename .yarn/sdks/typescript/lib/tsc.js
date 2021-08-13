@@ -2,4 +2,6 @@
 
 const {existsSync} = require(`fs`);
 const {createRequire, createRequireFromPath} = require(`module`);
-const {resolve} = requi
+const {resolve} = require(`path`);
+
+const relPnpApiPath = "../../../../.pnp.cj
