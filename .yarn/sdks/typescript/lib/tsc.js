@@ -11,4 +11,4 @@ const absRequire = (createRequire || createRequireFromPath)(absPnpApiPath);
 
 if (existsSync(absPnpApiPath)) {
   if (!process.versions.pnp) {
-    // Set
+    // Setup the environment to be able to require typescript/lib/t
