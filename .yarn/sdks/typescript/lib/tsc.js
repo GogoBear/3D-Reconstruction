@@ -16,4 +16,5 @@ if (existsSync(absPnpApiPath)) {
   }
 }
 
-// Defer to t
+// Defer to the real typescript/lib/tsc.js your application uses
+modu
