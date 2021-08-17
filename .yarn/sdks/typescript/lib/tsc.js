@@ -17,4 +17,4 @@ if (existsSync(absPnpApiPath)) {
 }
 
 // Defer to the real typescript/lib/tsc.js your application uses
-modu
+module.exports = absRequire(`typescript/lib/tsc.js`);
