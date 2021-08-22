@@ -148,3 +148,61 @@ const moduleWrapper = tsserver => {
   // VSCode doesn't want to enable 'allowLocalPluginLoads' due to security concerns but
   // TypeScript already does local loads and if this code is running the user trusts the workspace
   // https://github.com/microsoft/vscode/issues/45856
+  const ConfiguredProject = tsserver.server.ConfiguredProject;
+  const {enablePluginsWithOptions: originalEnablePluginsWithOptions} = ConfiguredProject.prototype;
+  ConfiguredProject.prototype.enablePluginsWithOptions = function() {
+    this.projectService.allowLocalPluginLoads = true;
+    return originalEnablePluginsWithOptions.apply(this, arguments);
+  };
+
+  // And here is the point where we hijack the VSCode <-> TS communications
+  // by adding ourselves in the middle. We locate everything that looks
+  // like an absolute path of ours and normalize it.
+
+  const Session = tsserver.server.Session;
+  const {onMessage: originalOnMessage, send: originalSend} = Session.prototype;
+  let hostInfo = `unknown`;
+
+  Object.assign(Session.prototype, {
+    onMessage(/** @type {string | object} */ message) {
+      const isStringMessage = typeof message === 'string';
+      const parsedMessage = isStringMessage ? JSON.parse(message) : message;
+
+      if (
+        parsedMessage != null &&
+        typeof parsedMessage === `object` &&
+        parsedMessage.arguments &&
+        typeof parsedMessage.arguments.hostInfo === `string`
+      ) {
+        hostInfo = parsedMessage.arguments.hostInfo;
+        if (hostInfo === `vscode` && process.env.VSCODE_IPC_HOOK) {
+          const [, major, minor] = (process.env.VSCODE_IPC_HOOK.match(
+            // The RegExp from https://semver.org/ but without the caret at the start
+            /(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
+          ) ?? []).map(Number)
+
+          if (major === 1) {
+            if (minor < 61) {
+              hostInfo += ` <1.61`;
+            } else if (minor < 66) {
+              hostInfo += ` <1.66`;
+            } else if (minor < 68) {
+              hostInfo += ` <1.68`;
+            }
+          }
+        }
+      }
+
+      const processedMessageJSON = JSON.stringify(parsedMessage, (key, value) => {
+        return typeof value === 'string' ? fromEditorPath(value) : value;
+      });
+
+      return originalOnMessage.call(
+        this,
+        isStringMessage ? processedMessageJSON : JSON.parse(processedMessageJSON)
+      );
+    },
+
+    send(/** @type {any} */ msg) {
+      return originalSend.call(this, JSON.parse(JSON.stringify(msg, (key, value) => {
+        return typeof value === `string` ? toEditorPath(value) : value;
