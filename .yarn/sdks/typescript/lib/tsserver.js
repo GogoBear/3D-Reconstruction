@@ -206,3 +206,19 @@ const moduleWrapper = tsserver => {
     send(/** @type {any} */ msg) {
       return originalSend.call(this, JSON.parse(JSON.stringify(msg, (key, value) => {
         return typeof value === `string` ? toEditorPath(value) : value;
+      })));
+    }
+  });
+
+  return tsserver;
+};
+
+if (existsSync(absPnpApiPath)) {
+  if (!process.versions.pnp) {
+    // Setup the environment to be able to require typescript/lib/tsserver.js
+    require(absPnpApiPath).setup();
+  }
+}
+
+// Defer to the real typescript/lib/tsserver.js your application uses
+module.exports = moduleWrapper(absRequire(`typescript/lib/tsserver.js`));
