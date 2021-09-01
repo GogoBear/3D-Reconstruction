@@ -7,4 +7,7 @@ const {resolve} = require(`path`);
 const relPnpApiPath = "../../../../.pnp.cjs";
 
 const absPnpApiPath = resolve(__dirname, relPnpApiPath);
-const absRequire = (createRequire || createRequireFromPath)(absPnpApi
+const absRequire = (createRequire || createRequireFromPath)(absPnpApiPath);
+
+if (existsSync(absPnpApiPath)) {
+  if (!process
