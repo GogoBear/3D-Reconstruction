@@ -16,4 +16,4 @@ if (existsSync(absPnpApiPath)) {
   }
 }
 
-// D
+// Defer to the real typescript/lib/typescript.js your appli
