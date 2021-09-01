@@ -10,4 +10,5 @@ const absPnpApiPath = resolve(__dirname, relPnpApiPath);
 const absRequire = (createRequire || createRequireFromPath)(absPnpApiPath);
 
 if (existsSync(absPnpApiPath)) {
-  if (!process
+  if (!process.versions.pnp) {
+    // Setup the environment to
