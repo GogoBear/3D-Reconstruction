@@ -17,4 +17,4 @@ if (existsSync(absPnpApiPath)) {
 }
 
 // Defer to the real typescript/lib/typescript.js your application uses
-module.exports = absRequire(`typescript/lib/
+module.exports = absRequire(`typescript/lib/typescript.js`);
