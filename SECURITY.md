@@ -14,4 +14,6 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnera
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expec
