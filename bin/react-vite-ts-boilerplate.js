@@ -4,4 +4,5 @@ const path = require('path');
 const fs = require('fs');
 
 if (process.argv.length < 3) {
-  console.
+  console.log('You have to provide a name to your app.');
+  console
