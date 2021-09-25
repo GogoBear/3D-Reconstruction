@@ -5,4 +5,5 @@ const fs = require('fs');
 
 if (process.argv.length < 3) {
   console.log('You have to provide a name to your app.');
-  console
+  console.log('For example :');
+  console.log('    npx react-vite-ts
