@@ -11,4 +11,5 @@ if (process.argv.length < 3) {
 }
 
 const projectName = process.argv[2];
-const currentPath = proces
+const currentPath = process.cwd();
+const projectPath = path.join(currentPath, pr
