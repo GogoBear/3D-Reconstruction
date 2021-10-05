@@ -17,4 +17,6 @@ const GIT_REPO = 'https://github.com/choisohyun/react-vite-ts-boilerplate.git';
 
 if (projectName !== '.') {
   try {
-    fs.mkdirSync(pro
+    fs.mkdirSync(projectPath);
+  } catch (err) {
+    if (err.code === 'EEX
