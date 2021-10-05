@@ -14,3 +14,7 @@ const projectName = process.argv[2];
 const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
 const GIT_REPO = 'https://github.com/choisohyun/react-vite-ts-boilerplate.git';
+
+if (projectName !== '.') {
+  try {
+    fs.mkdirSync(pro
