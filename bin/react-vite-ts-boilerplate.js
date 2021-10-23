@@ -21,4 +21,4 @@ if (projectName !== '.') {
   } catch (err) {
     if (err.code === 'EEXIST') {
       console.log(projectName);
-      cons
+      console.log(`The file ${projectName} already exist in the cur
