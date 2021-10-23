@@ -23,4 +23,10 @@ if (projectName !== '.') {
       console.log(projectName);
       console.log(`The file ${projectName} already exist in the current directory, please give it another name.`);
     } else {
-      
+      console.log(err);
+    }
+    process.exit(1);
+  }
+}
+
+a
