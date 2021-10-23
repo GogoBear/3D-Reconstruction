@@ -31,4 +31,5 @@ if (projectName !== '.') {
 
 async function main() {
   try {
-    console.log('Downloa
+    console.log('Downloading files...');
+    execSync(`git clone --depth 1 ${GIT_R
