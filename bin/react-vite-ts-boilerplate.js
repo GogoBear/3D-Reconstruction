@@ -29,4 +29,6 @@ if (projectName !== '.') {
   }
 }
 
-a
+async function main() {
+  try {
+    console.log('Downloa
