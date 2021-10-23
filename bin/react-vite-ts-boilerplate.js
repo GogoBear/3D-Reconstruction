@@ -19,4 +19,6 @@ if (projectName !== '.') {
   try {
     fs.mkdirSync(projectPath);
   } catch (err) {
-    if (err.code === 'EEX
+    if (err.code === 'EEXIST') {
+      console.log(projectName);
+      cons
