@@ -32,4 +32,4 @@ if (projectName !== '.') {
 async function main() {
   try {
     console.log('Downloading files...');
-    execSync(`git clone --depth 1 ${GIT_R
+    execSync(`git clone --depth 1 ${GIT_REPO} ${projectPath}`); // 우리의 보일러 플레이트를 clone!
