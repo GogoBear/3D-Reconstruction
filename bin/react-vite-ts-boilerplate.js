@@ -35,4 +35,8 @@ async function main() {
     execSync(`git clone --depth 1 ${GIT_REPO} ${projectPath}`); // 우리의 보일러 플레이트를 clone!
 
     if (projectName !== '.') {
-      process.chdir(projectPath); // cd입니다 clone을 마친 후 projectPa
+      process.chdir(projectPath); // cd입니다 clone을 마친 후 projectPath로 진입
+    }
+
+    console.log('Installing dependencies...');
+ 
