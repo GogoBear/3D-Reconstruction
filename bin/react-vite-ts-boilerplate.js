@@ -35,4 +35,4 @@ async function main() {
     execSync(`git clone --depth 1 ${GIT_REPO} ${projectPath}`); // 우리의 보일러 플레이트를 clone!
 
     if (projectName !== '.') {
-      proces
+      process.chdir(projectPath); // cd입니다 clone을 마친 후 projectPa
