@@ -41,4 +41,5 @@ async function main() {
     console.log('Installing dependencies...');
     execSync('yarn install'); // package.json에 있는 의존성 설치
 
-    
+    console.log('Removing useless files');
+    execSync('npx 
