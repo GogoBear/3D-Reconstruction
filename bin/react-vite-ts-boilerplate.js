@@ -42,4 +42,5 @@ async function main() {
     execSync('yarn install'); // package.json에 있는 의존성 설치
 
     console.log('Removing useless files');
-    execSync('npx 
+    execSync('npx rimraf ./.git'); // 이제 보일러플레이트 git과 관련된 내용 제거
+    ex
