@@ -44,4 +44,6 @@ async function main() {
     console.log('Removing useless files');
     execSync('npx rimraf ./.git'); // 이제 보일러플레이트 git과 관련된 내용 제거
     execSync('npx rimraf ./bin');
-    execSync('npx rimra
+    execSync('npx rimraf ./.github/workflows');
+
+    console.log('The installa
