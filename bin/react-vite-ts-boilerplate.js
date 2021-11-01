@@ -46,4 +46,5 @@ async function main() {
     execSync('npx rimraf ./bin');
     execSync('npx rimraf ./.github/workflows');
 
-    console.log('The installa
+    console.log('The installation is done, this is ready to use !');
+  } catch (er
