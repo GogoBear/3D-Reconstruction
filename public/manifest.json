@@ -1,4 +1,7 @@
 {
   "short_name": "react-vite-ts-boilerplate",
   "name": "react-vite-ts-boilerplate",
-  "description": "react-vite-ts-boil
+  "description": "react-vite-ts-boilerplate",
+  "icons": [
+    {
+      "src": "images/f
