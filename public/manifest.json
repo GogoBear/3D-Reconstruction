@@ -4,4 +4,6 @@
   "description": "react-vite-ts-boilerplate",
   "icons": [
     {
-      "src": "images/f
+      "src": "images/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": 
