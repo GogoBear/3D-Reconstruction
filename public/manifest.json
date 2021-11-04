@@ -6,4 +6,8 @@
     {
       "src": "images/favicon.ico",
       "type": "image/x-icon",
-      "sizes": 
+      "sizes": "64x64"
+    }
+  ],
+  "start_url": "/",
+  "display": "stan
