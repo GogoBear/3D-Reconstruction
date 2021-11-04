@@ -10,4 +10,6 @@
     }
   ],
   "start_url": "/",
-  "display": "stan
+  "display": "standalone",
+  "orientation": "landscape",
+  "theme_col
