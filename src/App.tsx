@@ -1,1 +1,2 @@
-import React from
+import React from 'react';
+import routes from '@/routes/ind
