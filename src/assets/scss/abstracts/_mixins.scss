@@ -1,2 +1,7 @@
 @mixin background($name, $repeat: no-repeat, $x: center, $y: top, $color: null) {
-  background: url($name
+  background: url($name) $repeat $x $y;
+}
+
+@mixin clearfix {
+  &:after {
+    content
