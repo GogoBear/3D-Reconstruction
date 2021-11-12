@@ -13,4 +13,5 @@
 // ===================================
 // position
 // ===================================
-@mixin position($position, $
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+  
