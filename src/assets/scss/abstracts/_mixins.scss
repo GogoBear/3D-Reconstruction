@@ -25,4 +25,5 @@
   @include position(fixed, $args...);
 }
 
-@mixin
+@mixin absolute($args...) {
+  @include position(absolute, $args...)
