@@ -21,4 +21,8 @@
   left: $left;
 }
 
-@mixin fixed($ar
+@mixin fixed($args...) {
+  @include position(fixed, $args...);
+}
+
+@mixin
