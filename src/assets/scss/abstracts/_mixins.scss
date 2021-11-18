@@ -49,4 +49,8 @@
   @include size(1px);
 
   overflow: hidden;
-  margin: 
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+}
+
+// =========
