@@ -57,4 +57,5 @@
 // font face
 // use: @include font-face(nbg, '~@/assets/fonts/NanumBarunGothic', normal);
 // ===================================
-@mixin font-face($name, $font-path, $weight: null, $style: no
+@mixin font-face($name, $font-path, $weight: null, $style: normal, $exts: (eot, woff2, woff, ttf)) {
+  $src: null;
