@@ -59,3 +59,6 @@
 // ===================================
 @mixin font-face($name, $font-path, $weight: null, $style: normal, $exts: (eot, woff2, woff, ttf)) {
   $src: null;
+  $formats: (
+    otf: 'openType',
+    ttf: 'trueType',
