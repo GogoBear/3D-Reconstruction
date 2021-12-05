@@ -66,4 +66,6 @@
 
   @each $ext in $exts {
     $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
-    $src: append($src, url(quote($font-path + '.' + $ex
+    $src: append($src, url(quote($font-path + '.' + $ext)) format(quote($format)), $separator: comma);
+  }
+
