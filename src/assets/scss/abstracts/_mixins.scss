@@ -62,3 +62,7 @@
   $formats: (
     otf: 'openType',
     ttf: 'trueType',
+  );
+
+  @each $ext in $exts {
+    $format: if(map-has-key
