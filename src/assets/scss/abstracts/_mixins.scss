@@ -65,4 +65,5 @@
   );
 
   @each $ext in $exts {
-    $format: if(map-has-key
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+   
