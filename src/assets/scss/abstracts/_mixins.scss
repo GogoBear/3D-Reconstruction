@@ -69,3 +69,5 @@
     $src: append($src, url(quote($font-path + '.' + $ext)) format(quote($format)), $separator: comma);
   }
 
+  @font-face {
+    font-family: quote($
