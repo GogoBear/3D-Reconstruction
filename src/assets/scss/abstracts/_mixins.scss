@@ -70,4 +70,7 @@
   }
 
   @font-face {
-    font-family: quote($
+    font-family: quote($name);
+    font-weight: $weight;
+    font-style: $style;
+  
