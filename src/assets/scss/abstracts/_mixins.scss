@@ -73,4 +73,6 @@
     font-family: quote($name);
     font-weight: $weight;
     font-style: $style;
-  
+    src: $src;
+  }
+}
