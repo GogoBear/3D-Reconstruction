@@ -26,4 +26,11 @@ figure {
   margin: 0;
 }
 ul,
-ol
+ol,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2
