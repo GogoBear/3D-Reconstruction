@@ -66,4 +66,7 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  -webkit-appe
+  -webkit-appearance: button;
+}
+
+input[type='search']::-webkit-s
