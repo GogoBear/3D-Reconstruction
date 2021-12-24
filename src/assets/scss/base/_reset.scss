@@ -80,4 +80,6 @@ input[type='search']::-webkit-search-results-decoration {
 input[type='search'] {
   -webkit-appearance: none;
   -moz-appearance: none;
-  -webkit-box-sizing: content-b
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-siz
