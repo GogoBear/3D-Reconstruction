@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react';
 import { useCounter } from '@/hooks/useCounter';
 
-const
+const Main = () => {
+  const { count, increment } = useCo
