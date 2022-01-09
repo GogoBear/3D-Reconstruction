@@ -13,4 +13,8 @@ const Main = () => {
       <h2 className="test">Hello Vite + React!</h2>
       <p className="env">{env}</p>
       <button type="button" onClick={increment}>
-  
+        count is: {count}
+      </button>
+    </>
+  );
+};
