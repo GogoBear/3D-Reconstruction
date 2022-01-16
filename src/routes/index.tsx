@@ -8,4 +8,7 @@ export default [
   {
     path: '/',
     element: <Layout />,
-  
+    children: [{ index: true, element: <Main /> }],
+  },
+  {
+    pa
