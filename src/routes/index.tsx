@@ -5,4 +5,7 @@ import Main from '@/pages/main';
 import NotFound from '@/pages/NotFound';
 
 export default [
+  {
+    path: '/',
+    element: <Layout />,
   
