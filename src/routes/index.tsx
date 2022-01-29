@@ -11,4 +11,7 @@ export default [
     children: [{ index: true, element: <Main /> }],
   },
   {
-    pa
+    path: '/*',
+    element: <NotFound />,
+  },
+] as Rout
