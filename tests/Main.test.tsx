@@ -3,4 +3,5 @@ import { render, screen, userEvent } from './test-utils';
 import Main from '../src/pages/main';
 
 describe('Simple working test', () => {
-  it('the
+  it('the title is visible', () => {
+    render(<Mai
