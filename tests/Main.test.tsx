@@ -8,4 +8,5 @@ describe('Simple working test', () => {
     expect(screen.getByText(/Hello Vite \+ React!/i)).toBeCalled();
   });
 
-  it('should incr
+  it('should increment count on click', async () => {
+    rende
