@@ -10,4 +10,5 @@ describe('Simple working test', () => {
 
   it('should increment count on click', async () => {
     render(<Main />);
-    userEvent.click(screen.getByRo
+    userEvent.click(screen.getByRole('button'));
+    expect(await screen.findByText(/count
