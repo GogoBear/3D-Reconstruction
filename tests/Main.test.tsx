@@ -11,4 +11,7 @@ describe('Simple working test', () => {
   it('should increment count on click', async () => {
     render(<Main />);
     userEvent.click(screen.getByRole('button'));
-    expect(await screen.findByText(/count
+    expect(await screen.findByText(/count is: 1/i)).toBeCalled();
+  });
+
+  it('env 값은 개발일 
