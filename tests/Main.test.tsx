@@ -9,4 +9,5 @@ describe('Simple working test', () => {
   });
 
   it('should increment count on click', async () => {
-    rende
+    render(<Main />);
+    userEvent.click(screen.getByRo
