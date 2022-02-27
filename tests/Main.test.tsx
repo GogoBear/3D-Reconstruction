@@ -14,4 +14,5 @@ describe('Simple working test', () => {
     expect(await screen.findByText(/count is: 1/i)).toBeCalled();
   });
 
-  it('env 값은 개발일 
+  it('env 값은 개발일 경우 development', () => {
+    const main = render(<Mai
