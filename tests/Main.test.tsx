@@ -15,4 +15,6 @@ describe('Simple working test', () => {
   });
 
   it('env 값은 개발일 경우 development', () => {
-    const main = render(<Mai
+    const main = render(<Main />);
+    const p = main.container.querySelector('.env');
+  
