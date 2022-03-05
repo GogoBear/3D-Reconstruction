@@ -18,4 +18,5 @@ describe('Simple working test', () => {
     const main = render(<Main />);
     const p = main.container.querySelector('.env');
     expect(p?.textContent).toBe('development');
- 
+  });
+});
