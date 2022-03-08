@@ -3,4 +3,6 @@ import React from 'react';
 
 const customRender = (ui: React.ReactElement, options = {}) =>
   render(ui, {
-    // wrap pr
+    // wrap provider(s) here if needed
+    wrapper: ({ children }) => children,
+  
