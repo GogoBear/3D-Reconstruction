@@ -1,0 +1,25 @@
+
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "esnext",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "jsx": "react-jsx",
+    "experimentalDecorators": true,
+
+    /* Modules */
+    "module": "es2020",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "types": ["node", "jest"],
+    "typeRoots": ["./node_modules/@types"],
