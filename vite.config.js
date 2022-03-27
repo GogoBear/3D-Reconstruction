@@ -5,4 +5,4 @@ import { createHtmlPlugin } from 'vite-plugin-html';
 import checker from 'vite-plugin-checker';
 import path from 'path';
 
-import
+import { dependencies } from './package.
