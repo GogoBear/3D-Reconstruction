@@ -5,4 +5,7 @@ import { createHtmlPlugin } from 'vite-plugin-html';
 import checker from 'vite-plugin-checker';
 import path from 'path';
 
-import { dependencies } from './package.
+import { dependencies } from './package.json';
+function renderChunks(deps) {
+  let chunks = {};
+  Ob
