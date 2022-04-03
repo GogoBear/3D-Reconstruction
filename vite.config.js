@@ -8,4 +8,5 @@ import path from 'path';
 import { dependencies } from './package.json';
 function renderChunks(deps) {
   let chunks = {};
-  Ob
+  Object.keys(deps).forEach(key => {
+    if (['react', 'react-router
