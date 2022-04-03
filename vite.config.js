@@ -9,4 +9,5 @@ import { dependencies } from './package.json';
 function renderChunks(deps) {
   let chunks = {};
   Object.keys(deps).forEach(key => {
-    if (['react', 'react-router
+    if (['react', 'react-router-dom', 'react-dom'].includes(key)) return;
+    chunks[key] = [key]
