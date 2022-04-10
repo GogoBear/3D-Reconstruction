@@ -17,3 +17,7 @@ function renderChunks(deps) {
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, 'env');
+
+  return {
+    server: { hmr: true },
+    plugins: [
