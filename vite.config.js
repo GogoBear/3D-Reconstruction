@@ -15,4 +15,5 @@ function renderChunks(deps) {
   return chunks;
 }
 
-export default defineConfig(({ mode })
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, 'env');
