@@ -10,4 +10,9 @@ function renderChunks(deps) {
   let chunks = {};
   Object.keys(deps).forEach(key => {
     if (['react', 'react-router-dom', 'react-dom'].includes(key)) return;
-    chunks[key] = [key]
+    chunks[key] = [key];
+  });
+  return chunks;
+}
+
+export default defineConfig(({ mode })
