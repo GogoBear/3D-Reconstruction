@@ -26,4 +26,7 @@ export default defineConfig(({ mode }) => {
       }),
       tsconfigPaths(),
       createHtmlPlugin({
-        min
+        minify: true,
+        inject: {
+          data: {
+       
