@@ -21,3 +21,6 @@ export default defineConfig(({ mode }) => {
   return {
     server: { hmr: true },
     plugins: [
+      react({
+        include: ['**/*.tsx', '**/*.ts'],
+      })
