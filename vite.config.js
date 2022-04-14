@@ -34,4 +34,7 @@ export default defineConfig(({ mode }) => {
           },
         },
       }),
-      checker({ typescr
+      checker({ typescript: true }),
+    ],
+    resolve: {
+      alias: { '@': pa
