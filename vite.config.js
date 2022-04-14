@@ -32,4 +32,6 @@ export default defineConfig(({ mode }) => {
             ...env,
             MODE: mode,
           },
-   
+        },
+      }),
+      checker({ typescr
