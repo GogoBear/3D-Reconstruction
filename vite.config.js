@@ -29,4 +29,7 @@ export default defineConfig(({ mode }) => {
         minify: true,
         inject: {
           data: {
-       
+            ...env,
+            MODE: mode,
+          },
+   
