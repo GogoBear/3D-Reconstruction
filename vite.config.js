@@ -37,4 +37,6 @@ export default defineConfig(({ mode }) => {
       checker({ typescript: true }),
     ],
     resolve: {
-      alias: { '@': pa
+      alias: { '@': path.resolve(__dirname, 'src/') },
+    },
+    c
