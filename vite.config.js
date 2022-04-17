@@ -39,4 +39,6 @@ export default defineConfig(({ mode }) => {
     resolve: {
       alias: { '@': path.resolve(__dirname, 'src/') },
     },
-    c
+    css: {
+      postcss: ctx => ({
+        parser: ctx.parser ? 
