@@ -41,4 +41,5 @@ export default defineConfig(({ mode }) => {
     },
     css: {
       postcss: ctx => ({
-        parser: ctx.parser ? 
+        parser: ctx.parser ? 'sugarss' : false,
+        map: ctx.env === 'development' ? 
