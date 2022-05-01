@@ -46,4 +46,5 @@ export default defineConfig(({ mode }) => {
         plugins: {
           'postcss-import': {},
           'postcss-nested': {},
-        
+          cssnano: ctx.env === 'production' ? {} : false,
+          aut
