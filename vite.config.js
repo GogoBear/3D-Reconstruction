@@ -47,4 +47,8 @@ export default defineConfig(({ mode }) => {
           'postcss-import': {},
           'postcss-nested': {},
           cssnano: ctx.env === 'production' ? {} : false,
-          autoprefixer: { overrideBrowserslist: ['defaul
+          autoprefixer: { overrideBrowserslist: ['defaults'] },
+        },
+      }),
+    },
+    buil
