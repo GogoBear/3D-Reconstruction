@@ -51,4 +51,6 @@ export default defineConfig(({ mode }) => {
         },
       }),
     },
-    buil
+    build: {
+      sourcemap: false,
+      rollupOpt
