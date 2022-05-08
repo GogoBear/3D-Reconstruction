@@ -59,4 +59,8 @@ export default defineConfig(({ mode }) => {
             vendor: ['react', 'react-router-dom', 'react-dom'],
             ...renderChunks(dependencies),
           },
-  
+        },
+      },
+    },
+    test: {
+      g
