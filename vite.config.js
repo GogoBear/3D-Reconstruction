@@ -63,4 +63,6 @@ export default defineConfig(({ mode }) => {
       },
     },
     test: {
-      g
+      globals: true,
+      coverage: {
+        repo
