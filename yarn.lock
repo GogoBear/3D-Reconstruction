@@ -127,3 +127,60 @@ __metadata:
 "@babel/helper-module-imports@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/helper-module-imports@npm:7.18.6"
+  dependencies:
+    "@babel/types": "npm:^7.18.6"
+  checksum: 5c2d1987e4854abe7ca227d2e318b699c100dedc8ec45fe858755d5e9da8760ac136c0b1e669cc381f44eb79607b6f4ffcf7642e1aa84504389f9ca6065e8ee1
+  languageName: node
+  linkType: hard
+
+"@babel/helper-module-transforms@npm:^7.19.0":
+  version: 7.19.0
+  resolution: "@babel/helper-module-transforms@npm:7.19.0"
+  dependencies:
+    "@babel/helper-environment-visitor": "npm:^7.18.9"
+    "@babel/helper-module-imports": "npm:^7.18.6"
+    "@babel/helper-simple-access": "npm:^7.18.6"
+    "@babel/helper-split-export-declaration": "npm:^7.18.6"
+    "@babel/helper-validator-identifier": "npm:^7.18.6"
+    "@babel/template": "npm:^7.18.10"
+    "@babel/traverse": "npm:^7.19.0"
+    "@babel/types": "npm:^7.19.0"
+  checksum: 3623886b8ab1baa44164f987652eebfce346456f53990f8e1a7fc2ad9b7c0d46d075d3568c76759f8b76c5fe49b88d2f15598296ee6faaa84c24dfa1bd588ba0
+  languageName: node
+  linkType: hard
+
+"@babel/helper-plugin-utils@npm:^7.18.6, @babel/helper-plugin-utils@npm:^7.18.9":
+  version: 7.18.9
+  resolution: "@babel/helper-plugin-utils@npm:7.18.9"
+  checksum: ae01ad84af834f9cb787e19b4b38d3c518e4804327671a171ab0a1ec06b2f644c441db2d68ad7e91142acff643392bf674adc1877d9712ffef2dd57db4e8ca06
+  languageName: node
+  linkType: hard
+
+"@babel/helper-plugin-utils@npm:^7.19.0":
+  version: 7.19.0
+  resolution: "@babel/helper-plugin-utils@npm:7.19.0"
+  checksum: 1f5ec25de2ec8789cc9df9ca89ff04a1ea48e372c92c4927a38a96aaf87d2ad2a2aa135630105e9f09a5ec37b220285df1a37e31288b0198f83cbf7d02345f3c
+  languageName: node
+  linkType: hard
+
+"@babel/helper-simple-access@npm:^7.18.6":
+  version: 7.18.6
+  resolution: "@babel/helper-simple-access@npm:7.18.6"
+  dependencies:
+    "@babel/types": "npm:^7.18.6"
+  checksum: 59d09d4fab16a270448ffe46fb7006b3d5c4d1f790488382173736b4fb481cbed84f81ee73081dda6ef5eb890969a5be61710c6a6493ca35b8c54056d87d8988
+  languageName: node
+  linkType: hard
+
+"@babel/helper-split-export-declaration@npm:^7.18.6":
+  version: 7.18.6
+  resolution: "@babel/helper-split-export-declaration@npm:7.18.6"
+  dependencies:
+    "@babel/types": "npm:^7.18.6"
+  checksum: a7834c5b54600542460aa278b0e988178ebe1905df856df909e4fdafffcaa05fc1688e5504a6f388ca1bc36dbdb78a56af422b4a7795876680451d86e55055b9
+  languageName: node
+  linkType: hard
+
+"@babel/helper-string-parser@npm:^7.18.10":
+  version: 7.18.10
+  resolution: "@babel/helper-string-parser@npm:7.18.10"
