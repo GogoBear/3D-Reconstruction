@@ -65,4 +65,8 @@ export default defineConfig(({ mode }) => {
     test: {
       globals: true,
       coverage: {
-        repo
+        reporter: ['text', 'json', 'html'],
+      },
+    },
+  };
+});
