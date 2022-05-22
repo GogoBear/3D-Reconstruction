@@ -290,3 +290,68 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: 88ee5339448bd88cb76dfa1e2b137acb03f2215126968c4287304a7147920eafea3b917df11937c7e1c3ea091e59d2af68055ab98206fcbe353b0c2f7d324aec
+  languageName: node
+  linkType: hard
+
+"@babel/plugin-transform-react-jsx-source@npm:^7.18.6":
+  version: 7.18.6
+  resolution: "@babel/plugin-transform-react-jsx-source@npm:7.18.6"
+  dependencies:
+    "@babel/helper-plugin-utils": "npm:^7.18.6"
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: bcfc4386764cd3bc23373b64c12d8a79818aaf29a7c333fbc8bca4abdbc231af6637a2ab9dd031d7d4a36e5bbab89d2d59c1a22c4d42525b66e7a8e9e6b21a9d
+  languageName: node
+  linkType: hard
+
+"@babel/plugin-transform-react-jsx@npm:^7.18.10":
+  version: 7.19.0
+  resolution: "@babel/plugin-transform-react-jsx@npm:7.19.0"
+  dependencies:
+    "@babel/helper-annotate-as-pure": "npm:^7.18.6"
+    "@babel/helper-module-imports": "npm:^7.18.6"
+    "@babel/helper-plugin-utils": "npm:^7.19.0"
+    "@babel/plugin-syntax-jsx": "npm:^7.18.6"
+    "@babel/types": "npm:^7.19.0"
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: fe5df8cfd50029bbda7582812837fe0379482c509c7b332c4f08474731f7749b263fe643e728966fa78eb3aaa0f65f914002e9a17e7c4bcf339c41f31c1e5917
+  languageName: node
+  linkType: hard
+
+"@babel/plugin-transform-react-jsx@npm:^7.18.6":
+  version: 7.18.10
+  resolution: "@babel/plugin-transform-react-jsx@npm:7.18.10"
+  dependencies:
+    "@babel/helper-annotate-as-pure": "npm:^7.18.6"
+    "@babel/helper-module-imports": "npm:^7.18.6"
+    "@babel/helper-plugin-utils": "npm:^7.18.9"
+    "@babel/plugin-syntax-jsx": "npm:^7.18.6"
+    "@babel/types": "npm:^7.18.10"
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 4910d41486b9d2dbcdc3cbcdd7793cce087f42205552d8d85c4628d50310b2e528d5cb7d40ebec441a3c6c69ddf948f9c9d734bcf1de6434d327aad78f485815
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.12.5":
+  version: 7.18.3
+  resolution: "@babel/runtime@npm:7.18.3"
+  dependencies:
+    regenerator-runtime: "npm:^0.13.4"
+  checksum: 01d7223923c2f900d7308c1c67b2ee20c11a347d0a4d80dacb3f16322298edb7a4dc1abfba9cb2238c96c1dcf6413c0e6165ed8cf1c17343a8b559a6e2777180
+  languageName: node
+  linkType: hard
+
+"@babel/template@npm:^7.18.10":
+  version: 7.18.10
+  resolution: "@babel/template@npm:7.18.10"
+  dependencies:
+    "@babel/code-frame": "npm:^7.18.6"
+    "@babel/parser": "npm:^7.18.10"
+    "@babel/types": "npm:^7.18.10"
+  checksum: 8d820647ae45c8fcc7d9c52bfb89f94bb96fc0d0fb71903b6619e176f6744be773a8d8ab0fcbb3e7208448ca71016580df2b1e40c685061154030f339e47e8df
+  languageName: node
+  linkType: hard
+
+"@babel/traverse@npm:^7.19.0":
