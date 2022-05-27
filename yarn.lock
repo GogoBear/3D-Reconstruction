@@ -511,3 +511,65 @@ __metadata:
   resolution: "@commitlint/load@npm:17.1.2"
   dependencies:
     "@commitlint/config-validator": "npm:^17.1.0"
+    "@commitlint/execute-rule": "npm:^17.0.0"
+    "@commitlint/resolve-extends": "npm:^17.1.0"
+    "@commitlint/types": "npm:^17.0.0"
+    "@types/node": "npm:^14.0.0"
+    chalk: "npm:^4.1.0"
+    cosmiconfig: "npm:^7.0.0"
+    cosmiconfig-typescript-loader: "npm:^4.0.0"
+    lodash: "npm:^4.17.19"
+    resolve-from: "npm:^5.0.0"
+    ts-node: "npm:^10.8.1"
+    typescript: "npm:^4.6.4"
+  checksum: 70fd97eee0f6531c3f66001f7d8f97c39224b2fe4041a172bff323f88735cdceb05c8f0f83e24020cc09561f27735e85a202fe25d2d07e855714c277677a5c4a
+  languageName: node
+  linkType: hard
+
+"@commitlint/message@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "@commitlint/message@npm:17.0.0"
+  checksum: 4e2e36b43c1d6bf31b449405dcd747ea1cfc1c7616d8b1c221161f6079de335f56d84b465b51fbd6aea974df0a4daa7e540ba346e5076f4041a0dcca1d1cc156
+  languageName: node
+  linkType: hard
+
+"@commitlint/parse@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "@commitlint/parse@npm:17.0.0"
+  dependencies:
+    "@commitlint/types": "npm:^17.0.0"
+    conventional-changelog-angular: "npm:^5.0.11"
+    conventional-commits-parser: "npm:^3.2.2"
+  checksum: 3a6c271725af01efc37a4489b3c4ab0b861a12637664d708a99d85a8630d9a2dfac0ea7134b1ed75941a08295f05122297fbf8a183d729e4197c23c64efc2a43
+  languageName: node
+  linkType: hard
+
+"@commitlint/read@npm:^17.1.0":
+  version: 17.1.0
+  resolution: "@commitlint/read@npm:17.1.0"
+  dependencies:
+    "@commitlint/top-level": "npm:^17.0.0"
+    "@commitlint/types": "npm:^17.0.0"
+    fs-extra: "npm:^10.0.0"
+    git-raw-commits: "npm:^2.0.0"
+    minimist: "npm:^1.2.6"
+  checksum: ec0147fd35c430395fe2d540bb25b86655b9af5cc56f799495c2c2e5a2c8b998baa851c29a363cf063fdca253f3d40fd891ad185ba19da8a977563c25922b497
+  languageName: node
+  linkType: hard
+
+"@commitlint/resolve-extends@npm:^17.1.0":
+  version: 17.1.0
+  resolution: "@commitlint/resolve-extends@npm:17.1.0"
+  dependencies:
+    "@commitlint/config-validator": "npm:^17.1.0"
+    "@commitlint/types": "npm:^17.0.0"
+    import-fresh: "npm:^3.0.0"
+    lodash: "npm:^4.17.19"
+    resolve-from: "npm:^5.0.0"
+    resolve-global: "npm:^1.0.0"
+  checksum: 312e8651fc87803d98c8bdf76c5c44ceebf22d923f614f2677b8502be3ccdd4a3d0b4570580a8654b0b16337acd94446d5ce9653a009d9cfe0feceb5929622fa
+  languageName: node
+  linkType: hard
+
+"@commitlint/rules@npm:^17.0.0":
+  version: 17.0.0
