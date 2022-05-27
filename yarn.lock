@@ -451,3 +451,63 @@ __metadata:
   version: 17.1.0
   resolution: "@commitlint/config-validator@npm:17.1.0"
   dependencies:
+    "@commitlint/types": "npm:^17.0.0"
+    ajv: "npm:^8.11.0"
+  checksum: d19037d356e06612a55ba915e66a15719429cbf9fa162247b96b851be2047d5a93684cca99ec14058a3affd001e9d91ebdea10c9874d1f03042364b2ce6313b1
+  languageName: node
+  linkType: hard
+
+"@commitlint/ensure@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "@commitlint/ensure@npm:17.0.0"
+  dependencies:
+    "@commitlint/types": "npm:^17.0.0"
+    lodash: "npm:^4.17.19"
+  checksum: c8a25decac7557c2aa58394f8adafac866ab1c8d517c557bbf8d3249b8a7991203f2d194399e03eaa62dc27c9f1801cf10ef0f5dbdcf3b98361e221b900c22ae
+  languageName: node
+  linkType: hard
+
+"@commitlint/execute-rule@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "@commitlint/execute-rule@npm:17.0.0"
+  checksum: f84c8db196347ad01563ec372ca8a06076c5fd5c136f1a7022eccb76f7f1c9f7859dab8d36bff411a5ac9fdb8fe733f0bd963b9b87889d065d015ff3af4294c6
+  languageName: node
+  linkType: hard
+
+"@commitlint/format@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "@commitlint/format@npm:17.0.0"
+  dependencies:
+    "@commitlint/types": "npm:^17.0.0"
+    chalk: "npm:^4.1.0"
+  checksum: 70a19eb1d49f27188f6bd2fa3f373c0e72f993b8d2c41ba699645259c0cfb99ccaee9045c16a6b59a6a469b3d7dda644683a40a86973dd8b7511acf4c25d22ec
+  languageName: node
+  linkType: hard
+
+"@commitlint/is-ignored@npm:^17.1.0":
+  version: 17.1.0
+  resolution: "@commitlint/is-ignored@npm:17.1.0"
+  dependencies:
+    "@commitlint/types": "npm:^17.0.0"
+    semver: "npm:7.3.7"
+  checksum: ad7cf4e0ae1010b557a64cc10fc5da9c94ec194929e55f670c662852c89e7ee0e2f79caa39fc4d27a0235fe40d4786e35431747e43b58277d2e07697165b1749
+  languageName: node
+  linkType: hard
+
+"@commitlint/lint@npm:^17.1.0":
+  version: 17.1.0
+  resolution: "@commitlint/lint@npm:17.1.0"
+  dependencies:
+    "@commitlint/is-ignored": "npm:^17.1.0"
+    "@commitlint/parse": "npm:^17.0.0"
+    "@commitlint/rules": "npm:^17.0.0"
+    "@commitlint/types": "npm:^17.0.0"
+  checksum: 4e1aef5d95ddc679e4e6ac7e4e36992c01636b751ba964eb7caa1eeea310d9351516b8e51baae0b37822c899562cfb69adc2abd9c9e0f9913079fb7a102de50b
+  languageName: node
+  linkType: hard
+
+"@commitlint/load@npm:^17.1.2":
+  version: 17.1.2
+  resolution: "@commitlint/load@npm:17.1.2"
+  dependencies:
+    "@commitlint/config-validator": "npm:^17.1.0"
