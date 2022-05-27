@@ -405,3 +405,49 @@ __metadata:
   linkType: hard
 
 "@bcoe/v8-coverage@npm:^0.2.3":
+  version: 0.2.3
+  resolution: "@bcoe/v8-coverage@npm:0.2.3"
+  checksum: 86336400d6fb1a8263a3e7242ad7ed870f5efae7cd8c2b18df45fa11adc9af035bac68c0da68c0f67e78b3f09ef49efe2e84c4912ddc48e2d12f30ec474c81cc
+  languageName: node
+  linkType: hard
+
+"@colors/colors@npm:1.5.0":
+  version: 1.5.0
+  resolution: "@colors/colors@npm:1.5.0"
+  checksum: 5e08870799494f68e5b3b79e9a337bbf5fd7e634904fbbe642769921bf158fe458c41c888f88edf051b78c5325e3339970f00b24e31421c3480bb58f02687218
+  languageName: node
+  linkType: hard
+
+"@commitlint/cli@npm:17.1.2":
+  version: 17.1.2
+  resolution: "@commitlint/cli@npm:17.1.2"
+  dependencies:
+    "@commitlint/format": "npm:^17.0.0"
+    "@commitlint/lint": "npm:^17.1.0"
+    "@commitlint/load": "npm:^17.1.2"
+    "@commitlint/read": "npm:^17.1.0"
+    "@commitlint/types": "npm:^17.0.0"
+    execa: "npm:^5.0.0"
+    lodash: "npm:^4.17.19"
+    resolve-from: "npm:5.0.0"
+    resolve-global: "npm:1.0.0"
+    yargs: "npm:^17.0.0"
+  bin:
+    commitlint: cli.js
+  checksum: b750c6f8f084baa5dad66028e13b1df10e7cee31e8e9ba9b9a9544160ff0fea2dea878a32c40de65bc2502b545b82dbd09da10f2da8128c5655a5ad3a9d14ea7
+  languageName: node
+  linkType: hard
+
+"@commitlint/config-conventional@npm:17.1.0":
+  version: 17.1.0
+  resolution: "@commitlint/config-conventional@npm:17.1.0"
+  dependencies:
+    conventional-changelog-conventionalcommits: "npm:^5.0.0"
+  checksum: 08b3b0aed710229f70feac76f54de3af68ac290f81aa4c469905f5f6aa00d9e09d45cbe67441d59b9954570689f612cecc9e967ab68d3b335bb2a484e34f7030
+  languageName: node
+  linkType: hard
+
+"@commitlint/config-validator@npm:^17.1.0":
+  version: 17.1.0
+  resolution: "@commitlint/config-validator@npm:17.1.0"
+  dependencies:
