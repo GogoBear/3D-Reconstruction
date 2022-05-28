@@ -624,3 +624,48 @@ __metadata:
   checksum: a4aeb4fd1bf46ee509e0314f72bac4329b39a1e8a2331b1451fa2fb32e0915f87f7bd5d891f3f35cd3c5cea323062c9f1b070eafe9207f4144e0894330d3267b
   languageName: node
   linkType: hard
+
+"@esbuild/android-arm@npm:0.15.14":
+  version: 0.15.14
+  resolution: "@esbuild/android-arm@npm:0.15.14"
+  conditions: os=android & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@esbuild/linux-loong64@npm:0.14.53":
+  version: 0.14.53
+  resolution: "@esbuild/linux-loong64@npm:0.14.53"
+  conditions: os=linux & cpu=loong64
+  languageName: node
+  linkType: hard
+
+"@esbuild/linux-loong64@npm:0.15.14":
+  version: 0.15.14
+  resolution: "@esbuild/linux-loong64@npm:0.15.14"
+  conditions: os=linux & cpu=loong64
+  languageName: node
+  linkType: hard
+
+"@eslint/eslintrc@npm:^1.3.2":
+  version: 1.3.2
+  resolution: "@eslint/eslintrc@npm:1.3.2"
+  dependencies:
+    ajv: "npm:^6.12.4"
+    debug: "npm:^4.3.2"
+    espree: "npm:^9.4.0"
+    globals: "npm:^13.15.0"
+    ignore: "npm:^5.2.0"
+    import-fresh: "npm:^3.2.1"
+    js-yaml: "npm:^4.1.0"
+    minimatch: "npm:^3.1.2"
+    strip-json-comments: "npm:^3.1.1"
+  checksum: 76a8814ddb5f8e94a486cf0ce2a68f6d94dcc6ee204c4ed960ebddd65afc9ce0f84a115e8f499e27ec471722f9ff03a996ae915a0d288b0095516e578e1fef24
+  languageName: node
+  linkType: hard
+
+"@gar/promisify@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "@gar/promisify@npm:1.1.3"
+  checksum: 3fadc40481a783ddb90397f5759f92650b57465f7a4a778056bd24b47060595012e9181a55ae547d57a893d37d9776abe9e368f1f6918e37225eb6a83f9a75f8
+  languageName: node
+  linkType: hard
