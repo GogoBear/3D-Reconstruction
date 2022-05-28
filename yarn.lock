@@ -573,3 +573,54 @@ __metadata:
 
 "@commitlint/rules@npm:^17.0.0":
   version: 17.0.0
+  resolution: "@commitlint/rules@npm:17.0.0"
+  dependencies:
+    "@commitlint/ensure": "npm:^17.0.0"
+    "@commitlint/message": "npm:^17.0.0"
+    "@commitlint/to-lines": "npm:^17.0.0"
+    "@commitlint/types": "npm:^17.0.0"
+    execa: "npm:^5.0.0"
+  checksum: 18d4b5e1de79e6f3e4529dda583333febca0ff744ba1190e308df255be3699df81460b37aaec29b26e9027715cdc5ee24a09860eab5a3c7eb04dedc8d59473d8
+  languageName: node
+  linkType: hard
+
+"@commitlint/to-lines@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "@commitlint/to-lines@npm:17.0.0"
+  checksum: 73abd1520dd77257d1873c82a60563987f6eb8a7d850d5c21c453df2930eba2c2c477d60b3c63cc9a04cfa57b944a1b337f2988262439fbe1e8ffff1a90a4976
+  languageName: node
+  linkType: hard
+
+"@commitlint/top-level@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "@commitlint/top-level@npm:17.0.0"
+  dependencies:
+    find-up: "npm:^5.0.0"
+  checksum: 114844a8ba87b9bf5cea3f81f6ce821b3e5c3b4d284d7b03b934036999908148f473fc88cc5d29e821a5cf9a5c3a0071b59df52e801f4ee432ca103142815adb
+  languageName: node
+  linkType: hard
+
+"@commitlint/types@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "@commitlint/types@npm:17.0.0"
+  dependencies:
+    chalk: "npm:^4.1.0"
+  checksum: 4ffe839678f415425b5218128fd666de42d6ebc9a7437cc6aa959bfaf98ef3a975b6d8907d7f168303c84f2c1d7db418946c97e885dd4f273da0fae066be2daa
+  languageName: node
+  linkType: hard
+
+"@cspotcode/source-map-support@npm:^0.8.0":
+  version: 0.8.1
+  resolution: "@cspotcode/source-map-support@npm:0.8.1"
+  dependencies:
+    "@jridgewell/trace-mapping": "npm:0.3.9"
+  checksum: 4327d8e6e4347897f5baf265c43ff094260a3ad7b53920fa07472aa18699ba7d570e5171082e88d19e4b5cce6f35cc1666b1c8ccb8b74d67e4f482395b8c511d
+  languageName: node
+  linkType: hard
+
+"@cush/relative@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@cush/relative@npm:1.0.0"
+  checksum: a4aeb4fd1bf46ee509e0314f72bac4329b39a1e8a2331b1451fa2fb32e0915f87f7bd5d891f3f35cd3c5cea323062c9f1b070eafe9207f4144e0894330d3267b
+  languageName: node
+  linkType: hard
