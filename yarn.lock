@@ -786,3 +786,47 @@ __metadata:
   checksum: b2c9c60a0de99e3cb296a90ef949c422537dce3c39f2b9c0451549a4b0eaecd58290c0e1ddc75538f38073dd477b728dedf3493f25c253946fcd52b0af06e561
   languageName: node
   linkType: hard
+
+"@jridgewell/resolve-uri@npm:^3.0.3":
+  version: 3.0.7
+  resolution: "@jridgewell/resolve-uri@npm:3.0.7"
+  checksum: 0a3496c6cda457a80e335e836ba3de24468e51f90baf3c637636fb8dcb0e040665c2e6ab901ea6de688c28c67910353967cb0228380ee1ee258b7ff68ea78ee2
+  languageName: node
+  linkType: hard
+
+"@jridgewell/set-array@npm:^1.0.0":
+  version: 1.1.1
+  resolution: "@jridgewell/set-array@npm:1.1.1"
+  checksum: 76bba6caa7836293d6db53148e263d99f196f6214b2c9e475f7a9745fb3f0faaca520efb2d3f0f3656535216dffc9f4c1c28d5bbf67d4586cad5d002a69a0fd4
+  languageName: node
+  linkType: hard
+
+"@jridgewell/set-array@npm:^1.0.1":
+  version: 1.1.2
+  resolution: "@jridgewell/set-array@npm:1.1.2"
+  checksum: e7e3f00d10622a6e48cc59041537f99972ed110dca8bfdf575be101c5920d4e4d4fab315d601df9aebbd6b97f4ce857f0347902701ed034a0627ca554b64db0f
+  languageName: node
+  linkType: hard
+
+"@jridgewell/source-map@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "@jridgewell/source-map@npm:0.3.2"
+  dependencies:
+    "@jridgewell/gen-mapping": "npm:^0.3.0"
+    "@jridgewell/trace-mapping": "npm:^0.3.9"
+  checksum: 66bb5d5cac95793717fea6cfe45c02c0e493f39c320cdaee030a39de033a961cfcb2f5bf105150eb8fada65b6654e72e33efae35349fbaca897414a17c984c34
+  languageName: node
+  linkType: hard
+
+"@jridgewell/sourcemap-codec@npm:^1.4.10":
+  version: 1.4.13
+  resolution: "@jridgewell/sourcemap-codec@npm:1.4.13"
+  checksum: e2a993e98217372c43b09c7429f6ba42f85c00655d11b0042a36cb33496444b7a0e31472f149088d2dc2abc761807e3048767cac08e78d100bdf7ffbf511fe91
+  languageName: node
+  linkType: hard
+
+"@jridgewell/trace-mapping@npm:0.3.9":
+  version: 0.3.9
+  resolution: "@jridgewell/trace-mapping@npm:0.3.9"
+  dependencies:
+    "@jridgewell/resolve-uri": "npm:^3.0.3"
