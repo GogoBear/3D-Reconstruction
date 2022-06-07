@@ -936,3 +936,59 @@ __metadata:
     proc-log: "npm:^2.0.0"
     read-package-json-fast: "npm:^2.0.3"
     semver: "npm:^7.3.5"
+    walk-up-path: "npm:^1.0.0"
+  checksum: a80a8518985245b51f772662ae1aa7a4eb1c5832e0fca0ddda03dd22466ab56be787a8059cfa2367e9c68a3f71bbfd5357aa4c6d499c26d2ad0f8c31223b1b4a
+  languageName: node
+  linkType: hard
+
+"@npmcli/disparity-colors@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@npmcli/disparity-colors@npm:2.0.0"
+  dependencies:
+    ansi-styles: "npm:^4.3.0"
+  checksum: 0c7cce553ba5d723a34519f3bd203775a7e861b2c809c864b2011a181f75924d28df3bd205104059776f5350dce86781a65d291bbb0954165e6f0c838ceb4841
+  languageName: node
+  linkType: hard
+
+"@npmcli/fs@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@npmcli/fs@npm:2.1.0"
+  dependencies:
+    "@gar/promisify": "npm:^1.1.3"
+    semver: "npm:^7.3.5"
+  checksum: 827318517de947af13a24bedd4686dfeaf2addee2dfdf23ee3546353dd9aa1d16301d5faba0ccf886a3971d21cfa22fe77625b5cdebeec3ac2bf51af848de5a5
+  languageName: node
+  linkType: hard
+
+"@npmcli/fs@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "@npmcli/fs@npm:2.1.1"
+  dependencies:
+    "@gar/promisify": "npm:^1.1.3"
+    semver: "npm:^7.3.5"
+  checksum: 9082cb48a08d5f42445ed675718692896ef1ee2f3311d1a85afb60fa1f471453fff5714e2a31c8507e03f9efb180ccebfe38d7a2d99948fdb71a58bf5e5a6dc4
+  languageName: node
+  linkType: hard
+
+"@npmcli/git@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "@npmcli/git@npm:3.0.1"
+  dependencies:
+    "@npmcli/promise-spawn": "npm:^3.0.0"
+    lru-cache: "npm:^7.4.4"
+    mkdirp: "npm:^1.0.4"
+    npm-pick-manifest: "npm:^7.0.0"
+    proc-log: "npm:^2.0.0"
+    promise-inflight: "npm:^1.0.1"
+    promise-retry: "npm:^2.0.1"
+    semver: "npm:^7.3.5"
+    which: "npm:^2.0.2"
+  checksum: fe64c82c11244a2bb109385a20b9515e334f076b1268569f5684c3ae8cf85e9eb02955e29e869e50db7d5266756fc15cf3bacbd06339908a6768cbd0e89816ec
+  languageName: node
+  linkType: hard
+
+"@npmcli/installed-package-contents@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "@npmcli/installed-package-contents@npm:1.0.7"
+  dependencies:
+    npm-bundled: "npm:^1.1.1"
