@@ -992,3 +992,69 @@ __metadata:
   resolution: "@npmcli/installed-package-contents@npm:1.0.7"
   dependencies:
     npm-bundled: "npm:^1.1.1"
+    npm-normalize-package-bin: "npm:^1.0.1"
+  bin:
+    installed-package-contents: index.js
+  checksum: 8cdca613b6fed27ad965c706008f19a3468794a8f6d0efd80a27ecd8d48031d9f439ae542e71a39c2e8bd5715dd5b238da5e0484f0290e19a10bf2100420e044
+  languageName: node
+  linkType: hard
+
+"@npmcli/map-workspaces@npm:^2.0.2, @npmcli/map-workspaces@npm:^2.0.3":
+  version: 2.0.4
+  resolution: "@npmcli/map-workspaces@npm:2.0.4"
+  dependencies:
+    "@npmcli/name-from-folder": "npm:^1.0.1"
+    glob: "npm:^8.0.1"
+    minimatch: "npm:^5.0.1"
+    read-package-json-fast: "npm:^2.0.3"
+  checksum: a6e8e0747aac1a3d7fb2b62794a0845a2796cb54849b5bc30a4a1b82983004e43c6805a9fd252df0e3237d9399b64ffe98847ba99b67fb282e89ac98291189a5
+  languageName: node
+  linkType: hard
+
+"@npmcli/metavuln-calculator@npm:^3.0.1":
+  version: 3.1.1
+  resolution: "@npmcli/metavuln-calculator@npm:3.1.1"
+  dependencies:
+    cacache: "npm:^16.0.0"
+    json-parse-even-better-errors: "npm:^2.3.1"
+    pacote: "npm:^13.0.3"
+    semver: "npm:^7.3.5"
+  checksum: 749b250e85f2f2ae1fd40fad57b6832f4b9956923c5e0f9ca066a1e489619bb6ccf26c616970a966cb6c126e91df7599e164983d9c65cf2647d955668ae3c63f
+  languageName: node
+  linkType: hard
+
+"@npmcli/move-file@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@npmcli/move-file@npm:2.0.0"
+  dependencies:
+    mkdirp: "npm:^1.0.4"
+    rimraf: "npm:^3.0.2"
+  checksum: e7c413d3ed558183dd32b88bd024fa71f152267f2172211e1bb3ef60caf86cb438e4365b02affdd633ca4600eeb1d6143a454ccffc2aa84e468e56074a6cc7e7
+  languageName: node
+  linkType: hard
+
+"@npmcli/name-from-folder@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@npmcli/name-from-folder@npm:1.0.1"
+  checksum: c89ae9f2f7ee09309c64eec7a684bd667786042cb9b0aee4b4ecbb42842edcd57b4b5b50b3d887e66ceab762120a7f8c939758f7c8e0c237c0ab7b2d1de8e32c
+  languageName: node
+  linkType: hard
+
+"@npmcli/node-gyp@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@npmcli/node-gyp@npm:2.0.0"
+  checksum: a9377a0f0c65d12f2af3f0f7defa4204b793c6d400ec9b72162842605a867103c8725e29d121d65bb753708cf01540a7cadc8dbd6803a0cee23a39e1b1882835
+  languageName: node
+  linkType: hard
+
+"@npmcli/package-json@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@npmcli/package-json@npm:2.0.0"
+  dependencies:
+    json-parse-even-better-errors: "npm:^2.3.1"
+  checksum: 2e52c5d6d781ddccfd2f5d4b2e95272997fc2f448db43d4cff5f1a5bb2dfce2c6d2f19e8ce56a40cc88eecc490a3891040cfb2b105db1eceadc2c6683bb9c33e
+  languageName: node
+  linkType: hard
+
+"@npmcli/promise-spawn@npm:^3.0.0":
+  version: 3.0.0
