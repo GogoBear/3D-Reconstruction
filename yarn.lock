@@ -1203,3 +1203,66 @@ __metadata:
   version: 19.0.3
   resolution: "@octokit/rest@npm:19.0.3"
   dependencies:
+    "@octokit/core": "npm:^4.0.0"
+    "@octokit/plugin-paginate-rest": "npm:^3.0.0"
+    "@octokit/plugin-request-log": "npm:^1.0.4"
+    "@octokit/plugin-rest-endpoint-methods": "npm:^6.0.0"
+  checksum: 5e6dffad5362dd42c53582efffb18ba2c2817366be206407f0ff4c81a30ceaed4a5da2a1b42722e8fb21c51df67c256113bbcff8f0c8908e5ad282f48460f7a1
+  languageName: node
+  linkType: hard
+
+"@octokit/types@npm:^6.0.3, @octokit/types@npm:^6.16.1, @octokit/types@npm:^6.41.0":
+  version: 6.41.0
+  resolution: "@octokit/types@npm:6.41.0"
+  dependencies:
+    "@octokit/openapi-types": "npm:^12.11.0"
+  checksum: 05c2d20e08578dbd5978e640a55282cbbb8ed0cbdc6ea3707b20572bac4e32a2ca70f9d5c4589fc6d87dd3fee677039a8fab51f1ecce626e519a4b520e2ce9e4
+  languageName: node
+  linkType: hard
+
+"@polka/url@npm:^1.0.0-next.20":
+  version: 1.0.0-next.21
+  resolution: "@polka/url@npm:1.0.0-next.21"
+  checksum: 1329b8590b529d068d76c89c7f2bd08c3fbde82f7ed2ed6dede29b6711f8a42f4206b0bd769e472177708f7388b6213501e48272a2602605a7577a52ef919034
+  languageName: node
+  linkType: hard
+
+"@remix-run/router@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@remix-run/router@npm:1.0.3"
+  checksum: bbeb972d758ac5c293aac8c3ccb68e6d93f4f15e67fb7e8128a0cc09c5f9cdf3f78824037900e58075f8f2497507393ccd8bedfe684be8c9d88463f62c5a48a4
+  languageName: node
+  linkType: hard
+
+"@rollup/plugin-alias@npm:3.1.9":
+  version: 3.1.9
+  resolution: "@rollup/plugin-alias@npm:3.1.9"
+  dependencies:
+    slash: "npm:^3.0.0"
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0
+  checksum: 24e94cf379326168cee035f17f4fa7296daa4705ae84724e61bf8e74c88d1724a168b63c2a707108b7c22ced529ffc3f91d069e0f46de4baaf96bdd14fa8eeb8
+  languageName: node
+  linkType: hard
+
+"@rollup/pluginutils@npm:^4.2.0":
+  version: 4.2.1
+  resolution: "@rollup/pluginutils@npm:4.2.1"
+  dependencies:
+    estree-walker: "npm:^2.0.1"
+    picomatch: "npm:^2.2.2"
+  checksum: 96f7c2ec2ca7f20178c65a6634a1d612fc3ff6d4a70ff18468d1a909218d491f0164c320dbf195fbbf932059e71c21cfa31b64813d7922f14c83e773527f8b8e
+  languageName: node
+  linkType: hard
+
+"@semantic-release/changelog@npm:6.0.1":
+  version: 6.0.1
+  resolution: "@semantic-release/changelog@npm:6.0.1"
+  dependencies:
+    "@semantic-release/error": "npm:^3.0.0"
+    aggregate-error: "npm:^3.0.0"
+    fs-extra: "npm:^9.0.0"
+    lodash: "npm:^4.17.4"
+  peerDependencies:
+    semantic-release: ">=18.0.0"
+  checksum: eedf647c044440d079396cc55a0d9331a87af9c86da803a43f4c4b3bdd278428edf28269f7f8e04e635915ada89dbc2727458d9861c54bc6489a746e062d96c6
