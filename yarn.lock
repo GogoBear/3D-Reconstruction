@@ -1266,3 +1266,56 @@ __metadata:
   peerDependencies:
     semantic-release: ">=18.0.0"
   checksum: eedf647c044440d079396cc55a0d9331a87af9c86da803a43f4c4b3bdd278428edf28269f7f8e04e635915ada89dbc2727458d9861c54bc6489a746e062d96c6
+  languageName: node
+  linkType: hard
+
+"@semantic-release/commit-analyzer@npm:^9.0.2":
+  version: 9.0.2
+  resolution: "@semantic-release/commit-analyzer@npm:9.0.2"
+  dependencies:
+    conventional-changelog-angular: "npm:^5.0.0"
+    conventional-commits-filter: "npm:^2.0.0"
+    conventional-commits-parser: "npm:^3.2.3"
+    debug: "npm:^4.0.0"
+    import-from: "npm:^4.0.0"
+    lodash: "npm:^4.17.4"
+    micromatch: "npm:^4.0.2"
+  peerDependencies:
+    semantic-release: ">=18.0.0-beta.1"
+  checksum: dfc70c00a78e1af7e924c6fe18323db1c6423994fb5360ad1bdead98138455c242433d40a4873e4fbd7843a3d7727c1ec87793332e823f9a95292e2bfdca3547
+  languageName: node
+  linkType: hard
+
+"@semantic-release/error@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@semantic-release/error@npm:2.2.0"
+  checksum: 372fca846d7b090bdb15538773fb3da6bc94462b49c3fa2dc1b5371477e0c4fc78e7164f14e3295e24deda43d60f1e6005a2eb03a6bf15dedfebf122daeb8d6b
+  languageName: node
+  linkType: hard
+
+"@semantic-release/error@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@semantic-release/error@npm:3.0.0"
+  checksum: 9f9d9cbb96859ef286132ec2598c5ef9d51132da637e5a076254fce548dc6ed2037d15d46865a7e9f52be76f07fe79a5dbfd0d84aab4021cebd9b8aed3db9d3d
+  languageName: node
+  linkType: hard
+
+"@semantic-release/git@npm:10.0.1":
+  version: 10.0.1
+  resolution: "@semantic-release/git@npm:10.0.1"
+  dependencies:
+    "@semantic-release/error": "npm:^3.0.0"
+    aggregate-error: "npm:^3.0.0"
+    debug: "npm:^4.0.0"
+    dir-glob: "npm:^3.0.0"
+    execa: "npm:^5.0.0"
+    lodash: "npm:^4.17.4"
+    micromatch: "npm:^4.0.0"
+    p-reduce: "npm:^2.0.0"
+  peerDependencies:
+    semantic-release: ">=18.0.0"
+  checksum: 67abe7e769c82e61a2e281db2ab61c5bac30d3ed54be6ec95beaf1960507f8805dd9b3f2131ee247d706628ed5e613afb117643914bde63a7bc65817ab5b1690
+  languageName: node
+  linkType: hard
+
+"@semantic-release/github@npm:^8.0.0":
