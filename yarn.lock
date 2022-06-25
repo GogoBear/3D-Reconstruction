@@ -1557,3 +1557,57 @@ __metadata:
     "@types/istanbul-lib-coverage": "npm:*"
   checksum: ed2b2a214e247bb24aede74cde6edf00989e575dc8827e160f63ced1816d227f6fb370c2d9b5fa56f9b5bd7202804f272a4fe05ac51461982760730966e39efb
   languageName: node
+  linkType: hard
+
+"@types/istanbul-reports@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "@types/istanbul-reports@npm:3.0.1"
+  dependencies:
+    "@types/istanbul-lib-report": "npm:*"
+  checksum: 6ebbdef0b132af7f491f1ad8723352fd38866062e977c36e6684768e874216fae154215b4f952f59577b9a087bcd1cff64992077dd853515a0c4196154fa360d
+  languageName: node
+  linkType: hard
+
+"@types/jest@npm:29.2.3":
+  version: 29.2.3
+  resolution: "@types/jest@npm:29.2.3"
+  dependencies:
+    expect: "npm:^29.0.0"
+    pretty-format: "npm:^29.0.0"
+  checksum: d9ba4deb36f06f65bcec06d61245695e498e9e198e1edbca4d1d0115d44166ab89fc7f4569622a641148c50d207a88ebc809a0630fa838cee6767f69caaeb06b
+  languageName: node
+  linkType: hard
+
+"@types/json-schema@npm:^7.0.9":
+  version: 7.0.11
+  resolution: "@types/json-schema@npm:7.0.11"
+  checksum: 8e5c6dd393411418e3d803ab0a09862b4ed47f73e7ed990f3b907dd41cc4d2f2b4f7aed9a39c7fd2acaa80314ac1397a5e2e5e6c25a338f01bbfba708cc70d8e
+  languageName: node
+  linkType: hard
+
+"@types/minimist@npm:^1.2.0":
+  version: 1.2.2
+  resolution: "@types/minimist@npm:1.2.2"
+  checksum: 7fd2a4dc547de09d78c688d79aefcceb54e8c86eb61a5b1a593dfc03bbf1f8589a616ae978585211d078e51abc55b93064b2039c34266db8f277bd6bc03557c3
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:*":
+  version: 18.6.4
+  resolution: "@types/node@npm:18.6.4"
+  checksum: 87e5d2492c153862a99bf52a30cec58b21051ff4ff4851c1c56bcad2b40089335099b989d1099dcd8e2611381e0be12a82ed27f0d479b462388d95e38b78f995
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:18.0.0":
+  version: 18.0.0
+  resolution: "@types/node@npm:18.0.0"
+  checksum: 5d902615a9732fe86ff71edc04b6d35599b447a6fe3b572b12ea002a3460572f8e4d8990bf3983c2890e2335ea8625b78bc51ab542df492ef12e6dcd0da0865a
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.0.0":
+  version: 14.18.29
+  resolution: "@types/node@npm:14.18.29"
+  checksum: 341c43bfb26f16e9876b8694b5ba203a43dd6a72d52d8637a4677ab2167822c40d6fd058c369e7b5bba70a3d27798bf4fb2822c2eb8533455dfd4bd0880ede07
+  languageName: node
