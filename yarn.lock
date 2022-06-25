@@ -1500,3 +1500,60 @@ __metadata:
   linkType: hard
 
 "@tsconfig/node14@npm:^1.0.0":
+  version: 1.0.3
+  resolution: "@tsconfig/node14@npm:1.0.3"
+  checksum: 8d04150cdfbe5b89be095586bfa35415800b694f9955274df16b1017e1cef9697467185b3f7c64ed588a7e8d48ff6f4cc3125c8265b5e3d4f757884dcc6facbc
+  languageName: node
+  linkType: hard
+
+"@tsconfig/node16@npm:^1.0.2":
+  version: 1.0.3
+  resolution: "@tsconfig/node16@npm:1.0.3"
+  checksum: 4280081089783dfeab00e5bc18ff55e11e8e4577d4626f34730a062c99ec4136fe6c2036e6f20ebe50b1c3e01bc29db6e2cfa9541a7b6dc99825ccbe8f7f8395
+  languageName: node
+  linkType: hard
+
+"@types/aria-query@npm:^4.2.0":
+  version: 4.2.2
+  resolution: "@types/aria-query@npm:4.2.2"
+  checksum: 45005e0315cd710931f42c5f09eac9191307a4f202c824c7db34e57d4edbdf402fe2ea4534a3b997d9300170e7b2d5d87c1ae52bf80909a487893adc1a9ca9b4
+  languageName: node
+  linkType: hard
+
+"@types/chai-subset@npm:^1.3.3":
+  version: 1.3.3
+  resolution: "@types/chai-subset@npm:1.3.3"
+  dependencies:
+    "@types/chai": "npm:*"
+  checksum: 3a98fe94d2c1b939d17264d878795a3e240f0d1b49fb246f5c1b3ea178f701487e295be90636f5fb5f6dbe13b180cc38e9f217209d0ee0fd0cce39e9ef2f0120
+  languageName: node
+  linkType: hard
+
+"@types/chai@npm:*":
+  version: 4.3.1
+  resolution: "@types/chai@npm:4.3.1"
+  checksum: a8e114170d0d69e1e278721fcc3b58244ebb6ce9f7df07be50fbe2ca58414a76d07a517566185d651d4a5473a743419c1fa76fcca3d41681a8d2760fa2ea81da
+  languageName: node
+  linkType: hard
+
+"@types/chai@npm:^4.3.3":
+  version: 4.3.3
+  resolution: "@types/chai@npm:4.3.3"
+  checksum: 9cab9c83b4c5c858a7b411086652ad6c1920662a7dbc94c8352db48cb0f8fd3f17d1a21a982ed4cd0aba0041ff7a002f684f3cbd80a5cfa7155236bd59d183d9
+  languageName: node
+  linkType: hard
+
+"@types/istanbul-lib-coverage@npm:*, @types/istanbul-lib-coverage@npm:^2.0.0, @types/istanbul-lib-coverage@npm:^2.0.1":
+  version: 2.0.4
+  resolution: "@types/istanbul-lib-coverage@npm:2.0.4"
+  checksum: c866b0c4f8d6f7167a5f65900d4ab792cdeae4df98f13c6b26f69d8abf31d4ef599d1b6938164ac1d0d1c7cdfcc3ca7174ac0176c788c2a019ee2fa815cf1e01
+  languageName: node
+  linkType: hard
+
+"@types/istanbul-lib-report@npm:*":
+  version: 3.0.0
+  resolution: "@types/istanbul-lib-report@npm:3.0.0"
+  dependencies:
+    "@types/istanbul-lib-coverage": "npm:*"
+  checksum: ed2b2a214e247bb24aede74cde6edf00989e575dc8827e160f63ced1816d227f6fb370c2d9b5fa56f9b5bd7202804f272a4fe05ac51461982760730966e39efb
+  languageName: node
