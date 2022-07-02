@@ -2003,3 +2003,62 @@ __metadata:
   checksum: 08625cf91d13177f3064cf333c7e041bba66f8aa811884a2de5c08b420add67b481779368b0bbf8fc232400b7a3f47aa78459d48ac73e60568c5afec538aa02b
   languageName: node
   linkType: hard
+
+"ansi-escapes@npm:^4.3.0":
+  version: 4.3.2
+  resolution: "ansi-escapes@npm:4.3.2"
+  dependencies:
+    type-fest: "npm:^0.21.3"
+  checksum: da33f33b3b792e7273cefc1ec150afbc332cab602757d2ab70fb90e5c5cfa173b10bc4a0d9d0c60479ed60e25cdf35897a82f1e498987358a6087b99300872cc
+  languageName: node
+  linkType: hard
+
+"ansi-escapes@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "ansi-escapes@npm:5.0.0"
+  dependencies:
+    type-fest: "npm:^1.0.2"
+  checksum: cf9a0e550c10e9392472467faf2058afcdf3b8f957a62da9d98cde511227c0286354332e533e418222d4a2b452e20abceb97d43f79de14670b2149ecb817d032
+  languageName: node
+  linkType: hard
+
+"ansi-regex@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "ansi-regex@npm:5.0.1"
+  checksum: 627f94ee7fcc5e03186646ebd11ca2ccd954f3cb48fc6a3f42883db6bbf3df5dfba06d62647b2f72c975349fc072c5c44808b7da26d08a9313a7f304acda2efb
+  languageName: node
+  linkType: hard
+
+"ansi-regex@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "ansi-regex@npm:6.0.1"
+  checksum: 53669c3634190ead828055bcae5f0feff485fd8d7d05538d4f753ad56ffedb7aa5bcc93efaa8e99e4907ad970682413f2407cf4acac8deb1d408bc564bca9027
+  languageName: node
+  linkType: hard
+
+"ansi-styles@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "ansi-styles@npm:3.2.1"
+  dependencies:
+    color-convert: "npm:^1.9.0"
+  checksum: 88847a8969fcf787779a2cd03e73cd85ac45cbccace293e1227445dd6452cdf11df752c5f9afdb47343439762b96ae7baad1caf848360576d60be5e92f6842ab
+  languageName: node
+  linkType: hard
+
+"ansi-styles@npm:^4.0.0, ansi-styles@npm:^4.1.0, ansi-styles@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "ansi-styles@npm:4.3.0"
+  dependencies:
+    color-convert: "npm:^2.0.1"
+  checksum: d15dab617b78cbc96f10016e929e921ad73695753de4e45a911ecee6e29aa45c71d58f1ffaf8e49889dbe726dbdb2bbe5b4e3a7bf1c517f8740ae83a29b7df25
+  languageName: node
+  linkType: hard
+
+"ansi-styles@npm:^5.0.0":
+  version: 5.2.0
+  resolution: "ansi-styles@npm:5.2.0"
+  checksum: be68c7c5f374e8d72174b43ff3ab5bdd0e2e024bcaace9c0d2bbcd0edef71281424a1d23e5b29c8c7911143e4c34090088287a15f36ed710167c5bcccc867c7e
+  languageName: node
+  linkType: hard
+
+"ansi-styles@npm:^6.0.0":
