@@ -2343,3 +2343,51 @@ __metadata:
   checksum: a8fa463b17e7bfcc2bbcdd6036718a4663629d5fd4ad73f50ca45d10965c5cecc5953f6f007f1421888d84e5def3d6b027ad2c1b4776f93db6c49950059e5759
   languageName: node
   linkType: hard
+
+"buffer-from@npm:^1.0.0":
+  version: 1.1.2
+  resolution: "buffer-from@npm:1.1.2"
+  checksum: 2d8a264381325ee41959bb21bae76dc85b486f253e227a3fa70082c83f14c41665ce227ccda79e93ea2fc12e37a678fe956a6fa01b1876e6142eaf6554585ea4
+  languageName: node
+  linkType: hard
+
+"builtins@npm:^5.0.0":
+  version: 5.0.1
+  resolution: "builtins@npm:5.0.1"
+  dependencies:
+    semver: "npm:^7.0.0"
+  checksum: d84d5abbe1480218e2f15c1179993047f291052614d6bc225359dc03932c6306002e94a3c86166a815478f1c9b2934a645dbfdee31c71ad50d71f128535d0c19
+  languageName: node
+  linkType: hard
+
+"c8@npm:7.12.0":
+  version: 7.12.0
+  resolution: "c8@npm:7.12.0"
+  dependencies:
+    "@bcoe/v8-coverage": "npm:^0.2.3"
+    "@istanbuljs/schema": "npm:^0.1.3"
+    find-up: "npm:^5.0.0"
+    foreground-child: "npm:^2.0.0"
+    istanbul-lib-coverage: "npm:^3.2.0"
+    istanbul-lib-report: "npm:^3.0.0"
+    istanbul-reports: "npm:^3.1.4"
+    rimraf: "npm:^3.0.2"
+    test-exclude: "npm:^6.0.0"
+    v8-to-istanbul: "npm:^9.0.0"
+    yargs: "npm:^16.2.0"
+    yargs-parser: "npm:^20.2.9"
+  bin:
+    c8: bin/c8.js
+  checksum: b04042243eb30ec9d464e74565724340f95ba52007e34efcb30480b6bfea1ef6319806c1ed38c04a7917f224f8d74dac13a789fe7bc9cf835557201c215c3573
+  languageName: node
+  linkType: hard
+
+"cacache@npm:^16.0.0, cacache@npm:^16.0.6, cacache@npm:^16.1.0, cacache@npm:^16.1.1":
+  version: 16.1.1
+  resolution: "cacache@npm:16.1.1"
+  dependencies:
+    "@npmcli/fs": "npm:^2.1.0"
+    "@npmcli/move-file": "npm:^2.0.0"
+    chownr: "npm:^2.0.0"
+    fs-minipass: "npm:^2.1.0"
+    glob: "npm:^8.0.1"
