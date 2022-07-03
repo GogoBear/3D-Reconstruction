@@ -2155,3 +2155,54 @@ __metadata:
   version: 1.0.1
   resolution: "arrify@npm:1.0.1"
   checksum: 70f1b02b66918d4b4dbbb8bbfaf53d58066ad9882e557e79bdabe88e1fa81d73c126122a0b5d6b97bec0aedcb35c381f7a37c0ab9ad6a06939ee62d1c152d102
+  languageName: node
+  linkType: hard
+
+"asap@npm:^2.0.0":
+  version: 2.0.6
+  resolution: "asap@npm:2.0.6"
+  checksum: 081b91072d2826810a8a48f4514b7b151b4771984a079005297bb9ebfa15bb4ff6ce065492933902fb12b4ab46bde204e22144d29ceca3a820f81748225cb684
+  languageName: node
+  linkType: hard
+
+"assertion-error@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "assertion-error@npm:1.1.0"
+  checksum: 8e52a3ca8f1f789419cfa4d6e77a4be12ca441ca9ed64a671fd28a0efb1eac304579ee1d5cceb92a43a61d8caac10e00c3b6326ede54c515e0929572320388c8
+  languageName: node
+  linkType: hard
+
+"astral-regex@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "astral-regex@npm:2.0.0"
+  checksum: e24f6eb6f33ba55ffe8d89c60ab490791cd29772a896339388db11efcbfcd6da0d6ed59b655933f7c26ca4c2ae926f86d21bdedb142b69829d9d4a1074faa1d2
+  languageName: node
+  linkType: hard
+
+"async@npm:^3.2.3":
+  version: 3.2.4
+  resolution: "async@npm:3.2.4"
+  checksum: 9719e38d24e9922c255ee9ae925fb668ef52243f9866a1b59e423a3bb6150a886b3c37287348ceefa09cd3f6fa1a29dcc770eeb70642acb13674363b2d5b2b21
+  languageName: node
+  linkType: hard
+
+"asynckit@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "asynckit@npm:0.4.0"
+  checksum: e4d1381289f9effe69a4dbc18e8b4e2059113dfb23634d0f4064226042870dbc53175fbf261f982d055fa2952163a8b7608781ea58314a17bb6a2cd6815af4f1
+  languageName: node
+  linkType: hard
+
+"at-least-node@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "at-least-node@npm:1.0.0"
+  checksum: fed1be4307a3752f3a863a6e0219c58fe6838ee95c77ecafffd2a72bbfe4ff33695777e4bffe2a095ef5671c638b803a55e0d39a728c7b0afa9adaa5900444bd
+  languageName: node
+  linkType: hard
+
+"autoprefixer@npm:10.4.13":
+  version: 10.4.13
+  resolution: "autoprefixer@npm:10.4.13"
+  dependencies:
+    browserslist: "npm:^4.21.4"
+    caniuse-lite: "npm:^1.0.30001426"
