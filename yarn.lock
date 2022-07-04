@@ -2391,3 +2391,57 @@ __metadata:
     chownr: "npm:^2.0.0"
     fs-minipass: "npm:^2.1.0"
     glob: "npm:^8.0.1"
+    infer-owner: "npm:^1.0.4"
+    lru-cache: "npm:^7.7.1"
+    minipass: "npm:^3.1.6"
+    minipass-collect: "npm:^1.0.2"
+    minipass-flush: "npm:^1.0.5"
+    minipass-pipeline: "npm:^1.2.4"
+    mkdirp: "npm:^1.0.4"
+    p-map: "npm:^4.0.0"
+    promise-inflight: "npm:^1.0.1"
+    rimraf: "npm:^3.0.2"
+    ssri: "npm:^9.0.0"
+    tar: "npm:^6.1.11"
+    unique-filename: "npm:^1.1.1"
+  checksum: 39fe2c41d01311920b4e7024da72114dab882ba2d2561c718b36cd2505cd13d7902b5c32413b36dd54bfb870f84ce1f8f195bdbadab9579e38797337b5e82409
+  languageName: node
+  linkType: hard
+
+"callsites@npm:^3.0.0":
+  version: 3.1.0
+  resolution: "callsites@npm:3.1.0"
+  checksum: a0672a95746fb1be281d90ceedafb6584dd7c33e85bb9987d6caad53ac6eb313874fc2045230e8e08ef076e4aaa899342d99bd9c47bb1dd4f6a2740b62482ca2
+  languageName: node
+  linkType: hard
+
+"camel-case@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "camel-case@npm:4.1.2"
+  dependencies:
+    pascal-case: "npm:^3.1.2"
+    tslib: "npm:^2.0.3"
+  checksum: 825dd52d9138ece5360a71384722a5f3438ba5df9008470e12b1692b04f4de69c09164fb92ea54bc5ef5716ed6fc14732e0f39d2aad8925c3ea28a71bd2ecc3a
+  languageName: node
+  linkType: hard
+
+"camelcase-keys@npm:^6.2.2":
+  version: 6.2.2
+  resolution: "camelcase-keys@npm:6.2.2"
+  dependencies:
+    camelcase: "npm:^5.3.1"
+    map-obj: "npm:^4.0.0"
+    quick-lru: "npm:^4.0.1"
+  checksum: 95d71503ff25fd5517fd4485fe7bff52909c63dd157d351bda6519af171dc9a6b2dd3313e6c244c573a3a273d99c03e6adb459cbc2d18bcbe69a85b0e907ea4a
+  languageName: node
+  linkType: hard
+
+"camelcase@npm:^5.3.1":
+  version: 5.3.1
+  resolution: "camelcase@npm:5.3.1"
+  checksum: 3875260be8f9761ab3870045b7c5c826f584070fe92f5c13a2800a84572d6edf16e6da01db01e135c6d080569fcd690bd2376bdabc3bc80a91da81d1b1c5e773
+  languageName: node
+  linkType: hard
+
+"caniuse-api@npm:^3.0.0":
+  version: 3.0.0
