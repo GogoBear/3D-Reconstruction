@@ -2445,3 +2445,56 @@ __metadata:
 
 "caniuse-api@npm:^3.0.0":
   version: 3.0.0
+  resolution: "caniuse-api@npm:3.0.0"
+  dependencies:
+    browserslist: "npm:^4.0.0"
+    caniuse-lite: "npm:^1.0.0"
+    lodash.memoize: "npm:^4.1.2"
+    lodash.uniq: "npm:^4.5.0"
+  checksum: 23d8d08c0f7a7515290e8e67b20eb02b1d22f9661a0b072cd82a93e701533ed75da3d567d392aeb194b467ec874d67e8f32871ba3399f5d3afd52c275126ba1d
+  languageName: node
+  linkType: hard
+
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001358":
+  version: 1.0.30001358
+  resolution: "caniuse-lite@npm:1.0.30001358"
+  checksum: 1ebc924924ce929c3e7598999774dca6370a57d02b282e156693f07e642ea5ff8b85a071e9ae3991d724e36abf0b61c1cf8964b9c9890613d97b01855b4d735a
+  languageName: node
+  linkType: hard
+
+"caniuse-lite@npm:^1.0.30001400, caniuse-lite@npm:^1.0.30001426":
+  version: 1.0.30001426
+  resolution: "caniuse-lite@npm:1.0.30001426"
+  checksum: 1425c89a1c464aa51e3ee3bbbb9a75540b848f30d54be3dab54d39942e45242b9123ec988a0772cac2dd1977ec2e0dd4226c3e7d32ba5b4a07e513c715c82d23
+  languageName: node
+  linkType: hard
+
+"cardinal@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "cardinal@npm:2.1.1"
+  dependencies:
+    ansicolors: "npm:~0.3.2"
+    redeyed: "npm:~2.1.0"
+  bin:
+    cdl: ./bin/cdl.js
+  checksum: 9e9716cde2c12612625cc1114d883c00ff19d511924772a5caad0646ef4fbf4912b52c8e35e990100ab3f08c7e8db81fce996b8407c198f7932e23ff7a79a829
+  languageName: node
+  linkType: hard
+
+"chai@npm:^4.3.6":
+  version: 4.3.6
+  resolution: "chai@npm:4.3.6"
+  dependencies:
+    assertion-error: "npm:^1.1.0"
+    check-error: "npm:^1.0.2"
+    deep-eql: "npm:^3.0.1"
+    get-func-name: "npm:^2.0.0"
+    loupe: "npm:^2.3.1"
+    pathval: "npm:^1.1.1"
+    type-detect: "npm:^4.0.5"
+  checksum: a825508745171efaaa2788884fba5c6a7135625c297193a06546e6c85533eaec315d6e13a5a739bc54db2f48aa99c205bf62a462ec2ca67fd20b8a560feed1ba
+  languageName: node
+  linkType: hard
+
+"chalk@npm:^2.0.0, chalk@npm:^2.3.2, chalk@npm:^2.4.2":
+  version: 2.4.2
