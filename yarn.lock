@@ -2559,3 +2559,72 @@ __metadata:
 
 "ci-info@npm:^3.2.0":
   version: 3.4.0
+  resolution: "ci-info@npm:3.4.0"
+  checksum: 32c2d7db3304f9222a653edc3850a6d43045e52be19611f069bc4fe05c30f0b99ef74a0459d544d112c390f2bcd4d72847607f6009d348187ad8aa7e6ca5e900
+  languageName: node
+  linkType: hard
+
+"cidr-regex@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "cidr-regex@npm:3.1.1"
+  dependencies:
+    ip-regex: "npm:^4.1.0"
+  checksum: 102fb95dcc55242c78cbd298325e250feb5c2743260b32dbd9ad996d9d776b186c8a9c4978916dd9f9eed0952d6e79196ef8176a7578e6a5ac1dac302504471a
+  languageName: node
+  linkType: hard
+
+"clean-css@npm:^5.2.2":
+  version: 5.3.0
+  resolution: "clean-css@npm:5.3.0"
+  dependencies:
+    source-map: "npm:~0.6.0"
+  checksum: 8ef98b9780348c30f7020e73f5a23e66bffc5e50952aa5a0791a67f7c3995bb9feccde19594b8ad31bd7dd30726da806c19834f9024f6bcddd66119a5577f4c5
+  languageName: node
+  linkType: hard
+
+"clean-stack@npm:^2.0.0":
+  version: 2.2.0
+  resolution: "clean-stack@npm:2.2.0"
+  checksum: 0a476c914f0a5e9e12b215729e1a633fcbdd47b8c3d508ebe6441f2ef8d5047fdd0800926349dd18253db4bfcab3e48aa0aca1f2e7f5d614f7194778d7851be4
+  languageName: node
+  linkType: hard
+
+"cli-columns@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "cli-columns@npm:4.0.0"
+  dependencies:
+    string-width: "npm:^4.2.3"
+    strip-ansi: "npm:^6.0.1"
+  checksum: 2bae8e4638a07dc6b10a6ae55920e1ab9a2f788104b262272b4f0263ca410a01148d08b5312d3f7df78ef456a88111b01e8ca65fe12c749f9d4802009147536a
+  languageName: node
+  linkType: hard
+
+"cli-cursor@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "cli-cursor@npm:3.1.0"
+  dependencies:
+    restore-cursor: "npm:^3.1.0"
+  checksum: 953cdb0291450958e4745da72c078865555c4cce31d48681a51266d14c44ab0641d819762044fd25d6220eebbc878a38acfad913d633eafd3403f9637b1ba4b0
+  languageName: node
+  linkType: hard
+
+"cli-table3@npm:^0.6.1, cli-table3@npm:^0.6.2":
+  version: 0.6.2
+  resolution: "cli-table3@npm:0.6.2"
+  dependencies:
+    "@colors/colors": "npm:1.5.0"
+    string-width: "npm:^4.2.0"
+  dependenciesMeta:
+    "@colors/colors":
+      optional: true
+  checksum: dcee6d33413bc64856f709273b693cd639c464c97fb6c4dd33556fa80f107688f004a2e8c9b4e7972796e7819ad86ed616dff26d3dae7be5523c73222a437f45
+  languageName: node
+  linkType: hard
+
+"cli-truncate@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "cli-truncate@npm:2.1.0"
+  dependencies:
+    slice-ansi: "npm:^3.0.0"
+    string-width: "npm:^4.2.0"
+  checksum: 883f07a00218d9e78d2370fb94a0afd4c9898ed76b99613db0b6ac54fb5ce597d26857cae09fa0bc700eb6f43e1e60437bd17d1b909965d603ef203cd7a09a17
