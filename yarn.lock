@@ -2752,3 +2752,60 @@ __metadata:
 "commander@npm:^7.2.0":
   version: 7.2.0
   resolution: "commander@npm:7.2.0"
+  checksum: 1270a98c752348d62803dd6214bba584a13e5c80e0d32d590740f26c534209882a93daf471697326ad80b3f4f0417df31aca7b127e01efee58fe883b47c1a492
+  languageName: node
+  linkType: hard
+
+"commander@npm:^8.0.0, commander@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "commander@npm:8.3.0"
+  checksum: 94dba589da4444bc07d60537438ce36bbf78b52b18bb720fb3727a3b589cb27b53171065742e6e442962e273976f034ca7475cc5517d92c7033fae2f6ed50e76
+  languageName: node
+  linkType: hard
+
+"commander@npm:^9.3.0":
+  version: 9.3.0
+  resolution: "commander@npm:9.3.0"
+  checksum: 110e8e7a5476adfc7d76a2cc4928077dd094053d4387213db5f343327f4f7ef242d13d123788aacf172706264b184b5fa94b29556d9506493ca3325f31782f54
+  languageName: node
+  linkType: hard
+
+"common-ancestor-path@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "common-ancestor-path@npm:1.0.1"
+  checksum: 4cacc5522d3d91286c5f1cc6c4cf97b4a9641133506cf56d5c3ef85ef78cf28e0973a8baf4e0775d8ab078e32d7d21c0f646139193682e0b1fa53577d88d1c01
+  languageName: node
+  linkType: hard
+
+"compare-func@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "compare-func@npm:2.0.0"
+  dependencies:
+    array-ify: "npm:^1.0.0"
+    dot-prop: "npm:^5.1.0"
+  checksum: 51fa4e07d360e7dee6d2eaba1f4af310cb69cc547fe8c7fefcfb98b519d1c5d3c8d068f990fa85d3bfd4e92c3192f174338b22321abba2fad2a25d3bc73d1317
+  languageName: node
+  linkType: hard
+
+"concat-map@npm:0.0.1":
+  version: 0.0.1
+  resolution: "concat-map@npm:0.0.1"
+  checksum: 88222f18b3a68b71fe4473a146c8ed3315ec0488703104319c53543ad4668af3e79418ab79e2fa8032ee04c3eb45cc478815b89877a048cc5ba34e201bc15c35
+  languageName: node
+  linkType: hard
+
+"concat-stream@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "concat-stream@npm:2.0.0"
+  dependencies:
+    buffer-from: "npm:^1.0.0"
+    inherits: "npm:^2.0.3"
+    readable-stream: "npm:^3.0.2"
+    typedarray: "npm:^0.0.6"
+  checksum: 2c65dfc85d152848e91d9edb37951ad7d987d44dbc8d539c15d307efbe12d3a7a4fc01ba5587e589b59bd2dbb07870136152cc4f0d639fcd2a69c7fdfdc76e79
+  languageName: node
+  linkType: hard
+
+"connect-history-api-fallback@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "connect-history-api-fallback@npm:1.6.0"
