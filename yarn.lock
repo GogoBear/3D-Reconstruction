@@ -3042,3 +3042,68 @@ __metadata:
   linkType: hard
 
 "convert-source-map@npm:^1.6.0, convert-source-map@npm:^1.7.0":
+  version: 1.8.0
+  resolution: "convert-source-map@npm:1.8.0"
+  dependencies:
+    safe-buffer: "npm:~5.1.1"
+  checksum: 1548dbc3808672aec5942ada45bf57ceb2287ac2566e9935e35d95ffeab562f33ee1221922ec2ea7f3ff4b85828c8247599144069fae81a86e295cc932190dcf
+  languageName: node
+  linkType: hard
+
+"core-js@npm:3.26.1":
+  version: 3.26.1
+  resolution: "core-js@npm:3.26.1"
+  checksum: 74bf298c834701137b983f835e7fe8ac83febcbd4ae66a7adec68a85a076262c6b0c839bdd02ec5bd2f52f5e5f0feb55d66609be8594e1a3fba6e4f7885833a4
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^2.4.0, core-js@npm:^2.5.0":
+  version: 2.6.12
+  resolution: "core-js@npm:2.6.12"
+  checksum: 1cab48644f8b5d4c58c9ce82b045d1c683ba0b8025abd7df1b6a91a4dd24c64ea4194cc769849fedc71c0f56e1645cf6bc36808cbadd53b9a6dcb48c821df811
+  languageName: node
+  linkType: hard
+
+"core-util-is@npm:~1.0.0":
+  version: 1.0.3
+  resolution: "core-util-is@npm:1.0.3"
+  checksum: 3bd2c52819a46215dbe36b3686ec77a7897dcb288eedf217c352451f0e53c131426d191dca4d06f554e8abdcf4b75a8d0ceec85c25126c762e8fd89292f7e4c9
+  languageName: node
+  linkType: hard
+
+"cosmiconfig-typescript-loader@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "cosmiconfig-typescript-loader@npm:4.0.0"
+  peerDependencies:
+    "@types/node": "*"
+    cosmiconfig: ">=7"
+    ts-node: ">=10"
+    typescript: ">=3"
+  checksum: 435a4bdfa3c8282edc5190eb96712d5b02f0e24c752f279026eff2903f960fa151e421a21c9272d34425c3dab4e5e2b76392ce4110160c28de1846870cd69453
+  languageName: node
+  linkType: hard
+
+"cosmiconfig@npm:^7.0.0":
+  version: 7.0.1
+  resolution: "cosmiconfig@npm:7.0.1"
+  dependencies:
+    "@types/parse-json": "npm:^4.0.0"
+    import-fresh: "npm:^3.2.1"
+    parse-json: "npm:^5.0.0"
+    path-type: "npm:^4.0.0"
+    yaml: "npm:^1.10.0"
+  checksum: f5b0588faeb39d1bcb846504cb6693121bf6af4d09a5a0523a9201d189a769a067db33e36d6c6fe23937cc24f9771ad0e76ecb3056a4e244697867d62aa50ec0
+  languageName: node
+  linkType: hard
+
+"create-require@npm:^1.1.0":
+  version: 1.1.1
+  resolution: "create-require@npm:1.1.1"
+  checksum: 9db2a6d1a6e69929e4b18045910289a17543f9f07ba4d6027e9c3fdc4c985998cd4b6738a45675ab870287483832332d5aa75a1612c87230149d1fba568ae86a
+  languageName: node
+  linkType: hard
+
+"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
+  version: 7.0.3
+  resolution: "cross-spawn@npm:7.0.3"
+  dependencies:
