@@ -2914,3 +2914,66 @@ __metadata:
   checksum: 31025ba98cfadb3b558733355f251b580b3571ed31992fe9347edfea67addba66b9acb06ae5c19fdb1dab84983d4fb93d1670435acbbb57ae15b36dc009941d7
   languageName: node
   linkType: hard
+
+"conventional-changelog-eslint@npm:^3.0.9":
+  version: 3.0.9
+  resolution: "conventional-changelog-eslint@npm:3.0.9"
+  dependencies:
+    q: "npm:^1.5.1"
+  checksum: 6686052a28b6df7c291ba004803b29b83459639db6e3a2eac100339255b6b0ff293d9c671b32db85bd5b423dfb090104df0ed6d08ce5cd8759c623a0b7e101b6
+  languageName: node
+  linkType: hard
+
+"conventional-changelog-express@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "conventional-changelog-express@npm:2.0.6"
+  dependencies:
+    q: "npm:^1.5.1"
+  checksum: df4e99fe4e8a4ad4dba72a087136ffbca8833d0468dc175593c5076f99c9137ef2d072bfc242ea8eba33e4711f2634422b24dcf2536f6154a9c4b66909a1aee8
+  languageName: node
+  linkType: hard
+
+"conventional-changelog-jquery@npm:^3.0.11":
+  version: 3.0.11
+  resolution: "conventional-changelog-jquery@npm:3.0.11"
+  dependencies:
+    q: "npm:^1.5.1"
+  checksum: bb33bb8ca3b15e6526dc586e4423623c9697cde6dfd7730edbd9544c7ef5b9f230e2041cad7da20c0eb1e231744cd0617676dd83c43f89ce6029835cf3815f66
+  languageName: node
+  linkType: hard
+
+"conventional-changelog-jshint@npm:^2.0.9":
+  version: 2.0.9
+  resolution: "conventional-changelog-jshint@npm:2.0.9"
+  dependencies:
+    compare-func: "npm:^2.0.0"
+    q: "npm:^1.5.1"
+  checksum: 8f55f51ed09db15c1a884f6adabedd5448c7c4c621020e8b1e0bf37bf0a833fea54bd9f0be2c8371694c5cd58ed0633e526dd16cec4ae9a0b8d57ef827467365
+  languageName: node
+  linkType: hard
+
+"conventional-changelog-preset-loader@npm:^2.3.4":
+  version: 2.3.4
+  resolution: "conventional-changelog-preset-loader@npm:2.3.4"
+  checksum: 6b3e90502c2970e4592520a4522b1ea4ef64884e6e99168f372212430e52d3b92bffec21e9d180df0e7feaac645d7c3eee79d181f58305861484cc721c25347d
+  languageName: node
+  linkType: hard
+
+"conventional-changelog-writer@npm:^5.0.0":
+  version: 5.0.1
+  resolution: "conventional-changelog-writer@npm:5.0.1"
+  dependencies:
+    conventional-commits-filter: "npm:^2.0.7"
+    dateformat: "npm:^3.0.0"
+    handlebars: "npm:^4.7.7"
+    json-stringify-safe: "npm:^5.0.1"
+    lodash: "npm:^4.17.15"
+    meow: "npm:^8.0.0"
+    semver: "npm:^6.0.0"
+    split: "npm:^1.0.0"
+    through2: "npm:^4.0.0"
+  bin:
+    conventional-changelog-writer: cli.js
+  checksum: 8c75386fb6a7a0de0b5101db74b6e64ee88a794d031bfaf1706b1647c59735c06a0875e5976e54512c7e38b7ccd541ba9bf94eb7457c422e1d08ff978c5d2974
+  languageName: node
+  linkType: hard
