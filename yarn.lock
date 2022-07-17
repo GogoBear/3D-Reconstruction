@@ -2977,3 +2977,68 @@ __metadata:
   checksum: 8c75386fb6a7a0de0b5101db74b6e64ee88a794d031bfaf1706b1647c59735c06a0875e5976e54512c7e38b7ccd541ba9bf94eb7457c422e1d08ff978c5d2974
   languageName: node
   linkType: hard
+
+"conventional-changelog@npm:3.1.25":
+  version: 3.1.25
+  resolution: "conventional-changelog@npm:3.1.25"
+  dependencies:
+    conventional-changelog-angular: "npm:^5.0.12"
+    conventional-changelog-atom: "npm:^2.0.8"
+    conventional-changelog-codemirror: "npm:^2.0.8"
+    conventional-changelog-conventionalcommits: "npm:^4.5.0"
+    conventional-changelog-core: "npm:^4.2.1"
+    conventional-changelog-ember: "npm:^2.0.9"
+    conventional-changelog-eslint: "npm:^3.0.9"
+    conventional-changelog-express: "npm:^2.0.6"
+    conventional-changelog-jquery: "npm:^3.0.11"
+    conventional-changelog-jshint: "npm:^2.0.9"
+    conventional-changelog-preset-loader: "npm:^2.3.4"
+  checksum: f932b166fa8a3268b8f095781b02b7d8d9c67f0386d58e7940ce56cd305f0a2b96148de12af18e944208e5b818c3970e884de28054839bf71d70e211430d9534
+  languageName: node
+  linkType: hard
+
+"conventional-commits-filter@npm:^2.0.0, conventional-commits-filter@npm:^2.0.7":
+  version: 2.0.7
+  resolution: "conventional-commits-filter@npm:2.0.7"
+  dependencies:
+    lodash.ismatch: "npm:^4.4.0"
+    modify-values: "npm:^1.0.0"
+  checksum: 433c256d6dc95cb990c7c26dd421e8cc3697bce0cc0b7cbf14e57144a727aa17a925afcb14100af30047f048b8e27338cb6726032bc5f949199e667f8b627262
+  languageName: node
+  linkType: hard
+
+"conventional-commits-parser@npm:^3.2.0, conventional-commits-parser@npm:^3.2.2, conventional-commits-parser@npm:^3.2.3":
+  version: 3.2.4
+  resolution: "conventional-commits-parser@npm:3.2.4"
+  dependencies:
+    JSONStream: "npm:^1.0.4"
+    is-text-path: "npm:^1.0.1"
+    lodash: "npm:^4.17.15"
+    meow: "npm:^8.0.0"
+    split2: "npm:^3.0.0"
+    through2: "npm:^4.0.0"
+  bin:
+    conventional-commits-parser: cli.js
+  checksum: 8540ba2f65dc57beb2df2519d73c57f77158ac69b54cd079c00eebafd26deb10abf8de8075811f0e80c262aada7bdabb5ecda0c206d950cff3c4fbf5e3c4342d
+  languageName: node
+  linkType: hard
+
+"conventional-recommended-bump@npm:6.1.0":
+  version: 6.1.0
+  resolution: "conventional-recommended-bump@npm:6.1.0"
+  dependencies:
+    concat-stream: "npm:^2.0.0"
+    conventional-changelog-preset-loader: "npm:^2.3.4"
+    conventional-commits-filter: "npm:^2.0.7"
+    conventional-commits-parser: "npm:^3.2.0"
+    git-raw-commits: "npm:^2.0.8"
+    git-semver-tags: "npm:^4.1.1"
+    meow: "npm:^8.0.0"
+    q: "npm:^1.5.1"
+  bin:
+    conventional-recommended-bump: cli.js
+  checksum: da6828d53102e0adc9275f2774f1362dcdfa0eafe875c9282b62670a3f4db6430c372060b2d57bb660c4730cb3026828a40ed189e98ae3926ce82434eacf6555
+  languageName: node
+  linkType: hard
+
+"convert-source-map@npm:^1.6.0, convert-source-map@npm:^1.7.0":
