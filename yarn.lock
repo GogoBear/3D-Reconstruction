@@ -3457,3 +3457,59 @@ __metadata:
   checksum: c241ce992c1b59de63637d5ea2c4ac36e5686a0c660830a2dea1c9963abbb83907bef6aebe2898a3e581483bf8b1073e806ad884bf8cafe2af4023fb8ecf0f58
   languageName: node
   linkType: hard
+
+"dir-glob@npm:^3.0.0, dir-glob@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "dir-glob@npm:3.0.1"
+  dependencies:
+    path-type: "npm:^4.0.0"
+  checksum: 713590b89f9d09b80da82094419260ee15f4e67da692659876ac747ee38788dbb8b2bd5d2749bbcf298ce934888e378569f01895a136a09b54d1b28753e337c7
+  languageName: node
+  linkType: hard
+
+"doctrine@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "doctrine@npm:3.0.0"
+  dependencies:
+    esutils: "npm:^2.0.2"
+  checksum: 6b38a63fa66847d80e130bb85c83c173b1050037fffac3d5f740c8c691243d5b6fadc5ec502ae8297c474680d879eb24ad8ec7f901673704fe40c8dedc1bee62
+  languageName: node
+  linkType: hard
+
+"dom-accessibility-api@npm:^0.5.9":
+  version: 0.5.14
+  resolution: "dom-accessibility-api@npm:0.5.14"
+  checksum: b1865c3ea5ba3fd0ad0f119da2610fe80b01df7119e16b666e97348fb3090cc6a8569bbd0046ad33d614ff953d5f8274e97481692e23360f319d7030f103e057
+  languageName: node
+  linkType: hard
+
+"dom-serializer@npm:^1.0.1":
+  version: 1.4.1
+  resolution: "dom-serializer@npm:1.4.1"
+  dependencies:
+    domelementtype: "npm:^2.0.1"
+    domhandler: "npm:^4.2.0"
+    entities: "npm:^2.0.0"
+  checksum: 94f1d57ee01a9bb1f8f82b83484de837daa89fd99e66356f9e92c9e936c7acdc7902386320edf4d3340cd3fa116d0e9553b0cca6a94df6562aa0f4661b63c322
+  languageName: node
+  linkType: hard
+
+"domelementtype@npm:^2.0.1, domelementtype@npm:^2.2.0":
+  version: 2.3.0
+  resolution: "domelementtype@npm:2.3.0"
+  checksum: 07afcb90734e39b324e19271effc13389bb27a3957fa68a99b19d0ffdc0338fe669e9170a876f0fc4948bedd28b1f937042ada4948bee54e01a833c37a54dd74
+  languageName: node
+  linkType: hard
+
+"domexception@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "domexception@npm:4.0.0"
+  dependencies:
+    webidl-conversions: "npm:^7.0.0"
+  checksum: a5d92a0b82244535a8c3e6c04c6e735ca5e4e88f47e74c3ade29c2e3d65a8f9180266ff04f9529e84f223d53a2b4deba3ff6ac9df5318742adeef4e76722cd56
+  languageName: node
+  linkType: hard
+
+"domhandler@npm:^4.2.0, domhandler@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "domhandler@npm:4.3.1"
