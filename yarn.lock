@@ -4521,3 +4521,54 @@ __metadata:
   version: 4.1.0
   resolution: "find-up@npm:4.1.0"
   dependencies:
+    locate-path: "npm:^5.0.0"
+    path-exists: "npm:^4.0.0"
+  checksum: ae51bbfc4040bb85937589c31dd5f1ac0e80df18feccabcfbdd78ee7a9fc06b198ae73bb87a9d398ab98314dded1cacebde9f77e1c80195a5a68446ba7ee1ae3
+  languageName: node
+  linkType: hard
+
+"find-up@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "find-up@npm:5.0.0"
+  dependencies:
+    locate-path: "npm:^6.0.0"
+    path-exists: "npm:^4.0.0"
+  checksum: 4d6f51423a974f370ce34dd00982d764e160121e4d823f46b2b79b180a34c0a23a1d09aa83851f0d1a78226be8281100ef3b4cd6990b226ed961acfa2be4a36c
+  languageName: node
+  linkType: hard
+
+"find-versions@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "find-versions@npm:4.0.0"
+  dependencies:
+    semver-regex: "npm:^3.1.2"
+  checksum: bfbc5bbd22a7c1f6f8cb823cb6857db677a3d2f48b4abfed9c15af45e907d810635cabd86e3208feec7dab3ed6d02abede71f819b0c00812f35793f18a590de3
+  languageName: node
+  linkType: hard
+
+"flat-cache@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "flat-cache@npm:3.0.4"
+  dependencies:
+    flatted: "npm:^3.1.0"
+    rimraf: "npm:^3.0.2"
+  checksum: 0a97f11128bd044884981fc0cb381abe69dc3779dc6fdcbffc53d0739fecc580d0f082b6adaeff5e766822dd0d701cb274fbd8afdedddb6b5bc1829cf148b995
+  languageName: node
+  linkType: hard
+
+"flatted@npm:^3.1.0":
+  version: 3.2.5
+  resolution: "flatted@npm:3.2.5"
+  checksum: a191869af08aca8af3788f981f64aede2fcaea7e3f28bd241f82f4bdfa62a8b7cd3927979e8c93229e3411a5a53f399f71f013c66ae9a7386bfa585b60fa069a
+  languageName: node
+  linkType: hard
+
+"foreground-child@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "foreground-child@npm:2.0.0"
+  dependencies:
+    cross-spawn: "npm:^7.0.0"
+    signal-exit: "npm:^3.0.2"
+  checksum: 8187629907a23d158cc4be6bf6205e51907f00c2d7068e425caebb21cda84cfe07f2e4b4b2929a591f0e7f1694e0b3980b3ba5298723ff9eca828ab483098051
+  languageName: node
+  linkType: hard
