@@ -4470,3 +4470,54 @@ __metadata:
     escape-string-regexp: "npm:^1.0.5"
   checksum: 6d482424c6a6eac60b6ff786886ab7a1174e29a3fd664d756fa73fc71730e44016f6032d535f295efd42e9c260897b8dc0f45981c6e6c07a83353cf3afb05021
   languageName: node
+  linkType: hard
+
+"file-entry-cache@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "file-entry-cache@npm:6.0.1"
+  dependencies:
+    flat-cache: "npm:^3.0.4"
+  checksum: cac7f7775980e696eceb922313887c03204eaea3659e0cd5b9f83ef29c7e5c613a6aa7662a3e9d0f78cf68060b093b82572e554f5464c0b2f626db32ef969cdc
+  languageName: node
+  linkType: hard
+
+"filelist@npm:^1.0.1":
+  version: 1.0.4
+  resolution: "filelist@npm:1.0.4"
+  dependencies:
+    minimatch: "npm:^5.0.1"
+  checksum: f24e711620c5f75b3016e09f2dce86f6598237349c0ba825dc2074f4efa50f450bfba4dbdca2592a8ba60c4a6300ddf9a9dd89d25e9baa5c68837c0c549267f5
+  languageName: node
+  linkType: hard
+
+"fill-range@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "fill-range@npm:7.0.1"
+  dependencies:
+    to-regex-range: "npm:^5.0.1"
+  checksum: e5ccb299de8a12ea5dcef663f658933e2fbdf40aeab3e7e5af9132e82d7f6bdd0984ac2e122dc1825707f33917c308bc40b632b852331c900c317c5d64bb7bf0
+  languageName: node
+  linkType: hard
+
+"find-up@npm:^2.0.0":
+  version: 2.1.0
+  resolution: "find-up@npm:2.1.0"
+  dependencies:
+    locate-path: "npm:^2.0.0"
+  checksum: ba904cac38e7224e3be7923fcaffd177c05cfddb6df41591ccf27159c1fe3e2168c7a4352f9142287dd59419ecc594acd312851df0f6916196dfd7739c11c361
+  languageName: node
+  linkType: hard
+
+"find-up@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "find-up@npm:3.0.0"
+  dependencies:
+    locate-path: "npm:^3.0.0"
+  checksum: edbd2334fcfb1391af9f246bbf6aa2e7187bdc807150ba7e39dca2c0a7a07560ea49dd7a86e266465de0934958da6ad0f9526d46af1e952f1d2fb858d76bc598
+  languageName: node
+  linkType: hard
+
+"find-up@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "find-up@npm:4.1.0"
+  dependencies:
