@@ -4572,3 +4572,56 @@ __metadata:
   checksum: 8187629907a23d158cc4be6bf6205e51907f00c2d7068e425caebb21cda84cfe07f2e4b4b2929a591f0e7f1694e0b3980b3ba5298723ff9eca828ab483098051
   languageName: node
   linkType: hard
+
+"form-data@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "form-data@npm:4.0.0"
+  dependencies:
+    asynckit: "npm:^0.4.0"
+    combined-stream: "npm:^1.0.8"
+    mime-types: "npm:^2.1.12"
+  checksum: de37c5684d843842d2cc2bc44a975d9fecdf1df30d061c90b62fc0caeeeeb45794bceaba7aa52ee5eae8ede01ba44215b26c58f41cf64271c513787b7241fce4
+  languageName: node
+  linkType: hard
+
+"fraction.js@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "fraction.js@npm:4.2.0"
+  checksum: b9136779dc6442d15595bf29c9cdec784968645711a6df0e62bfffc669d9d895a79d760b1a95f0a58adf5893037bf91a0e7ef0b68f105526d3418c5a77cd115b
+  languageName: node
+  linkType: hard
+
+"from2@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "from2@npm:2.3.0"
+  dependencies:
+    inherits: "npm:^2.0.1"
+    readable-stream: "npm:^2.0.0"
+  checksum: 6417f57ccc4da4cffc06909985d485181580ed129d916b009edb035554a258a19ff1345b0b9735b82d018589d7b959beb43007f562986df59f66f7ab1c02ed46
+  languageName: node
+  linkType: hard
+
+"fromentries@npm:^1.3.2":
+  version: 1.3.2
+  resolution: "fromentries@npm:1.3.2"
+  checksum: 9f8611dce0b7b2ea2ec358f59c8cd48bcb90b046002acd3b39c294eda23632bdad0096a53f28ac4f8a3f937bece10812414bc6d870f2f4428395cdc8de7f6503
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:^10.0.0, fs-extra@npm:^10.0.1":
+  version: 10.1.0
+  resolution: "fs-extra@npm:10.1.0"
+  dependencies:
+    graceful-fs: "npm:^4.2.0"
+    jsonfile: "npm:^6.0.1"
+    universalify: "npm:^2.0.0"
+  checksum: c397c1bfbb8976afb6758a96b9d5781c179b01ec843caa9f6613b8d95d95e17229d1ba7132dd811e112df5f2537bce1f68a3c0a722decc345947f133921fa3b3
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:^9.0.0":
+  version: 9.1.0
+  resolution: "fs-extra@npm:9.1.0"
+  dependencies:
+    at-least-node: "npm:^1.0.0"
+    graceful-fs: "npm:^4.2.0"
