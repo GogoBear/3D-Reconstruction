@@ -4746,3 +4746,56 @@ __metadata:
   linkType: hard
 
 "git-raw-commits@npm:^2.0.0, git-raw-commits@npm:^2.0.8":
+  version: 2.0.11
+  resolution: "git-raw-commits@npm:2.0.11"
+  dependencies:
+    dargs: "npm:^7.0.0"
+    lodash: "npm:^4.17.15"
+    meow: "npm:^8.0.0"
+    split2: "npm:^3.0.0"
+    through2: "npm:^4.0.0"
+  bin:
+    git-raw-commits: cli.js
+  checksum: 027680ba9dc178b078697d5c717dfbae22bf3645573248c5b2d94844a64590ff549ff3dd4d21c11180e90b23949e7a61f1f9346f73a302f3ec5766d085db099f
+  languageName: node
+  linkType: hard
+
+"git-remote-origin-url@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "git-remote-origin-url@npm:2.0.0"
+  dependencies:
+    gitconfiglocal: "npm:^1.0.0"
+    pify: "npm:^2.3.0"
+  checksum: dcb49970c5b4595d4f448d738c71c444e15118cd26ec5995b8d23389534b95b5899db33a9918f017bbbfa314f8639287224f3e693ae40cd9b263ca4bfde97b68
+  languageName: node
+  linkType: hard
+
+"git-semver-tags@npm:^4.0.0, git-semver-tags@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "git-semver-tags@npm:4.1.1"
+  dependencies:
+    meow: "npm:^8.0.0"
+    semver: "npm:^6.0.0"
+  bin:
+    git-semver-tags: cli.js
+  checksum: 2ad103caf6f406ace3e0de9b8ad524ec468c17ec360500b5ccb560c3d643fc15cf0dde77ae5898f36f05de5efdcc5d4a0d801b3d8b4c053e1a3bcb57c2e9c391
+  languageName: node
+  linkType: hard
+
+"gitconfiglocal@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "gitconfiglocal@npm:1.0.0"
+  dependencies:
+    ini: "npm:^1.3.2"
+  checksum: 8d6bab133cf902acfb5a851e0259e02642c8e8b71878e24925691664eeb3d0ec0b3af72c02c0d5037ea8d8b3e51e2ecb8fad00e6853c6a4fa78d26d6ccedbda5
+  languageName: node
+  linkType: hard
+
+"glob-parent@npm:^5.1.2, glob-parent@npm:~5.1.2":
+  version: 5.1.2
+  resolution: "glob-parent@npm:5.1.2"
+  dependencies:
+    is-glob: "npm:^4.0.1"
+  checksum: 2a8fd4de469543f6160dbfff5c59950e39494fc8b692ca7e1d0a5564450dee53228370b43bcfdeda82c2f96b26de618ef8aa5ece28090fcd568c411b6148241d
+  languageName: node
+  linkType: hard
