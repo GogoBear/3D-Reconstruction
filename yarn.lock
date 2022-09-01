@@ -4897,3 +4897,42 @@ __metadata:
   linkType: hard
 
 "grapheme-splitter@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "grapheme-splitter@npm:1.0.4"
+  checksum: c67a8e522758dd907770a78ad750e6dfdcce327b0696fdd82f4b7acb8bb22b0574c88f806afb3c6597a536fa9016e6e3486071535fd0e9226b8505c67cf2fb01
+  languageName: node
+  linkType: hard
+
+"handlebars@npm:^4.7.7":
+  version: 4.7.7
+  resolution: "handlebars@npm:4.7.7"
+  dependencies:
+    minimist: "npm:^1.2.5"
+    neo-async: "npm:^2.6.0"
+    source-map: "npm:^0.6.1"
+    uglify-js: "npm:^3.1.4"
+    wordwrap: "npm:^1.0.0"
+  dependenciesMeta:
+    uglify-js:
+      optional: true
+  bin:
+    handlebars: bin/handlebars
+  checksum: 132aa454ca6daac6e4dc9bc267fb182fde3876ae994364ce770e178d85112e51fee9240e1ae4c723b89ca84e193e19385122ccccd47aae2ef07e5bdb3fa6d959
+  languageName: node
+  linkType: hard
+
+"hard-rejection@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "hard-rejection@npm:2.1.0"
+  checksum: f6be91a699a2769afb67fc7127cf692328d45848c45c43a7d69f429b6b2904c742af9f409086e7c1277549a429059cf10dc1c69c26838ae74bf5d7c9be88e307
+  languageName: node
+  linkType: hard
+
+"has-flag@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "has-flag@npm:3.0.0"
+  checksum: b1cb757b71bca736b4f7a060d52a7914b1438d7bd7ba3cb783f71728c7a72d51520955d477d54fce75e19a859d93fadc9b707de019c141c45f2e560c48beb1f9
+  languageName: node
+  linkType: hard
+
+"has-flag@npm:^4.0.0":
