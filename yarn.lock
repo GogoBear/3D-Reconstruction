@@ -5222,3 +5222,53 @@ __metadata:
   version: 4.3.0
   resolution: "ip-regex@npm:4.3.0"
   checksum: 5103df535c71b9b2d99c7c98e5aa80763b05c02d8bf4ee2c133bb88dbee1e83e6117dc85bdac8e5c5d8a2c47fb645d09c2ac59ccbc84cfe94675cfabbe72d531
+  languageName: node
+  linkType: hard
+
+"ip@npm:^1.1.5":
+  version: 1.1.8
+  resolution: "ip@npm:1.1.8"
+  checksum: bb1850e7b6573a53b7fd8becad4c81e0026b94d2a3322bb8540ab67fa3987c7401d1f2986fe6119f1578464ac465dad2c8b243c08c748f1f88c350c64cc9d134
+  languageName: node
+  linkType: hard
+
+"is-arrayish@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "is-arrayish@npm:0.2.1"
+  checksum: c701fd85259ab454cfacf4a30123e3e43542a3e60124a670e89f6e5847590ff4a6e4c0d8ccbe940df64f0001547f65856cf6a13b6528a7ce93da34cf2b2ea23d
+  languageName: node
+  linkType: hard
+
+"is-binary-path@npm:~2.1.0":
+  version: 2.1.0
+  resolution: "is-binary-path@npm:2.1.0"
+  dependencies:
+    binary-extensions: "npm:^2.0.0"
+  checksum: f6ed933392b85facdc081bbe3539602ac70cf35fe5d3d7e02da0b9c4bc65fa673d815142f16bf6253de84a561332a680382be1ade1406c89c9102832a571620f
+  languageName: node
+  linkType: hard
+
+"is-cidr@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "is-cidr@npm:4.0.2"
+  dependencies:
+    cidr-regex: "npm:^3.1.1"
+  checksum: 4c65166c082a31ef43228bce06968711d829aa65af82211a4cf351ac5e4b62fee2ebadb6b530e8d60f8dd43bb781d5734654e0fca2b8082c5a027e894a3d589f
+  languageName: node
+  linkType: hard
+
+"is-core-module@npm:^2.5.0, is-core-module@npm:^2.9.0":
+  version: 2.9.0
+  resolution: "is-core-module@npm:2.9.0"
+  dependencies:
+    has: "npm:^1.0.3"
+  checksum: ac7e79bde4fe529a7281a2f7e8e7f8128c26a2fe660d248ff91def539c35c4353a5f9ff65c7d61565c4943f2614b0fc9310447680d397e7ca2564f0729ca6429
+  languageName: node
+  linkType: hard
+
+"is-core-module@npm:^2.8.1":
+  version: 2.10.0
+  resolution: "is-core-module@npm:2.10.0"
+  dependencies:
+    has: "npm:^1.0.3"
+  checksum: 38234107db3b4e014feec8af26297260091061a264259af8a20cd76da4fe39d444ce295f5f31d99422bfd9339cb564d4718bb8d3f56245ab392cc73c8e8c8869
