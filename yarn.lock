@@ -5096,3 +5096,64 @@ __metadata:
   version: 0.6.3
   resolution: "iconv-lite@npm:0.6.3"
   dependencies:
+    safer-buffer: "npm:>= 2.1.2 < 3.0.0"
+  checksum: 14633c984e398011b4cce3d453e6566e4cc1b58f257e6fc48ae39c25a158b926e6cd7ee6023cd84aff12952a7581bd10bd4e7954af802dd5678e83b4cb8fdbba
+  languageName: node
+  linkType: hard
+
+"ignore-walk@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "ignore-walk@npm:5.0.1"
+  dependencies:
+    minimatch: "npm:^5.0.1"
+  checksum: c7b4771272ff78a248742c51cc9e03d45aed0df922d1939f41eaab8bf3bffe06c376cb3222938297850cdcf81acf39f8427779f69d41bb29e4489d16503987d2
+  languageName: node
+  linkType: hard
+
+"ignore@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "ignore@npm:5.2.0"
+  checksum: 0086b6992b2e2c9ec23f009e5939022323f1b4ad291607507045cc67b0a3b5d9724fc425f5300b3ba6d10ef74311bdf71cd26040227c30a182cf1b2a5971226b
+  languageName: node
+  linkType: hard
+
+"immutable@npm:^4.0.0":
+  version: 4.1.0
+  resolution: "immutable@npm:4.1.0"
+  checksum: 73b16013a6e7592cf8757d717a14a53016b1c6b1d0c683c74dbfe6fdfd44ca3dcceb7efab34d0ed226f189d9e7b4d3d65ec03c3a892dad839f45209f54e474b3
+  languageName: node
+  linkType: hard
+
+"import-fresh@npm:^3.0.0, import-fresh@npm:^3.2.1":
+  version: 3.3.0
+  resolution: "import-fresh@npm:3.3.0"
+  dependencies:
+    parent-module: "npm:^1.0.0"
+    resolve-from: "npm:^4.0.0"
+  checksum: 81ec300d4d16df0ba4f4ed99f4c7e8f312c4c6f48c100afe801deae468479cb8d8209a7c71a943b3e6def4fa0c24ad3eac34e72cb4968424930df39e8d16e9c9
+  languageName: node
+  linkType: hard
+
+"import-from@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "import-from@npm:4.0.0"
+  checksum: 5e1499607189f20cbc2b0dd3ae5dab4cba035be4f15d67b5144fd8ed3773887c8516fb21d76cfe03a42cc1030bcc06cd1023a42eb62331261fe8cd1388496dfa
+  languageName: node
+  linkType: hard
+
+"imurmurhash@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "imurmurhash@npm:0.1.4"
+  checksum: 6e2473e6083063b9f5f21a9586794b3af5b3f87995bcf60cb64f3824a7323c2ae41b4eaf3d7446e20fb66b5f3410094246aa3c52db7585270c8b10f762b8ffa1
+  languageName: node
+  linkType: hard
+
+"indent-string@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "indent-string@npm:4.0.0"
+  checksum: f4ab9e229c120377a63fce905062e5fdf1c300ca01b72401dda5aa991e8f614fdb2f99fe7cc37ef3234413da4ab43d5a4f905356fdffb9d078e83806d274719c
+  languageName: node
+  linkType: hard
+
+"infer-owner@npm:^1.0.4":
+  version: 1.0.4
