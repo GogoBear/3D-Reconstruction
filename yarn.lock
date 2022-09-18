@@ -5724,3 +5724,44 @@ __metadata:
 "libnpmaccess@npm:^6.0.2":
   version: 6.0.3
   resolution: "libnpmaccess@npm:6.0.3"
+  dependencies:
+    aproba: "npm:^2.0.0"
+    minipass: "npm:^3.1.1"
+    npm-package-arg: "npm:^9.0.1"
+    npm-registry-fetch: "npm:^13.0.0"
+  checksum: 4e2e14c9993ac61559ca33d67b246a04d2cbf506286b057e9114dc259cf6515117fcd29efa21cb9c86614c2e7bd692dc03f4e35d907ec01708238f0c189ce0fa
+  languageName: node
+  linkType: hard
+
+"libnpmdiff@npm:^4.0.2":
+  version: 4.0.4
+  resolution: "libnpmdiff@npm:4.0.4"
+  dependencies:
+    "@npmcli/disparity-colors": "npm:^2.0.0"
+    "@npmcli/installed-package-contents": "npm:^1.0.7"
+    binary-extensions: "npm:^2.2.0"
+    diff: "npm:^5.0.0"
+    minimatch: "npm:^5.0.1"
+    npm-package-arg: "npm:^9.0.1"
+    pacote: "npm:^13.6.1"
+    tar: "npm:^6.1.0"
+  checksum: c4f275a6fc076390b9e4c78e60fe089250a7f2c92f0727b7c50b20b86b8b6da3c0b9bfb7007577f1c9a18f594f59591c798f73b93ff9284d12b2b67b72ac9623
+  languageName: node
+  linkType: hard
+
+"libnpmexec@npm:^4.0.2":
+  version: 4.0.10
+  resolution: "libnpmexec@npm:4.0.10"
+  dependencies:
+    "@npmcli/arborist": "npm:^5.0.0"
+    "@npmcli/ci-detect": "npm:^2.0.0"
+    "@npmcli/fs": "npm:^2.1.1"
+    "@npmcli/run-script": "npm:^4.2.0"
+    chalk: "npm:^4.1.0"
+    mkdirp-infer-owner: "npm:^2.0.0"
+    npm-package-arg: "npm:^9.0.1"
+    npmlog: "npm:^6.0.2"
+    pacote: "npm:^13.6.1"
+    proc-log: "npm:^2.0.0"
+    read: "npm:^1.0.7"
+    read-package-json-fast: "npm:^2.0.2"
