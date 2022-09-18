@@ -5379,3 +5379,47 @@ __metadata:
   version: 1.0.1
   resolution: "is-text-path@npm:1.0.1"
   dependencies:
+    text-extensions: "npm:^1.0.0"
+  checksum: 1e9f4e3a5e553aeac2ac491a8c173ef897643eb3cd89420cce69dd3e9fca07046db3a1de9b5a4fea1eebb29ca678acbbd71e155dbff802ff41881c8616a26599
+  languageName: node
+  linkType: hard
+
+"isarray@npm:~1.0.0":
+  version: 1.0.0
+  resolution: "isarray@npm:1.0.0"
+  checksum: 7b41a2a80d6285328dddeecd3e45a5c73264e8ff8817bb7dc39f6f47323dfaa28e27c13918aac4aa88e48800a4f1eee2e5e966da433e06085ef0a7592dcf6880
+  languageName: node
+  linkType: hard
+
+"isexe@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "isexe@npm:2.0.0"
+  checksum: b37fe0a7983c0c151c7b31ca716405aaea190ac9cd6ef3f79355f4afb043ed4d3182a6addd73b20df7a0b229269737ad0daf64116821a048bfbe6b8fb7eb842c
+  languageName: node
+  linkType: hard
+
+"issue-parser@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "issue-parser@npm:6.0.0"
+  dependencies:
+    lodash.capitalize: "npm:^4.2.1"
+    lodash.escaperegexp: "npm:^4.1.2"
+    lodash.isplainobject: "npm:^4.0.6"
+    lodash.isstring: "npm:^4.0.1"
+    lodash.uniqby: "npm:^4.7.0"
+  checksum: 8d65ae122c9fda967bc0b09888351d924c400231d9948dfd1b49c37bec796114ed2d4db22601a2ad07b44e3ff851f8d88ca89b18f412cba245f08c880557a491
+  languageName: node
+  linkType: hard
+
+"istanbul-lib-coverage@npm:^3.0.0, istanbul-lib-coverage@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "istanbul-lib-coverage@npm:3.2.0"
+  checksum: a763d8be15991de6b4c4e99727126a0fd4da3a3d87577a1e42c8856674f361472196f8db7307801b35a294f48ffcf66c6cc45f34086ca58015f16a9fc9fc04f6
+  languageName: node
+  linkType: hard
+
+"istanbul-lib-report@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "istanbul-lib-report@npm:3.0.0"
+  dependencies:
+    istanbul-lib-coverage: "npm:^3.0.0"
