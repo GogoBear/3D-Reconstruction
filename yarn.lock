@@ -5572,3 +5572,67 @@ __metadata:
     tough-cookie: "npm:^4.1.2"
     w3c-xmlserializer: "npm:^3.0.0"
     webidl-conversions: "npm:^7.0.0"
+    whatwg-encoding: "npm:^2.0.0"
+    whatwg-mimetype: "npm:^3.0.0"
+    whatwg-url: "npm:^11.0.0"
+    ws: "npm:^8.9.0"
+    xml-name-validator: "npm:^4.0.0"
+  peerDependencies:
+    canvas: ^2.5.0
+  peerDependenciesMeta:
+    canvas:
+      optional: true
+  checksum: 115dcdd4c773f80c0dd82a15854d16f89e63ecf9969477bdda170dd49047ed32db8f6468b07ba9af41d5bcc4003b692deadaf7565726a1a89ce858d03d3e8c63
+  languageName: node
+  linkType: hard
+
+"jsesc@npm:^2.5.1":
+  version: 2.5.2
+  resolution: "jsesc@npm:2.5.2"
+  bin:
+    jsesc: bin/jsesc
+  checksum: 145808bbe202187ed901a7c41d1ca88386fba41da2fc56f8e450ac07a240cc7fdb4828a6a7b7e4773931c0cee8eb938523215b3d2d2ab568ac4640d7abceaef6
+  languageName: node
+  linkType: hard
+
+"json-parse-better-errors@npm:^1.0.1":
+  version: 1.0.2
+  resolution: "json-parse-better-errors@npm:1.0.2"
+  checksum: b5aa5ddfd40eca6bf2d224d9daa7b92849fb9e5c8c91eaeb427ee03cdd3fa25847d19187580971208ec20bc9fdc6b35770c8b1786a8b83ef22710f03e717d45a
+  languageName: node
+  linkType: hard
+
+"json-parse-even-better-errors@npm:^2.3.0, json-parse-even-better-errors@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "json-parse-even-better-errors@npm:2.3.1"
+  checksum: ba9ec77806c99530719c8c2a26aa426f421dccd6faafb4ee32f2d71dff25aefe4d150fba814eb58be8b82e765af5e7dc8e88d1c38c7227a1304f4d20a405a67a
+  languageName: node
+  linkType: hard
+
+"json-schema-traverse@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "json-schema-traverse@npm:0.4.1"
+  checksum: 4c9b10ebd277b894fa66f7130ffcf6b8c0d2c41754ce3784d82149695dbd928c15523aab230b8206c4be5b48127cafc0467760774673ba61045e1abb52e74de2
+  languageName: node
+  linkType: hard
+
+"json-schema-traverse@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "json-schema-traverse@npm:1.0.0"
+  checksum: 3da4fc677cfedd1745cce0c1acefebcf508c9cfa8d202ae394e38d31acbb398aea24da8e4959d5f9e44b12ebaa963bb4e4f7c25804e17484b3bfbc00519c58ca
+  languageName: node
+  linkType: hard
+
+"json-stable-stringify-without-jsonify@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "json-stable-stringify-without-jsonify@npm:1.0.1"
+  checksum: fcea02bf8b7e6067bec7e4019b1e4e15a2f1c8148ad9ea5f9fbc3098efee939f93f53f475f27a44f4b8996e9990c56b39bef6ff0bdbb4243e485084f619d5399
+  languageName: node
+  linkType: hard
+
+"json-stringify-nice@npm:^1.1.4":
+  version: 1.1.4
+  resolution: "json-stringify-nice@npm:1.1.4"
+  checksum: 16655d05f37543e51cbac0e4476e40a62b8b0519c9acf2861cf693c175515222ffa4219662a68a16ece06b7257d1720e2b59c9c0ccdd1338ffe5e34a06e463e0
+  languageName: node
+  linkType: hard
