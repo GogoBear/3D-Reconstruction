@@ -5423,3 +5423,55 @@ __metadata:
   resolution: "istanbul-lib-report@npm:3.0.0"
   dependencies:
     istanbul-lib-coverage: "npm:^3.0.0"
+    make-dir: "npm:^3.0.0"
+    supports-color: "npm:^7.1.0"
+  checksum: 9b728ea9453bbefa7d872f1522d389b5cb107990e403849e9caabee7851d3c072abab655a18810879660ed986922ad7551e886bc1aa6f909248d0f3b951813ab
+  languageName: node
+  linkType: hard
+
+"istanbul-reports@npm:^3.1.4":
+  version: 3.1.4
+  resolution: "istanbul-reports@npm:3.1.4"
+  dependencies:
+    html-escaper: "npm:^2.0.0"
+    istanbul-lib-report: "npm:^3.0.0"
+  checksum: ae06b17bfe5bb447855b7cb5dea581f3918f495d55c81c63204078b567af5e9121e629bd7a221bc6f01772dde977876bb51dc69889731e8f86d8ec9e59f39508
+  languageName: node
+  linkType: hard
+
+"jake@npm:^10.8.5":
+  version: 10.8.5
+  resolution: "jake@npm:10.8.5"
+  dependencies:
+    async: "npm:^3.2.3"
+    chalk: "npm:^4.0.2"
+    filelist: "npm:^1.0.1"
+    minimatch: "npm:^3.0.4"
+  bin:
+    jake: ./bin/cli.js
+  checksum: ac043772e821e889ed31447e2e481e37e66d1955977f5ed6a6a5daab7f66f9e603720f2310c712fe90fd37d268f2b5070bbae114e7979b0010f4779a0e455d91
+  languageName: node
+  linkType: hard
+
+"java-properties@npm:^1.0.0":
+  version: 1.0.2
+  resolution: "java-properties@npm:1.0.2"
+  checksum: a8c4938f52c0105ea84c1c2dd6d1310f0454f82dfb03e5c5fcb50177688f3dc2bc846c4ade8851cd929ccb9e1cbdc0deb792698d672a95db3c7c1537ead933a2
+  languageName: node
+  linkType: hard
+
+"jest-diff@npm:^29.0.3":
+  version: 29.0.3
+  resolution: "jest-diff@npm:29.0.3"
+  dependencies:
+    chalk: "npm:^4.0.0"
+    diff-sequences: "npm:^29.0.0"
+    jest-get-type: "npm:^29.0.0"
+    pretty-format: "npm:^29.0.3"
+  checksum: f316ce7ae5f1d09fda52e20522cdf60af3a33ba231837070722b1882a5e71ae53a18fb1bea2c7a6b074c8a884800b8952b1bcaff5b729ffeea9b2c8d0e807e9e
+  languageName: node
+  linkType: hard
+
+"jest-get-type@npm:^29.0.0":
+  version: 29.0.0
+  resolution: "jest-get-type@npm:29.0.0"
