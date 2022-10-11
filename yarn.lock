@@ -6095,3 +6095,55 @@ __metadata:
   checksum: 2da56ea650669ee9d2427ba349867da18b4cf0190be2fb2b0f8adaa28cffd27bbf4e39b41a619bf653906a584b84c7df606b7f727d3048a8056e4e419407b3e5
   languageName: node
   linkType: hard
+
+"lru-cache@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "lru-cache@npm:6.0.0"
+  dependencies:
+    yallist: "npm:^4.0.0"
+  checksum: b2d72088dd27df27189607554990b0fd31d3fbd4037df909ef66f48a14122baf8ffce7f33edc17e6543ea7cd71fa561136518355dde2ad57676fa0b2ea53b85f
+  languageName: node
+  linkType: hard
+
+"lru-cache@npm:^7.4.4, lru-cache@npm:^7.5.1":
+  version: 7.13.2
+  resolution: "lru-cache@npm:7.13.2"
+  checksum: 38bc2e4cd01948ffdbd0ee3f7d4566ceac4255b81658b6bbdec29e4691b7e3b127bfa15b9237754b3dc2e08b7ce1c08d9d6272b67a6671c84051a19ac7d58975
+  languageName: node
+  linkType: hard
+
+"lru-cache@npm:^7.7.1":
+  version: 7.10.1
+  resolution: "lru-cache@npm:7.10.1"
+  checksum: 7ed793df5cef1bccc69df07d22549c4eae0f9cdcd90aefb6020b5b5886f9d97d957288cc3aabb5bcb80b92f5a68ecc3f4ce9296ba31708e6e0d1b80b2e0f83b9
+  languageName: node
+  linkType: hard
+
+"lz-string@npm:^1.4.4":
+  version: 1.4.4
+  resolution: "lz-string@npm:1.4.4"
+  bin:
+    lz-string: bin/bin.js
+  checksum: a9198d6840007c1827fdd5397aebe2e79d50e1a25c863715e946b1669edc8def5a8859701cb4406869204c087a90d7fa33c74ea0ad48e8b677c518c83fa7eb33
+  languageName: node
+  linkType: hard
+
+"magic-string@npm:^0.26.2":
+  version: 0.26.2
+  resolution: "magic-string@npm:0.26.2"
+  dependencies:
+    sourcemap-codec: "npm:^1.4.8"
+  checksum: 11def71421e76c6605cdf5d63f715b70a792671e0a6839659b49928abdf343af7c28bc8b280b0b2c7474f8168498cbe915444a9ac508db2686eebc35bd064203
+  languageName: node
+  linkType: hard
+
+"make-dir@npm:^3.0.0":
+  version: 3.1.0
+  resolution: "make-dir@npm:3.1.0"
+  dependencies:
+    semver: "npm:^6.0.0"
+  checksum: 17ad8c0b1b243f2b05ad0f313f4279ad067af7a9fcb51abcb1bd0a199d2e370f0edac84015611a6161371d8a58f2bbde8538656355b66311c24e2071c496e3ae
+  languageName: node
+  linkType: hard
+
+"make-error@npm:^1.1.1":
