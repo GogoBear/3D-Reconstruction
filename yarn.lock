@@ -6194,3 +6194,66 @@ __metadata:
     minipass-flush: "npm:^1.0.5"
     minipass-pipeline: "npm:^1.2.4"
     negotiator: "npm:^0.6.3"
+    promise-retry: "npm:^2.0.1"
+    socks-proxy-agent: "npm:^7.0.0"
+    ssri: "npm:^9.0.0"
+  checksum: 4a12e8e2736d88b6d06401caa1df0358df6127a5378d5e79c55bbfbbfc4cc6758827eeb9da566e66ee84c5834f42777e5959f454465c069a08f3434bbf0c99bf
+  languageName: node
+  linkType: hard
+
+"map-obj@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "map-obj@npm:1.0.1"
+  checksum: 68110c982ea7d80ccac49d93a53529a295a27cf9c392d15f7b5c42b26c3760a33abe7d4163cdaf6e5be023f514e541e36ab604ef42b8c6c7978f6433e826f8dc
+  languageName: node
+  linkType: hard
+
+"map-obj@npm:^4.0.0":
+  version: 4.3.0
+  resolution: "map-obj@npm:4.3.0"
+  checksum: f87dd958d20a51488dfc3c933c5a64bad4e33053a05bc2c4c431a99e9cb1a5a6096a39cf2f7f5235c6a4540f534d3ff2ecf63664718b8e28f9da7026deda0833
+  languageName: node
+  linkType: hard
+
+"marked-terminal@npm:^5.0.0":
+  version: 5.1.1
+  resolution: "marked-terminal@npm:5.1.1"
+  dependencies:
+    ansi-escapes: "npm:^5.0.0"
+    cardinal: "npm:^2.1.1"
+    chalk: "npm:^5.0.0"
+    cli-table3: "npm:^0.6.1"
+    node-emoji: "npm:^1.11.0"
+    supports-hyperlinks: "npm:^2.2.0"
+  peerDependencies:
+    marked: ^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0
+  checksum: b2fd76258cc292f9505c52980ff970aac386c9e9168b648f00f0c4cafe37441782440fb5c89a0c2258d086c119b59db5942ecc9584c1d0ee885250c6f6e650ea
+  languageName: node
+  linkType: hard
+
+"marked@npm:^4.0.10":
+  version: 4.0.18
+  resolution: "marked@npm:4.0.18"
+  bin:
+    marked: bin/marked.js
+  checksum: 7b52c86992279cb317b2ad7846e20111d1df827111ec22bf300269b98c7a0306325bb68aacb989bf2d407f637029ac7e91f5ab4602941fe6af2b9459c695d7a8
+  languageName: node
+  linkType: hard
+
+"mdn-data@npm:2.0.14":
+  version: 2.0.14
+  resolution: "mdn-data@npm:2.0.14"
+  checksum: 398ee532789e39b4d63cdc63f6344eb5bc34035d03585f5dc644ae3140aad85d67cc06c80ec283cb782f0735267153690e665224df5b69baf35dc2203a1c5ede
+  languageName: node
+  linkType: hard
+
+"meow@npm:^8.0.0":
+  version: 8.1.2
+  resolution: "meow@npm:8.1.2"
+  dependencies:
+    "@types/minimist": "npm:^1.2.0"
+    camelcase-keys: "npm:^6.2.2"
+    decamelize-keys: "npm:^1.1.0"
+    hard-rejection: "npm:^2.1.0"
+    minimist-options: "npm:4.1.0"
+    normalize-package-data: "npm:^3.0.0"
