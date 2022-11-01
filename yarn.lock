@@ -6409,3 +6409,56 @@ __metadata:
   version: 1.0.1
   resolution: "minipass-json-stream@npm:1.0.1"
   dependencies:
+    jsonparse: "npm:^1.3.1"
+    minipass: "npm:^3.0.0"
+  checksum: 29388f583724da379bcbc6f3392631c6f7a93634acdcd26478dc76e003ef69deb5714b6ac131aaca678795910e3832a066b56f61cd3a26327abb198ea79c5570
+  languageName: node
+  linkType: hard
+
+"minipass-pipeline@npm:^1.2.4":
+  version: 1.2.4
+  resolution: "minipass-pipeline@npm:1.2.4"
+  dependencies:
+    minipass: "npm:^3.0.0"
+  checksum: 07dd09bf3c6f546ef407e7a36bca4cd2235d54695c083dc5815052e36cbdd46e55a7c0dae2801983c73257adc7aa613e375c8350587bc50a6a10e1a6b55f9965
+  languageName: node
+  linkType: hard
+
+"minipass-sized@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "minipass-sized@npm:1.0.3"
+  dependencies:
+    minipass: "npm:^3.0.0"
+  checksum: 54591ac7e54571e91df602e3c1018f4048ee12a3407dfab8140e0b03cb149c16ae67e94d36682c0869a683b8443470e354dba123ea83914c87ff22d8d8628fea
+  languageName: node
+  linkType: hard
+
+"minipass@npm:^3.0.0, minipass@npm:^3.1.1, minipass@npm:^3.1.6":
+  version: 3.3.3
+  resolution: "minipass@npm:3.3.3"
+  dependencies:
+    yallist: "npm:^4.0.0"
+  checksum: e4d064c6a516b35ab91f34b7190d1087e2a069db638c53ada9289e8a73c9f7dcabd1e7107ad7c0b0e08c369a02add0373372a3e73d640a1273db0278ee17dc7a
+  languageName: node
+  linkType: hard
+
+"minizlib@npm:^2.1.1, minizlib@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "minizlib@npm:2.1.2"
+  dependencies:
+    minipass: "npm:^3.0.0"
+    yallist: "npm:^4.0.0"
+  checksum: c0071edb242d6808652840614193316e82d012b79ff1997352de3df1c19b7580d3d4790c462c8506b1f4225f08162ebba88ebceb1529d168304b06b23757e88d
+  languageName: node
+  linkType: hard
+
+"mkdirp-infer-owner@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "mkdirp-infer-owner@npm:2.0.0"
+  dependencies:
+    chownr: "npm:^2.0.0"
+    infer-owner: "npm:^1.0.4"
+    mkdirp: "npm:^1.0.3"
+  checksum: 6766dd51a1105b8b4b5f5510959958c56712246c75b442c8d673f35effa641ac8fb70e4c8656cbc1a4d7deadf2e9e8e770e1d07231a918e6fba8edb1028d199f
+  languageName: node
+  linkType: hard
