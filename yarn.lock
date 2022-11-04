@@ -6569,3 +6569,56 @@ __metadata:
   checksum: d94fcc48d9c3dc1f2512bf525f5c614d0b88c9c711c7d116f06ec8adc6d25082959c1c6a37fe9ae431ba4018018ca13bed256f94e61c347e4618b1276b841d3c
   languageName: node
   linkType: hard
+
+"node-fetch@npm:^2.6.7":
+  version: 2.6.7
+  resolution: "node-fetch@npm:2.6.7"
+  dependencies:
+    whatwg-url: "npm:^5.0.0"
+  peerDependencies:
+    encoding: ^0.1.0
+  peerDependenciesMeta:
+    encoding:
+      optional: true
+  checksum: 05c03fe66f38b9e349e691caf121b693a91adb41ab59c3af17d2c5f9d2f8d927c30b428e7c8049b739c674db06171117ba9d10dc72d6a2cf35ba8901dfb4de83
+  languageName: node
+  linkType: hard
+
+"node-gyp@npm:^9.0.0, node-gyp@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "node-gyp@npm:9.1.0"
+  dependencies:
+    env-paths: "npm:^2.2.0"
+    glob: "npm:^7.1.4"
+    graceful-fs: "npm:^4.2.6"
+    make-fetch-happen: "npm:^10.0.3"
+    nopt: "npm:^5.0.0"
+    npmlog: "npm:^6.0.0"
+    rimraf: "npm:^3.0.2"
+    semver: "npm:^7.3.5"
+    tar: "npm:^6.1.2"
+    which: "npm:^2.0.2"
+  bin:
+    node-gyp: bin/node-gyp.js
+  checksum: 7cfa4c7843c37a68ab2123ffbab5f269cc2d36e697c37154566b701b1fe3bfd861260e0e00530a720ae1a2a92589fa19b85565e36bdcb8a4683a4a4e207338b6
+  languageName: node
+  linkType: hard
+
+"node-gyp@npm:latest":
+  version: 9.0.0
+  resolution: "node-gyp@npm:9.0.0"
+  dependencies:
+    env-paths: "npm:^2.2.0"
+    glob: "npm:^7.1.4"
+    graceful-fs: "npm:^4.2.6"
+    make-fetch-happen: "npm:^10.0.3"
+    nopt: "npm:^5.0.0"
+    npmlog: "npm:^6.0.0"
+    rimraf: "npm:^3.0.2"
+    semver: "npm:^7.3.5"
+    tar: "npm:^6.1.2"
+    which: "npm:^2.0.2"
+  bin:
+    node-gyp: bin/node-gyp.js
+  checksum: 74e3ae5ca2d1e5db13239ba9f364ba75ae22a25aaf8fc798adb5121a60773f10ad877663b676ce35016728b016cd9010506279883bac143e1519996e5fd6c38b
+  languageName: node
