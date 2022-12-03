@@ -6676,3 +6676,62 @@ __metadata:
   dependencies:
     hosted-git-info: "npm:^2.1.4"
     resolve: "npm:^1.10.0"
+    semver: "npm:2 || 3 || 4 || 5"
+    validate-npm-package-license: "npm:^3.0.1"
+  checksum: bb86822784df42f9a39a48245dc8c013d5b28500c79282db64ad9322da4d5722e274c4d9b63396a3e2fd2f1a33ab2fe3348196d38f267c8c7912dfabfaf805ec
+  languageName: node
+  linkType: hard
+
+"normalize-package-data@npm:^3.0.0":
+  version: 3.0.3
+  resolution: "normalize-package-data@npm:3.0.3"
+  dependencies:
+    hosted-git-info: "npm:^4.0.1"
+    is-core-module: "npm:^2.5.0"
+    semver: "npm:^7.3.4"
+    validate-npm-package-license: "npm:^3.0.1"
+  checksum: a4e12d16b5f270611bca76d8918e7daf600fe38e9a28b89a9c1b446f9e2206a31b5993ef06800232d86b00e783b0f61c0982948f74a5c26fb25ba8b4d2af9532
+  languageName: node
+  linkType: hard
+
+"normalize-package-data@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "normalize-package-data@npm:4.0.0"
+  dependencies:
+    hosted-git-info: "npm:^5.0.0"
+    is-core-module: "npm:^2.8.1"
+    semver: "npm:^7.3.5"
+    validate-npm-package-license: "npm:^3.0.4"
+  checksum: 54fb1d3ed75267f018a6719996ed651ca21243b4dda06677741cd7efd8f054078e35f0fb7562796ad31c711c6225924b1a5cdf5dc136960eb2eca3b22f8861f5
+  languageName: node
+  linkType: hard
+
+"normalize-path@npm:^3.0.0, normalize-path@npm:~3.0.0":
+  version: 3.0.0
+  resolution: "normalize-path@npm:3.0.0"
+  checksum: 66de83885051c8a7266566cb175281ec583e3d66b5054c744b46a0eebc4eaac1e1d74c640aaf72144086a9661aa60e89ac0b5c92eb76608e5b8a5056dbcf9e27
+  languageName: node
+  linkType: hard
+
+"normalize-range@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "normalize-range@npm:0.1.2"
+  checksum: 6f4b792ccc8a0c23cbbe983d79f25b2005872e7b7a62f153abeb8dd5aebe445e52ac1b33376e22f0937f31b78e37b8bd440dc08fc73aa0ba292f47bbc980e450
+  languageName: node
+  linkType: hard
+
+"normalize-url@npm:^6.0.0, normalize-url@npm:^6.0.1":
+  version: 6.1.0
+  resolution: "normalize-url@npm:6.1.0"
+  checksum: 571335f6aca25545549a75e9f1ef848cbb1b4db08c19e2a1e042a216d14128fc77e039b08de2dbfa4b8341202dc7fff888ab9ba8aa6940568563d1de60867104
+  languageName: node
+  linkType: hard
+
+"npm-audit-report@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "npm-audit-report@npm:3.0.0"
+  dependencies:
+    chalk: "npm:^4.0.0"
+  checksum: c3a0cc72557feaca1e907f93a0a5ceaf5442b5c83336f413d6b0d8f15eead990223229f560c94a8840243735b51434ba46048bee5ff86c37e324a2e3d8bcc670
+  languageName: node
+  linkType: hard
