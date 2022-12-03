@@ -6735,3 +6735,58 @@ __metadata:
   checksum: c3a0cc72557feaca1e907f93a0a5ceaf5442b5c83336f413d6b0d8f15eead990223229f560c94a8840243735b51434ba46048bee5ff86c37e324a2e3d8bcc670
   languageName: node
   linkType: hard
+
+"npm-bundled@npm:^1.1.1, npm-bundled@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "npm-bundled@npm:1.1.2"
+  dependencies:
+    npm-normalize-package-bin: "npm:^1.0.1"
+  checksum: a792e8eecf9373b9f574b563fdb6213de1be0009d0046cef184b007067a15a73aaff05ac507e5e795560915eefbf47bb3a61cd3ba84545aa648dbe95e7d77580
+  languageName: node
+  linkType: hard
+
+"npm-install-checks@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "npm-install-checks@npm:5.0.0"
+  dependencies:
+    semver: "npm:^7.1.1"
+  checksum: f4db82eedb12dfa23d07dca6427b996b5069fb1c79e4e73051f69d48e7c405937bf158a178638624e64244d609a1d94917a05830875bb30dc80263fda054f9e8
+  languageName: node
+  linkType: hard
+
+"npm-normalize-package-bin@npm:^1.0.0, npm-normalize-package-bin@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "npm-normalize-package-bin@npm:1.0.1"
+  checksum: 9635151e643ba24f6f7ec27a9a6663af4b663c7aa37dcd5cdd846d241630d25539f308ddf3ca90ac35a65fdb79f9d066757b9f133132bbb125e4f97b933158ff
+  languageName: node
+  linkType: hard
+
+"npm-package-arg@npm:^9.0.0, npm-package-arg@npm:^9.0.1, npm-package-arg@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "npm-package-arg@npm:9.1.0"
+  dependencies:
+    hosted-git-info: "npm:^5.0.0"
+    proc-log: "npm:^2.0.1"
+    semver: "npm:^7.3.5"
+    validate-npm-package-name: "npm:^4.0.0"
+  checksum: a2d7a808b30e605d889074dad845755aa7748fc8c2d09f0d0126fa9acc3972e42bba537552cdc25cd38afe71a7fd043eb77cb9aab69af552df629812e555a076
+  languageName: node
+  linkType: hard
+
+"npm-packlist@npm:^5.1.0":
+  version: 5.1.1
+  resolution: "npm-packlist@npm:5.1.1"
+  dependencies:
+    glob: "npm:^8.0.1"
+    ignore-walk: "npm:^5.0.1"
+    npm-bundled: "npm:^1.1.2"
+    npm-normalize-package-bin: "npm:^1.0.1"
+  bin:
+    npm-packlist: bin/index.js
+  checksum: a07a80614056022530303f033df0edc297f6a6647835d1a741f99095dbfc2c277b3c589a52cd0f828a16b70da01fc47c3b2f119faa8ebabb22854e1299cc0204
+  languageName: node
+  linkType: hard
+
+"npm-pick-manifest@npm:^7.0.0, npm-pick-manifest@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "npm-pick-manifest@npm:7.0.1"
