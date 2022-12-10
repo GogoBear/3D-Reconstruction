@@ -6843,3 +6843,48 @@ __metadata:
   linkType: hard
 
 "npm-user-validate@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "npm-user-validate@npm:1.0.1"
+  checksum: 8fb2974c1ba68f1df1370543c8f140f492d736da4582ba2c0333ab108b7327d89cf2fc9d72ada02f8537cbb70b427c6f381f7391fb03e214aed18ea727e4ac6a
+  languageName: node
+  linkType: hard
+
+"npm@npm:^8.3.0":
+  version: 8.17.0
+  resolution: "npm@npm:8.17.0"
+  dependencies:
+    "@isaacs/string-locale-compare": "npm:^1.1.0"
+    "@npmcli/arborist": "npm:^5.0.4"
+    "@npmcli/ci-detect": "npm:^2.0.0"
+    "@npmcli/config": "npm:^4.2.1"
+    "@npmcli/fs": "npm:^2.1.0"
+    "@npmcli/map-workspaces": "npm:^2.0.3"
+    "@npmcli/package-json": "npm:^2.0.0"
+    "@npmcli/run-script": "npm:^4.2.1"
+    abbrev: "npm:~1.1.1"
+    archy: "npm:~1.0.0"
+    cacache: "npm:^16.1.1"
+    chalk: "npm:^4.1.2"
+    chownr: "npm:^2.0.0"
+    cli-columns: "npm:^4.0.0"
+    cli-table3: "npm:^0.6.2"
+    columnify: "npm:^1.6.0"
+    fastest-levenshtein: "npm:^1.0.12"
+    glob: "npm:^8.0.1"
+    graceful-fs: "npm:^4.2.10"
+    hosted-git-info: "npm:^5.0.0"
+    ini: "npm:^3.0.0"
+    init-package-json: "npm:^3.0.2"
+    is-cidr: "npm:^4.0.2"
+    json-parse-even-better-errors: "npm:^2.3.1"
+    libnpmaccess: "npm:^6.0.2"
+    libnpmdiff: "npm:^4.0.2"
+    libnpmexec: "npm:^4.0.2"
+    libnpmfund: "npm:^3.0.1"
+    libnpmhook: "npm:^8.0.2"
+    libnpmorg: "npm:^4.0.2"
+    libnpmpack: "npm:^4.0.2"
+    libnpmpublish: "npm:^6.0.2"
+    libnpmsearch: "npm:^5.0.2"
+    libnpmteam: "npm:^4.0.2"
+    libnpmversion: "npm:^3.0.1"
