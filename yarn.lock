@@ -7173,3 +7173,52 @@ __metadata:
     "@npmcli/run-script": "npm:^4.1.0"
     cacache: "npm:^16.0.0"
     chownr: "npm:^2.0.0"
+    fs-minipass: "npm:^2.1.0"
+    infer-owner: "npm:^1.0.4"
+    minipass: "npm:^3.1.6"
+    mkdirp: "npm:^1.0.4"
+    npm-package-arg: "npm:^9.0.0"
+    npm-packlist: "npm:^5.1.0"
+    npm-pick-manifest: "npm:^7.0.0"
+    npm-registry-fetch: "npm:^13.0.1"
+    proc-log: "npm:^2.0.0"
+    promise-retry: "npm:^2.0.1"
+    read-package-json: "npm:^5.0.0"
+    read-package-json-fast: "npm:^2.0.3"
+    rimraf: "npm:^3.0.2"
+    ssri: "npm:^9.0.0"
+    tar: "npm:^6.1.11"
+  bin:
+    pacote: lib/bin.js
+  checksum: dedcd863c553284e2a143680bf2f854bd5a5d9044a48b0ed8cde6723d25d889684aba40e4b9e8ca0856992cf4fb37e838f8e4b0bc9bc18be82c18bae7fad7258
+  languageName: node
+  linkType: hard
+
+"param-case@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "param-case@npm:3.0.4"
+  dependencies:
+    dot-case: "npm:^3.0.4"
+    tslib: "npm:^2.0.3"
+  checksum: eab62423d2e4fafd0f6dc54d3639dda7a6437bf084d16549bf4df62a7cb972b588cd01ed47511d4fae2165e87f510396edd0fa32935e61d8bc984319a839a9ff
+  languageName: node
+  linkType: hard
+
+"parent-module@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "parent-module@npm:1.0.1"
+  dependencies:
+    callsites: "npm:^3.0.0"
+  checksum: ac26e4d08ec70f2e03c7e7b80c384fc3201576c04102ecf8cfef29051980208bd41a552802f1c46d6f3c1f0f864ce4f3cfc1f3077c19561a08df214d7b3fe3ec
+  languageName: node
+  linkType: hard
+
+"parse-conflict-json@npm:^2.0.1, parse-conflict-json@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "parse-conflict-json@npm:2.0.2"
+  dependencies:
+    json-parse-even-better-errors: "npm:^2.3.1"
+    just-diff: "npm:^5.0.1"
+    just-diff-apply: "npm:^5.2.0"
+  checksum: 014c923db8fbd825b58cdf2c32366f747804ab03af820239487366909c05964b67e518a2fbf3f073304d17b187062dbed2116acde1efe6a6610b4b121a493273
+  languageName: node
