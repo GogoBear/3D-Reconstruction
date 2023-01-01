@@ -7753,3 +7753,52 @@ __metadata:
     postcss: ^8.2.15
   checksum: 0886a779e7b29072c6445f68012b36cde03bf06b2a4c6c81852c19f3b858fa9f84455ce43b5ef3e89b012135ba642b5b9e512f7d40b8ebdf17f4267d4188f17d
   languageName: node
+  linkType: hard
+
+"postcss-value-parser@npm:^4.0.0, postcss-value-parser@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "postcss-value-parser@npm:4.2.0"
+  checksum: edc490e9f11336a2efb136d8a52350b5c680ca9a91ee64285732e796177eb888f559a4eafc94cdbf7ce065a388e65b3cc21a32c92458a90efc445f30e8a679dc
+  languageName: node
+  linkType: hard
+
+"postcss@npm:8.4.16, postcss@npm:^8.4.14":
+  version: 8.4.16
+  resolution: "postcss@npm:8.4.16"
+  dependencies:
+    nanoid: "npm:^3.3.4"
+    picocolors: "npm:^1.0.0"
+    source-map-js: "npm:^1.0.2"
+  checksum: 474b2c445150bbbf75c67e4a539de41210ddb16d008f2f632820625a880c8c4d7b38361513c0e857e254ac921aac984256fcf1e4cce45a5d9f533b35d1c6bdaa
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.4.18":
+  version: 8.4.19
+  resolution: "postcss@npm:8.4.19"
+  dependencies:
+    nanoid: "npm:^3.3.4"
+    picocolors: "npm:^1.0.0"
+    source-map-js: "npm:^1.0.2"
+  checksum: 583897de1f1b39bed59fecfd2697e34195d6f2f85710572a8f060a14898102e13b0a74a96fd5490b2f8bdc6ed51ae43169a5a24f37684606f7c8272221b5d111
+  languageName: node
+  linkType: hard
+
+"prelude-ls@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "prelude-ls@npm:1.2.1"
+  checksum: 0fee0e2ba5dc7793340a5861d9d37ce4f3d8ec246099bfae25e1f2a928a4df1c009a91882c35862bdf245f69081160df4ed0ec2438662ae22e50b621a6b7848f
+  languageName: node
+  linkType: hard
+
+"prelude-ls@npm:~1.1.2":
+  version: 1.1.2
+  resolution: "prelude-ls@npm:1.1.2"
+  checksum: e18c52ae66a3327dc4c51defe91f05505d8df7a4f75ae7cc99d6689a2b84817b57828f09bb3da073ef34af28275dbbaacedc1028e3564e681a67f5f6a0351468
+  languageName: node
+  linkType: hard
+
+"prettier-linter-helpers@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "prettier-linter-helpers@npm:1.0.0"
+  dependencies:
