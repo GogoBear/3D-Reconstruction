@@ -7857,3 +7857,61 @@ __metadata:
   resolution: "promise-all-reject-late@npm:1.0.1"
   checksum: 9cc3755c994aad2c97713bdfb703e82e166bb17e22d50c85d592c1136a3c2e406816d52fdd6b732c75b9b267b6f9e0bb6d04b668bfc9b04d227bdc0b26f2a88b
   languageName: node
+  linkType: hard
+
+"promise-call-limit@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "promise-call-limit@npm:1.0.1"
+  checksum: 8cfcad082cbfcd13e4ad1e23cfa9032b3fbcfd02a5060ea939857b462b2f0c39b2140fcc44da2b354a9cd68dfbaecc6b17fc2bc1303e3ec8f064dfd2b64597de
+  languageName: node
+  linkType: hard
+
+"promise-inflight@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "promise-inflight@npm:1.0.1"
+  checksum: 7671022d3ea7e40e29ee941d30df819ed2a81a3d22b1175ed8c1bd83af542ea94ca47b50bea54634b12f7b1837fcd7dd5bcc7720910befa0076d12582ee56c93
+  languageName: node
+  linkType: hard
+
+"promise-retry@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "promise-retry@npm:2.0.1"
+  dependencies:
+    err-code: "npm:^2.0.2"
+    retry: "npm:^0.12.0"
+  checksum: cbff149b3327554f3613196ca300a77aefac289624148c37e5c9236242931691a4ba0a76fd1c6171e6a3e6a2b1edfa2acdf122004857e6f3e3efd1be29df6cd2
+  languageName: node
+  linkType: hard
+
+"promzard@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "promzard@npm:0.3.0"
+  dependencies:
+    read: "npm:1"
+  checksum: 8798982d56ef7a7529117af07ebaf7d363449395c4b5f23ee4a553619a51e22c1e4e1d73b2f33cc87edf7ea607a91dc2e03504e06ab9324d97353c298a438083
+  languageName: node
+  linkType: hard
+
+"psl@npm:^1.1.33":
+  version: 1.8.0
+  resolution: "psl@npm:1.8.0"
+  checksum: cebdf3dcaf1b05ea817ea422e4ea91973c0c54a9deb12112052273c87139f414eeb349dd80aa16cbc969cb5604329dc1e3aa3c8d5748de3e3bd2e1b7debd5c89
+  languageName: node
+  linkType: hard
+
+"punycode@npm:^2.1.0, punycode@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "punycode@npm:2.1.1"
+  checksum: fd728ef9db90e7b4db37d5c4937d6c6302cf4f64748b2dea3abbf1efd21e6193bb670efb7814766c858b2e1ccdb65ce34e44b498d734922e1dcb2a8623a925d8
+  languageName: node
+  linkType: hard
+
+"q@npm:^1.5.1":
+  version: 1.5.1
+  resolution: "q@npm:1.5.1"
+  checksum: 276b7e93fc76c4979fba33e571e7ff7dec8c93ee0bed8a8f9b212e4bf5b923bb6b632ce0c8981cbb4b49656cf77c163cba032a7e657cba38401c85957ec92fd4
+  languageName: node
+  linkType: hard
+
+"qrcode-terminal@npm:^0.12.0":
+  version: 0.12.0
