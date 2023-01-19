@@ -8048,3 +8048,50 @@ __metadata:
     "@vitest/ui": "npm:0.23.2"
     autoprefixer: "npm:10.4.13"
     babel-polyfill: "npm:6.26.0"
+    c8: "npm:7.12.0"
+    core-js: "npm:3.26.1"
+    cssnano: "npm:5.1.14"
+    eslint: "npm:8.23.1"
+    eslint-config-prettier: "npm:8.5.0"
+    eslint-plugin-prettier: "npm:4.2.1"
+    husky: "npm:8.0.2"
+    jsdom: "npm:20.0.2"
+    lint-staged: "npm:13.0.3"
+    postcss: "npm:8.4.16"
+    postcss-import: "npm:15.0.0"
+    postcss-load-config: "npm:4.0.1"
+    postcss-loader: "npm:7.0.1"
+    postcss-nested: "npm:5.0.6"
+    prettier: "npm:2.7.1"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    react-router-dom: "npm:6.4.3"
+    sass: "npm:1.54.9"
+    semantic-release: "npm:19.0.5"
+    standard-version: "npm:9.5.0"
+    typescript: "npm:4.8.3"
+    vite: "npm:3.2.4"
+    vite-plugin-checker: "npm:0.5.1"
+    vite-plugin-html: "npm:3.2.0"
+    vite-tsconfig-paths: "npm:3.5.0"
+    vitest: "npm:0.23.2"
+  bin:
+    react-vite-ts-boilerplate: ./bin/react-vite-ts-boilerplate.js
+  languageName: unknown
+  linkType: soft
+
+"react@npm:18.2.0":
+  version: 18.2.0
+  resolution: "react@npm:18.2.0"
+  dependencies:
+    loose-envify: "npm:^1.1.0"
+  checksum: 8434e5782c52b3bf18a80b666348977924ee3827895fa03ec3ffb9faca90c460049f14130428dd1546bab6cf3b2c277f2c243d3c2a856501331d2e69c24b2bb9
+  languageName: node
+  linkType: hard
+
+"read-cache@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "read-cache@npm:1.0.0"
+  dependencies:
+    pify: "npm:^2.3.0"
+  checksum: ee62858265511c3796841f8c305caf66f1468f7ea0686b17bf862c67f9e42b1d4d67bc6facfbac1dc0a3582de4595fcae189366b9f15b88b8ad66a6ef2f6d572
