@@ -7979,3 +7979,72 @@ __metadata:
   checksum: 7dbf53e15f0fd208b23521b96743c70166ca3a16aad8bcad7632b1da80f19035dfe91813fa65ee7ff7b7c826a15071e08b8e9270dc96392262ea8b1ab0ceedfa
   languageName: node
   linkType: hard
+
+"react-is@npm:^17.0.1":
+  version: 17.0.2
+  resolution: "react-is@npm:17.0.2"
+  checksum: 24af7af3abd0bf94d4eb018a70db25fd4e23648eec7bb8b203bf59e24a715ac4eec8279939e15a4d90cbad19ed6be243a0f2c9aa0b1faec0a1c102d9c89ca3f9
+  languageName: node
+  linkType: hard
+
+"react-is@npm:^18.0.0":
+  version: 18.2.0
+  resolution: "react-is@npm:18.2.0"
+  checksum: f542f0effed3f89b4faa237bf56e746d437c9dba4ed1039a2ba6e6fcb463244300b8f3c17d8e610e76476a626c4d97ee4c2ed7a5b5d64e2b2e2d7b2144816ac8
+  languageName: node
+  linkType: hard
+
+"react-refresh@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "react-refresh@npm:0.14.0"
+  checksum: 0dc7d5a197ae193f0bddea2f8d712a2b8477ae401c9e3b04c85d0a046ac7847b24af573923ab4c3ca67735583a6b421edc43b39a07b4d1a46056289249f4f897
+  languageName: node
+  linkType: hard
+
+"react-router-dom@npm:6.4.3":
+  version: 6.4.3
+  resolution: "react-router-dom@npm:6.4.3"
+  dependencies:
+    "@remix-run/router": "npm:1.0.3"
+    react-router: "npm:6.4.3"
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: e25a8e16ea87cbf8304c468ed946db2a5e23b84c4c75f18e30bfae32bd00e4c96c733526124051163fca8ceaccf725bba2ac5080868db7f3749e2d01de648a53
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.4.3":
+  version: 6.4.3
+  resolution: "react-router@npm:6.4.3"
+  dependencies:
+    "@remix-run/router": "npm:1.0.3"
+  peerDependencies:
+    react: ">=16.8"
+  checksum: 1e1b962b02189d17eaaf5470649a6acb75b97298e99a8df530b753f28f2e64939746060e829f66c2538607b1477172734f46ebcbb8dcaf6a05eb8f53a8a60dd8
+  languageName: node
+  linkType: hard
+
+"react-vite-ts-boilerplate@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "react-vite-ts-boilerplate@workspace:."
+  dependencies:
+    "@commitlint/cli": "npm:17.1.2"
+    "@commitlint/config-conventional": "npm:17.1.0"
+    "@rollup/plugin-alias": "npm:3.1.9"
+    "@semantic-release/changelog": "npm:6.0.1"
+    "@semantic-release/git": "npm:10.0.1"
+    "@testing-library/dom": "npm:8.19.0"
+    "@testing-library/react": "npm:13.4.0"
+    "@testing-library/react-hooks": "npm:8.0.1"
+    "@testing-library/user-event": "npm:14.4.3"
+    "@types/jest": "npm:29.2.3"
+    "@types/node": "npm:18.0.0"
+    "@types/react": "npm:18.0.25"
+    "@types/react-dom": "npm:18.0.9"
+    "@typescript-eslint/eslint-plugin": "npm:5.43.0"
+    "@typescript-eslint/parser": "npm:5.43.0"
+    "@vitejs/plugin-react": "npm:2.1.0"
+    "@vitest/ui": "npm:0.23.2"
+    autoprefixer: "npm:10.4.13"
+    babel-polyfill: "npm:6.26.0"
