@@ -8095,3 +8095,60 @@ __metadata:
   dependencies:
     pify: "npm:^2.3.0"
   checksum: ee62858265511c3796841f8c305caf66f1468f7ea0686b17bf862c67f9e42b1d4d67bc6facfbac1dc0a3582de4595fcae189366b9f15b88b8ad66a6ef2f6d572
+  languageName: node
+  linkType: hard
+
+"read-cmd-shim@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "read-cmd-shim@npm:3.0.0"
+  checksum: a3e9be66d2da1d9dc9022d4fa705a81fe1e690fd7eff68872f0bb36b355a2a419e29a21d2c526b2a815744f840c7991272d1ad362a76748b64b2f5fc0ef3da16
+  languageName: node
+  linkType: hard
+
+"read-package-json-fast@npm:^2.0.2, read-package-json-fast@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "read-package-json-fast@npm:2.0.3"
+  dependencies:
+    json-parse-even-better-errors: "npm:^2.3.0"
+    npm-normalize-package-bin: "npm:^1.0.1"
+  checksum: 6779d9849445f8cb84815dd6cbc84d91ccc753028206ecb076a30b05c828a823cb62846e18c84528adb0bedd59c464979648a6df95b8869c51a1888e2391be6a
+  languageName: node
+  linkType: hard
+
+"read-package-json@npm:^5.0.0, read-package-json@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "read-package-json@npm:5.0.1"
+  dependencies:
+    glob: "npm:^8.0.1"
+    json-parse-even-better-errors: "npm:^2.3.1"
+    normalize-package-data: "npm:^4.0.0"
+    npm-normalize-package-bin: "npm:^1.0.1"
+  checksum: 3cf21126253c7f734a1be679b0d590b14e9673e627169a0ff8d60a8d640e926311d2b8a91cd7b0b1e7590716e8fef13437c7a45c8039f92d1b06b978975e6ae4
+  languageName: node
+  linkType: hard
+
+"read-pkg-up@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "read-pkg-up@npm:3.0.0"
+  dependencies:
+    find-up: "npm:^2.0.0"
+    read-pkg: "npm:^3.0.0"
+  checksum: 12638505daefc7b1eb90531f8c8b74e6febb1f01d21b315ec5b9cd9909fe36bb25cfae6f490812c722b4bffe48650a9f35704f34788b2e07995ab73c5c732e8d
+  languageName: node
+  linkType: hard
+
+"read-pkg-up@npm:^7.0.0, read-pkg-up@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "read-pkg-up@npm:7.0.1"
+  dependencies:
+    find-up: "npm:^4.1.0"
+    read-pkg: "npm:^5.2.0"
+    type-fest: "npm:^0.8.1"
+  checksum: 30ccf931b522e028c214ba0ee0ab13488d8a9a289fd50d4843d39695df2226a1e0e212407c11fcdfc9ef2f936ac76f9d4beb22ce979e0425f428bded341a86af
+  languageName: node
+  linkType: hard
+
+"read-pkg@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "read-pkg@npm:3.0.0"
+  dependencies:
