@@ -8301,3 +8301,67 @@ __metadata:
   checksum: 18af464c6bd59aae9f7906c600ef59ed604b41144a82a9f15aacafa94289edbc13df35b2000aaf6179c881a91b93ef669f67e21a45f6da594560dc4a9d8a3e8a
   languageName: node
   linkType: hard
+
+"require-directory@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "require-directory@npm:2.1.1"
+  checksum: 1b1289dc30006e3c6576dd899ed812921f680d652005118cfabcf5d0679e885ff19a6659219e6705571a6ba7f4278f24d93b17f7e7e9ba28dc4b38e256f35d61
+  languageName: node
+  linkType: hard
+
+"require-from-string@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "require-from-string@npm:2.0.2"
+  checksum: 3cd7be0f2b19d49ef2ec59c27cc9dbd64343c950c744651d8e31651026585d5da581df35be7a9b825f00921bf134d619fea292360dabbae11da2c211f2b601f2
+  languageName: node
+  linkType: hard
+
+"requires-port@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "requires-port@npm:1.0.0"
+  checksum: 28a1064f043588514802bff52dacac500c43b642383109145c55ff8bac26b3cf1ca951abc824446c773309c45dd049608986c1e15142ae7e336b9926065a1830
+  languageName: node
+  linkType: hard
+
+"resolve-from@npm:5.0.0, resolve-from@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "resolve-from@npm:5.0.0"
+  checksum: cd5ec3748259b61f31e2fbb93ffaa7348f269e581ab2016f64fe843037d0f928ad537dbeff9eef4419a9a26ff604a2c3e014bb330d875dc85fa9a3d97665f883
+  languageName: node
+  linkType: hard
+
+"resolve-from@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "resolve-from@npm:4.0.0"
+  checksum: bc0ec65a95fae7d644cdb0f14e010c2cbde74d0844232542912f8343a20d66fc30a7b400391a0f118a710b9bc10078a0a13d8444a555f44c00023b3220249865
+  languageName: node
+  linkType: hard
+
+"resolve-global@npm:1.0.0, resolve-global@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "resolve-global@npm:1.0.0"
+  dependencies:
+    global-dirs: "npm:^0.1.1"
+  checksum: 065fe224980a3d1ddb9c46dab6a649a49e75d362b639ecaef341e73cfa28fed735b9e0ab428c0524cedd822d3b0f334b494f9c721da36717870b957c2f6505c3
+  languageName: node
+  linkType: hard
+
+"resolve@npm:^1.1.7, resolve@npm:^1.10.0, resolve@npm:^1.22.1":
+  version: 1.22.1
+  resolution: "resolve@npm:1.22.1"
+  dependencies:
+    is-core-module: "npm:^2.9.0"
+    path-parse: "npm:^1.0.7"
+    supports-preserve-symlinks-flag: "npm:^1.0.0"
+  bin:
+    resolve: bin/resolve
+  checksum: d8ea39ac2ecaedc681504f043944a20cc05587d6ec52d4d9ec79801e58be083f2237d0e83170ce86c793083eaf71a6f95a7f921a79dfb6fa32b37107e61df36c
+  languageName: node
+  linkType: hard
+
+"resolve@patch:resolve@npm%3A^1.1.7#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>":
+  version: 1.22.1
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#optional!builtin<compat/resolve>::version=1.22.1&hash=07638b"
+  dependencies:
+    is-core-module: "npm:^2.9.0"
+    path-parse: "npm:^1.0.7"
