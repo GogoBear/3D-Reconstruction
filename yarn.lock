@@ -8544,3 +8544,78 @@ __metadata:
     marked-terminal: "npm:^5.0.0"
     micromatch: "npm:^4.0.2"
     p-each-series: "npm:^2.1.0"
+    p-reduce: "npm:^2.0.0"
+    read-pkg-up: "npm:^7.0.0"
+    resolve-from: "npm:^5.0.0"
+    semver: "npm:^7.3.2"
+    semver-diff: "npm:^3.1.1"
+    signale: "npm:^1.2.1"
+    yargs: "npm:^16.2.0"
+  bin:
+    semantic-release: bin/semantic-release.js
+  checksum: 4ccdf11a14b00c1575705959e9d9e8bd0fb21c090f9b2005188547b1fe6462399db88455dc037c74b10ecfb144d9a21a78bc7ce1db7d2b7edadb7377134402c2
+  languageName: node
+  linkType: hard
+
+"semver-diff@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "semver-diff@npm:3.1.1"
+  dependencies:
+    semver: "npm:^6.3.0"
+  checksum: 7fe4a37d0ef1738fbd373cb8c739dfb9efc863a61c7ddd559c135f3dd2e38abd24854219be491339e9a1a5becff0c6a32035257e5912756b8859e3d9bc0f568c
+  languageName: node
+  linkType: hard
+
+"semver-regex@npm:^3.1.2":
+  version: 3.1.4
+  resolution: "semver-regex@npm:3.1.4"
+  checksum: 94d7116e5440629edf8f9b8a4775c1a31d0c17747e768c6f8746ccf59d7ff4842805b4689d7f22c8c4787a789ac18d5fbda6129cdb2049ff69b0bf7a2e4e0317
+  languageName: node
+  linkType: hard
+
+"semver@npm:2 || 3 || 4 || 5":
+  version: 5.7.1
+  resolution: "semver@npm:5.7.1"
+  bin:
+    semver: ./bin/semver
+  checksum: e1d12140b695aeb8917978d134ff3f8fee33489a5eaf6b217111ab0b14cbf45f36753d510db4dfbdc5a6f304e053ff1a4995c5498e9734ad9bf98182e4f39704
+  languageName: node
+  linkType: hard
+
+"semver@npm:7.3.7, semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7":
+  version: 7.3.7
+  resolution: "semver@npm:7.3.7"
+  dependencies:
+    lru-cache: "npm:^6.0.0"
+  bin:
+    semver: bin/semver.js
+  checksum: 67bcf24790dcba9c20b2cd4c8ade19eebbcb10c8868453570749b47b77bd5c7da503478997a7a3f663d5b2976ac39c545f38d2d9e7dfcc693cb87f4068f93f8e
+  languageName: node
+  linkType: hard
+
+"semver@npm:^6.0.0, semver@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "semver@npm:6.3.0"
+  bin:
+    semver: ./bin/semver.js
+  checksum: 18f3d42ec70a542e9efc498ecc3d0b9b088099115e8658b49d2bfc6470b46a6144b294374dac3f343fe1600039cbd80d5e830dd356053fd5abd4f1af5118a928
+  languageName: node
+  linkType: hard
+
+"set-blocking@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "set-blocking@npm:2.0.0"
+  checksum: 9e8f5aeb7cd850a60b5dbf47d42051137c14f58f375d9a70ca227b797d6ffed3dabf659587d2f183231085f1da2dc3067e2af9f5fcd66fb65c98da5fb54a22fb
+  languageName: node
+  linkType: hard
+
+"shebang-command@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "shebang-command@npm:2.0.0"
+  dependencies:
+    shebang-regex: "npm:^3.0.0"
+  checksum: 5907a8d5facbefbd4dc8d21778d2136d5d22d61b5526452d92d46662614f0ed57090e7adf7184fe9d2d5ef75af9f05d7573437e10b37f2e6fdeeeb5f59fd9ada
+  languageName: node
+  linkType: hard
+
+"shebang-regex@npm:^3.0.0":
