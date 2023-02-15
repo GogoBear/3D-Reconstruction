@@ -8783,3 +8783,61 @@ __metadata:
     spdx-exceptions: "npm:^2.1.0"
     spdx-license-ids: "npm:^3.0.0"
   checksum: 3872b862c119e7ea292abbf1f9e58f2c07f5c9aedbf4604f635b9fa7ead3b9267864df506bf70c2b4b47e11ac634094e6a8d68feeadf78e1ca9bcc2fd104de08
+  languageName: node
+  linkType: hard
+
+"spdx-license-ids@npm:^3.0.0":
+  version: 3.0.11
+  resolution: "spdx-license-ids@npm:3.0.11"
+  checksum: c315e8eee809cc5b1dd9cb586255d32d1cca37dd21dc71d554eeb93b285dc14ee47df0dbd629f5dd1efd2513201f3ed0175df59f917a67d11652ee1b25a854c3
+  languageName: node
+  linkType: hard
+
+"split2@npm:^3.0.0":
+  version: 3.2.2
+  resolution: "split2@npm:3.2.2"
+  dependencies:
+    readable-stream: "npm:^3.0.0"
+  checksum: 686aeb34a25f99fcbc9e1c8b1fe04e45f300dce4951776c765500702e3e412850a6acb812b638e975fd1c96bb6e61218898044a4743f7ac2b4793bc050a63760
+  languageName: node
+  linkType: hard
+
+"split2@npm:~1.0.0":
+  version: 1.0.0
+  resolution: "split2@npm:1.0.0"
+  dependencies:
+    through2: "npm:~2.0.0"
+  checksum: aeeacc9b44787fd8d3549183d95aa01bf765a920a4989709fdae0b5132ee11b08e28561cf0b4bff598f9b2575e1aad910dd54fd35952c47eeae6c3b5a876a020
+  languageName: node
+  linkType: hard
+
+"split@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "split@npm:1.0.1"
+  dependencies:
+    through: "npm:2"
+  checksum: 8dbe9792cfee51f2390ee4e899420f73eac76ee73d57f458d19becb86a0fffc77739b70d9df8d11667989520c3f1cc79471153b3024e523589cd80030130427b
+  languageName: node
+  linkType: hard
+
+"ssri@npm:^9.0.0, ssri@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "ssri@npm:9.0.1"
+  dependencies:
+    minipass: "npm:^3.1.1"
+  checksum: ec9e6fbb74ccb030391fc33aa1a8373014f1cdde570e389cf25f201604d6889035fc8b4409a6e8e787d75ddad892839c0e5a4ea6b67e7ab91f3c619e5e6e087a
+  languageName: node
+  linkType: hard
+
+"stable@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "stable@npm:0.1.8"
+  checksum: 1a41cb7ac77e687335090b00469a3c7f6e1cf9c8761278d0778a42290cd2b2ad71213793a4dff5b030e3e9fa0eaa87094fa277cb5df45ed2270136e3aafc6594
+  languageName: node
+  linkType: hard
+
+"stack-utils@npm:^2.0.3":
+  version: 2.0.5
+  resolution: "stack-utils@npm:2.0.5"
+  dependencies:
+    escape-string-regexp: "npm:^2.0.0"
