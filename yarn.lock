@@ -8949,3 +8949,63 @@ __metadata:
     ansi-regex: "npm:^6.0.1"
   checksum: 552123468abae97929da64559af9c13f4518f8ea199038089bf5e49d7860d708e5e29b2e6401fcbab6f99f2c42f865c15a1976bcf51c5165f82152c7ce9a1043
   languageName: node
+  linkType: hard
+
+"strip-bom@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "strip-bom@npm:3.0.0"
+  checksum: 115a5e3d9edddfd0f719604747ccb28c47ffb46a914a854e5430af163ef9965aba377b90a692531310e53c72191733c791fbf1751ae5b2bbe492c169fd759314
+  languageName: node
+  linkType: hard
+
+"strip-final-newline@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "strip-final-newline@npm:2.0.0"
+  checksum: f5909f4ce3590179074a2a72b38e08009d5f45a63e366e9ef4eee6c11e63674370b6a10def2133fe73751c79f72cd0787fd2483ff5494ced909bb9169317f368
+  languageName: node
+  linkType: hard
+
+"strip-final-newline@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "strip-final-newline@npm:3.0.0"
+  checksum: 0b05a6bdafc591cf7d9eb40b74a976eeb0a65ce03b061436fc55a91e96572e0dd84f02efe24169cd3ec83691c448456370b40a3c852acc45e61af0782a797987
+  languageName: node
+  linkType: hard
+
+"strip-indent@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "strip-indent@npm:3.0.0"
+  dependencies:
+    min-indent: "npm:^1.0.0"
+  checksum: 5d874e8867c712344bf4ba3949474a14b3459b0fa42c0d7334c66253ef180078b5f157dba1b97c3b0381b6c016adcaf6fdc42d01af25b797d42c07f9f3d64ae1
+  languageName: node
+  linkType: hard
+
+"strip-json-comments@npm:^3.1.0, strip-json-comments@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "strip-json-comments@npm:3.1.1"
+  checksum: 20cff3f15267a8b603c4dcec9c3cc5217bcf3f1a66481a4f9ecf262eacc1733a0457756288472328d24efef7705f7755e9511f9c383742389add93d4a9207ae5
+  languageName: node
+  linkType: hard
+
+"strip-json-comments@npm:~2.0.1":
+  version: 2.0.1
+  resolution: "strip-json-comments@npm:2.0.1"
+  checksum: 4c86af52d848e6cddafdf933702453a3ab3210e9a014c882ce7e271a7d09d413642b796b07c9b597bc0ea5b93d5aab71756cf3d4b2a5ca2d9db2a7be84ae49d9
+  languageName: node
+  linkType: hard
+
+"strip-literal@npm:^0.4.0":
+  version: 0.4.1
+  resolution: "strip-literal@npm:0.4.1"
+  dependencies:
+    acorn: "npm:^8.8.0"
+  checksum: f1266805dfa6051d7062bf1876379a82027cd46bd53fa993cda31dcf59a8b6a47601506927ba1e7c6d34c1bb0e3be76b246e011d2c70ad7e5407ade5841cf1fa
+  languageName: node
+  linkType: hard
+
+"stylehacks@npm:^5.1.1":
+  version: 5.1.1
+  resolution: "stylehacks@npm:5.1.1"
+  dependencies:
+    browserslist: "npm:^4.21.4"
