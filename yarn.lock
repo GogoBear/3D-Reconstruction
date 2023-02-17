@@ -9095,3 +9095,51 @@ __metadata:
   checksum: 0b97706876e9982bb5f2bf8c1e040d087ec48051f7d91fe9f460bd8e5a1c833de89c6039e2e402b7388f4096c896392193082f5d78b8d4c89976edead9a88ce0
   languageName: node
   linkType: hard
+
+"tempy@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "tempy@npm:1.0.1"
+  dependencies:
+    del: "npm:^6.0.0"
+    is-stream: "npm:^2.0.0"
+    temp-dir: "npm:^2.0.0"
+    type-fest: "npm:^0.16.0"
+    unique-string: "npm:^2.0.0"
+  checksum: dfef0e3118dae7f110e35bb021ea2e09884f00c45046740c2dce52481b969874f4a58a89e334d2d6cfb181ab794cea4f484dd4354131a36fbe2ec1a56f5b1a0c
+  languageName: node
+  linkType: hard
+
+"terser@npm:^5.10.0":
+  version: 5.14.1
+  resolution: "terser@npm:5.14.1"
+  dependencies:
+    "@jridgewell/source-map": "npm:^0.3.2"
+    acorn: "npm:^8.5.0"
+    commander: "npm:^2.20.0"
+    source-map-support: "npm:~0.5.20"
+  bin:
+    terser: bin/terser
+  checksum: 185362fbbd6d7c0fa556e843d1678dd25b2f46891d75e9bd2147e6c60ca8464c2b88c02a1fbf77fe9149a9198e19050a16ca1031ff842af494c55cc0c475795d
+  languageName: node
+  linkType: hard
+
+"test-exclude@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "test-exclude@npm:6.0.0"
+  dependencies:
+    "@istanbuljs/schema": "npm:^0.1.2"
+    glob: "npm:^7.1.4"
+    minimatch: "npm:^3.0.4"
+  checksum: bcb7eecb486d1441f2c55a05d079f72e2e13e74c8e89051412e33382e745996d646036a7d13d3a74c60222f59dd48c5b8cc83c1f3b5647332262d9c5f04da937
+  languageName: node
+  linkType: hard
+
+"text-extensions@npm:^1.0.0":
+  version: 1.9.0
+  resolution: "text-extensions@npm:1.9.0"
+  checksum: 4d6803b3fb261a27777a1fa55f3a2b7e4afc10bb5d083d17a516f47b8f475fc3a95290f4a9c47185e1130c68901e67eb702956999989bcf00d0839f0fa3a505f
+  languageName: node
+  linkType: hard
+
+"text-table@npm:^0.2.0, text-table@npm:~0.2.0":
+  version: 0.2.0
