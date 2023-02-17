@@ -9048,3 +9048,50 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 14609489b044de2eaffe0e7549173bb39d6997510ac4b7279d07bf2aafe309205abe172a8c8d248062a24e32ab61a2ae85efc5b4cdf7f932c7cdbe81ca1f39ec
+  languageName: node
+  linkType: hard
+
+"svgo@npm:^2.7.0":
+  version: 2.8.0
+  resolution: "svgo@npm:2.8.0"
+  dependencies:
+    "@trysound/sax": "npm:0.2.0"
+    commander: "npm:^7.2.0"
+    css-select: "npm:^4.1.3"
+    css-tree: "npm:^1.1.3"
+    csso: "npm:^4.2.0"
+    picocolors: "npm:^1.0.0"
+    stable: "npm:^0.1.8"
+  bin:
+    svgo: bin/svgo
+  checksum: f475df0d8cf24ad6c8498049abd1bc07753f77aa96ae0ca28f323b7e236fc2d94e680a694e8783a95db9e50d4275b76aa993653c45ed60dc985d8dd8609e2650
+  languageName: node
+  linkType: hard
+
+"symbol-tree@npm:^3.2.4":
+  version: 3.2.4
+  resolution: "symbol-tree@npm:3.2.4"
+  checksum: 71d7636a5ab51597929d163ab865a815d52582792af68e539af4cedf842348cefabc7608f7e6eb063d5ce0edc92f8bb7fb112afbe2575520db85af9421b5f85f
+  languageName: node
+  linkType: hard
+
+"tar@npm:^6.1.0, tar@npm:^6.1.11, tar@npm:^6.1.2":
+  version: 6.1.11
+  resolution: "tar@npm:6.1.11"
+  dependencies:
+    chownr: "npm:^2.0.0"
+    fs-minipass: "npm:^2.0.0"
+    minipass: "npm:^3.0.0"
+    minizlib: "npm:^2.1.1"
+    mkdirp: "npm:^1.0.3"
+    yallist: "npm:^4.0.0"
+  checksum: 5499de6e1998ca602c327f3359d085f6ab41e63a0ce530fb15de13089d3795262b6dfb7731989b7e1d0289a76658d715d8e1239fc06f70ae49349205e3a5fbcc
+  languageName: node
+  linkType: hard
+
+"temp-dir@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "temp-dir@npm:2.0.0"
+  checksum: 0b97706876e9982bb5f2bf8c1e040d087ec48051f7d91fe9f460bd8e5a1c833de89c6039e2e402b7388f4096c896392193082f5d78b8d4c89976edead9a88ce0
+  languageName: node
+  linkType: hard
