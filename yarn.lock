@@ -9459,3 +9459,66 @@ __metadata:
 "uglify-js@npm:^3.1.4":
   version: 3.16.1
   resolution: "uglify-js@npm:3.16.1"
+  bin:
+    uglifyjs: bin/uglifyjs
+  checksum: fedc0742e08386717fe8e67c267016d56c7a66476993ee8877952cf70b91a8993aef842cbdb87636e8d58abf573d21d2c7c386a83216c1c6ca07e636cccb55bc
+  languageName: node
+  linkType: hard
+
+"unique-filename@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "unique-filename@npm:1.1.1"
+  dependencies:
+    unique-slug: "npm:^2.0.0"
+  checksum: 8330bc7e98bd55c86baaa1aba4d0fef4b2e32d7230b3f7421142e728fda8dfcede4ba6a898429a28707ffec06911649dc2aeea5d0e18eee4c7e2b573b9ee3145
+  languageName: node
+  linkType: hard
+
+"unique-slug@npm:^2.0.0":
+  version: 2.0.2
+  resolution: "unique-slug@npm:2.0.2"
+  dependencies:
+    imurmurhash: "npm:^0.1.4"
+  checksum: 9c1111d986ecb9266678f02356a2e9f6485eca8ab2e82d5a5b4b9df1b4d6f11322bf893ed3c44d125039c76cb3e8dcf778b1eac85ff9df878e6317921319e7e2
+  languageName: node
+  linkType: hard
+
+"unique-string@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "unique-string@npm:2.0.0"
+  dependencies:
+    crypto-random-string: "npm:^2.0.0"
+  checksum: fbb774926206a5ac78fff1967e20383e4a8bff7f832363ffb5e0c11146bb1db05ff2231caac05773fd331e57ec5863b66261d16a36ec3c850d094cbd38b7947c
+  languageName: node
+  linkType: hard
+
+"universal-user-agent@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "universal-user-agent@npm:6.0.0"
+  checksum: c014b4d3bcedd8b5ffda7d3b730bec6dcf616963be696a20bac0f8d9c9307d494a07e186ef102a20cd038d7f76190faa3ad0256d11b7b26d12a080926cc871e6
+  languageName: node
+  linkType: hard
+
+"universalify@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "universalify@npm:0.2.0"
+  checksum: 3393da2354b34bf36fce8eb8edea31833e614a99bce28f903dddd054706597b6f07d5648d26900a951458cc874d13b6693111444c22fb129b8b44a2173051375
+  languageName: node
+  linkType: hard
+
+"universalify@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "universalify@npm:2.0.0"
+  checksum: 243b0697a640cda1912e62a79f9439ec24b937df9a9a47ee7dd5fe813c4547300a3dc346e0c7c10dbd925f54a19507e8de915f2562a5e694716bdcd0825d48f6
+  languageName: node
+  linkType: hard
+
+"update-browserslist-db@npm:^1.0.0":
+  version: 1.0.3
+  resolution: "update-browserslist-db@npm:1.0.3"
+  dependencies:
+    escalade: "npm:^3.1.1"
+    picocolors: "npm:^1.0.0"
+  peerDependencies:
+    browserslist: ">= 4.21.0"
+  bin:
