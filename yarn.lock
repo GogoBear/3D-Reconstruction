@@ -9582,3 +9582,63 @@ __metadata:
   linkType: hard
 
 "v8-to-istanbul@npm:^9.0.0":
+  version: 9.0.1
+  resolution: "v8-to-istanbul@npm:9.0.1"
+  dependencies:
+    "@jridgewell/trace-mapping": "npm:^0.3.12"
+    "@types/istanbul-lib-coverage": "npm:^2.0.1"
+    convert-source-map: "npm:^1.6.0"
+  checksum: 06027f6004c45b08c690bc3dc35f3c6efa9ab99f689d4bb275f2b3239400ef084771e3a14960117e38a335b5dfbeaf808db1e4487077a27888c7abd70c42f185
+  languageName: node
+  linkType: hard
+
+"validate-npm-package-license@npm:^3.0.1, validate-npm-package-license@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "validate-npm-package-license@npm:3.0.4"
+  dependencies:
+    spdx-correct: "npm:^3.0.0"
+    spdx-expression-parse: "npm:^3.0.0"
+  checksum: 6d62b39e947077e554dfdf6a760fb52e8db73e7724aeeab1a1f4aa742e75b2ca5092b9f7b1b9171778e96f592628932ee07784a2c86f4152411180a32a8824be
+  languageName: node
+  linkType: hard
+
+"validate-npm-package-name@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "validate-npm-package-name@npm:4.0.0"
+  dependencies:
+    builtins: "npm:^5.0.0"
+  checksum: dfd03715f466a54a2a22fd76a7842f2b0181eb42adfc6adfc1f6a8e921b93020d98b1a0c73aac8c809701ea622da6d32c1d3ff03318b77f11737669866c0bfca
+  languageName: node
+  linkType: hard
+
+"vite-plugin-checker@npm:0.5.1":
+  version: 0.5.1
+  resolution: "vite-plugin-checker@npm:0.5.1"
+  dependencies:
+    "@babel/code-frame": "npm:^7.12.13"
+    ansi-escapes: "npm:^4.3.0"
+    chalk: "npm:^4.1.1"
+    chokidar: "npm:^3.5.1"
+    commander: "npm:^8.0.0"
+    fast-glob: "npm:^3.2.7"
+    lodash.debounce: "npm:^4.0.8"
+    lodash.pick: "npm:^4.4.0"
+    npm-run-path: "npm:^4.0.1"
+    strip-ansi: "npm:^6.0.0"
+    tiny-invariant: "npm:^1.1.0"
+    vscode-languageclient: "npm:^7.0.0"
+    vscode-languageserver: "npm:^7.0.0"
+    vscode-languageserver-textdocument: "npm:^1.0.1"
+    vscode-uri: "npm:^3.0.2"
+  peerDependencies:
+    eslint: ">=7"
+    typescript: "*"
+    vite: ^2.0.0 || ^3.0.0-0
+    vls: "*"
+    vti: "*"
+  peerDependenciesMeta:
+    eslint:
+      optional: true
+    typescript:
+      optional: true
+    vls:
