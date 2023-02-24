@@ -9785,3 +9785,62 @@ __metadata:
       optional: true
     happy-dom:
       optional: true
+    jsdom:
+      optional: true
+  bin:
+    vitest: vitest.mjs
+  checksum: 5c3a489e963dc410d88675aca332bc0ad1b3457902607549a310f76310c4b105cf8b370291228931cfe45bad019b3259889bd0ab0dec2ee85a507d4c98e8c5f0
+  languageName: node
+  linkType: hard
+
+"vscode-jsonrpc@npm:6.0.0":
+  version: 6.0.0
+  resolution: "vscode-jsonrpc@npm:6.0.0"
+  checksum: b05e6567db459c4bdd9a6f0468fa2388b7496af63eb30e9a3a564670afa49cdae5d881458b56788f139e1777f61a3c7d3921514b61c32298d5c150bc443829ae
+  languageName: node
+  linkType: hard
+
+"vscode-languageclient@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "vscode-languageclient@npm:7.0.0"
+  dependencies:
+    minimatch: "npm:^3.0.4"
+    semver: "npm:^7.3.4"
+    vscode-languageserver-protocol: "npm:3.16.0"
+  checksum: 17f7774fd82bbfe67e1c9659809810f7ef63c07c80584ae88928de96625aa3b0dcff40216078d12e85e4af50f7090223375ff46046bc2ca3ac730c5d3d3d053f
+  languageName: node
+  linkType: hard
+
+"vscode-languageserver-protocol@npm:3.16.0":
+  version: 3.16.0
+  resolution: "vscode-languageserver-protocol@npm:3.16.0"
+  dependencies:
+    vscode-jsonrpc: "npm:6.0.0"
+    vscode-languageserver-types: "npm:3.16.0"
+  checksum: 2d995885e02ea3357819798eb786fcf6d435d7af59a5c8bfc146e2328aec16abf965d1633eb31cf337b1a076fc314c9a39d760d52bc945fa0df027ff4f1714f0
+  languageName: node
+  linkType: hard
+
+"vscode-languageserver-textdocument@npm:^1.0.1":
+  version: 1.0.5
+  resolution: "vscode-languageserver-textdocument@npm:1.0.5"
+  checksum: ab5f19fa39ccd6834d15ecfa006c120955b5650ddca022bdeb065e689a42eaa57bd6441bb8019b335a80b0536317f4c23977f4c97c3c50c572867b57d1932e3f
+  languageName: node
+  linkType: hard
+
+"vscode-languageserver-types@npm:3.16.0":
+  version: 3.16.0
+  resolution: "vscode-languageserver-types@npm:3.16.0"
+  checksum: c47378a6935323c226c6a6392bd530ae90bde8d293f25879510fd31cf60097745250adb31b4c9736ae8e65cc8ded124094585a317d2b25b70c26411d135efc64
+  languageName: node
+  linkType: hard
+
+"vscode-languageserver@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "vscode-languageserver@npm:7.0.0"
+  dependencies:
+    vscode-languageserver-protocol: "npm:3.16.0"
+  bin:
+    installServerIntoExtension: bin/installServerIntoExtension
+  checksum: 6d1c846e1d2f05f1d12e55519528b215b05e757eb5a295fdce36804dc52c512ae52fd5adacf876e77068edb8d45bf386346483bfa3a8c77ab71adb3a45fb7af7
+  languageName: node
