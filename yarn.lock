@@ -9844,3 +9844,59 @@ __metadata:
     installServerIntoExtension: bin/installServerIntoExtension
   checksum: 6d1c846e1d2f05f1d12e55519528b215b05e757eb5a295fdce36804dc52c512ae52fd5adacf876e77068edb8d45bf386346483bfa3a8c77ab71adb3a45fb7af7
   languageName: node
+  linkType: hard
+
+"vscode-uri@npm:^3.0.2":
+  version: 3.0.3
+  resolution: "vscode-uri@npm:3.0.3"
+  checksum: cf6b644c0b8f2e094fa05ca313f23d182ce4375e1f9d3982c80be403b223e64cc1e2abac5ccda9affd33b20d82251b8569336dcdd5d8ff256fb8273c9981a168
+  languageName: node
+  linkType: hard
+
+"w3c-xmlserializer@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "w3c-xmlserializer@npm:3.0.0"
+  dependencies:
+    xml-name-validator: "npm:^4.0.0"
+  checksum: 5042d7d56be21e7a8ac1f6dc60a559967db5cb2cc59321138571a6425569e3f84c1c02dace1ffc569510ec3f4046d74f5b9ecb783f25e5ff89e558b3677fdb7b
+  languageName: node
+  linkType: hard
+
+"walk-up-path@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "walk-up-path@npm:1.0.0"
+  checksum: 470b140dd241618f27bf91792debebe0bfa77e5322285e4543802898228734f197725184b2eefc67544c9f044caefc9d8086e8c0d83a3b5ef7303e0fc0edd4b0
+  languageName: node
+  linkType: hard
+
+"wcwidth@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "wcwidth@npm:1.0.1"
+  dependencies:
+    defaults: "npm:^1.0.3"
+  checksum: fbed749fcbc2aaaa4379619872d817099173bd049c808373a7d19afc8e5c66913a7e6bc101ad97d0f6e5b3c85d76a36166e8e0281ba9128e707140582f223660
+  languageName: node
+  linkType: hard
+
+"webidl-conversions@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "webidl-conversions@npm:3.0.1"
+  checksum: 57c8c5fdd986be5432ea6adacd87d6757144289d3b48b33441e7310bd4f4f6d782dd34acbd74d61e923c142cc50333d27ba58235692fa7248541c0bcce2563e1
+  languageName: node
+  linkType: hard
+
+"webidl-conversions@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "webidl-conversions@npm:7.0.0"
+  checksum: bdbe11c68c3136ce4e720182d2434215cff65d619de7e7ddcbdc17c7d62aaaf0e16c3a84b2c6e55ffe347e77dea2d55299c7e3690fb07148a8fbe46ead27c55f
+  languageName: node
+  linkType: hard
+
+"whatwg-encoding@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "whatwg-encoding@npm:2.0.0"
+  dependencies:
+    iconv-lite: "npm:0.6.3"
+  checksum: 4f91e54ac56354f36ddc211ac4a558bbf9f33e4729a5e77b16eee33b867f05fa10edd0d5941d291b2bd89d7e641255489055b8fd686f947b9eaa80e8766d08cb
+  languageName: node
+  linkType: hard
